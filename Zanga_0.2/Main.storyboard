@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15A279b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="K1T-ck-N12">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="XuU-4I-nhz">
+            <objects>
+                <tabBarController id="K1T-ck-N12" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="WPy-vB-olJ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="7oy-A0-lLl" kind="relationship" relationship="viewControllers" id="Px3-ti-jlp"/>
+                        <segue destination="ugJ-gB-uko" kind="relationship" relationship="viewControllers" id="YhB-Yy-dTn"/>
+                        <segue destination="ysa-Yn-XGr" kind="relationship" relationship="viewControllers" id="6cp-SZ-cna"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tpr-hv-PQH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="399" y="139"/>
+        </scene>
+        <!--Profile-->
+        <scene sceneID="Hkk-Wg-Lil">
+            <objects>
+                <navigationController id="7oy-A0-lLl" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Profile" id="6ji-Yz-eZP"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="ESF-ow-DIn">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="qhF-t9-8JA" kind="relationship" relationship="rootViewController" id="85F-1n-AEs"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fUZ-EQ-SwO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-333" y="911"/>
+        </scene>
+        <!--Events-->
+        <scene sceneID="ZMv-2O-oYR">
+            <objects>
+                <navigationController id="ugJ-gB-uko" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Events" id="qgd-VB-yLQ"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="F4i-MZ-NiP">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Dzf-kF-gvM" kind="relationship" relationship="rootViewController" id="ep0-KU-uad"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TgL-iU-CkA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="399" y="911"/>
+        </scene>
+        <!--Create Event-->
+        <scene sceneID="4DU-NB-GbJ">
+            <objects>
+                <navigationController id="ysa-Yn-XGr" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Create Event" id="xRD-jy-Um8"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="mcc-bc-McX">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="fbr-rW-Grh" kind="relationship" relationship="rootViewController" id="MuU-Xq-JMg"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uWu-Ie-XmI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1107" y="916"/>
+        </scene>
+        <!--Profile-->
+        <scene sceneID="GMt-3U-PIL">
+            <objects>
+                <viewController id="qhF-t9-8JA" customClass="ProfileViewController" customModule="Zanga_0_2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4aI-cT-KSg"/>
+                        <viewControllerLayoutGuide type="bottom" id="QpS-9r-gbr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wYs-et-Idn">
+                        <rect key="frame" x="0.0" y="64" width="600" height="487"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <navigationItem key="navigationItem" title="Profile" id="WIf-TU-Jcs"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Py9-k8-pUv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-333" y="1705"/>
+        </scene>
+        <!--Events-->
+        <scene sceneID="YdE-M5-Ter">
+            <objects>
+                <viewController id="Dzf-kF-gvM" customClass="EventsViewController" customModule="Zanga_0_2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IcV-GJ-nOi"/>
+                        <viewControllerLayoutGuide type="bottom" id="BFg-HQ-2yq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="al2-aC-5I5">
+                        <rect key="frame" x="0.0" y="64" width="600" height="487"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <navigationItem key="navigationItem" title="Events" id="enm-fP-Kqy"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yxb-nf-lAF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="399" y="1705"/>
+        </scene>
+        <!--Create New Event-->
+        <scene sceneID="TYk-tA-e3j">
+            <objects>
+                <viewController id="fbr-rW-Grh" customClass="CreateEventViewController" customModule="Zanga_0_2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4gb-uX-CVa"/>
+                        <viewControllerLayoutGuide type="bottom" id="OEO-Cl-veS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7zD-UX-Q4k">
+                        <rect key="frame" x="0.0" y="64" width="600" height="487"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <navigationItem key="navigationItem" title="Create New Event" id="k05-Ol-T0H"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CEp-zm-Ws3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1107" y="1705"/>
+        </scene>
+    </scenes>
+</document>

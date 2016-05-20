@@ -7,14 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA1287E81CEF63D700DE6527 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1287E71CEF63D700DE6527 /* ColorExtension.swift */; };
+		DA8527DF1CEEE956001EEA31 /* PersonalProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8527DE1CEEE956001EEA31 /* PersonalProfileViewController.swift */; };
 		DAA6A3FE1CEE2C000061DFE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA6A3FD1CEE2C000061DFE1 /* AppDelegate.swift */; };
-		DAA6A4001CEE2C000061DFE1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA6A3FF1CEE2C000061DFE1 /* FirstViewController.swift */; };
-		DAA6A4021CEE2C000061DFE1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA6A4011CEE2C000061DFE1 /* SecondViewController.swift */; };
-		DAA6A4051CEE2C000061DFE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAA6A4031CEE2C000061DFE1 /* Main.storyboard */; };
 		DAA6A4071CEE2C000061DFE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAA6A4061CEE2C000061DFE1 /* Assets.xcassets */; };
 		DAA6A40A1CEE2C000061DFE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAA6A4081CEE2C000061DFE1 /* LaunchScreen.storyboard */; };
 		DAA6A4151CEE2C000061DFE1 /* Zanga_0_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA6A4141CEE2C000061DFE1 /* Zanga_0_2Tests.swift */; };
 		DAA6A4201CEE2C000061DFE1 /* Zanga_0_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA6A41F1CEE2C000061DFE1 /* Zanga_0_2UITests.swift */; };
+		DAA6A4341CEE2FD40061DFE1 /* icon-profile.png in Resources */ = {isa = PBXBuildFile; fileRef = DAA6A4331CEE2FD40061DFE1 /* icon-profile.png */; };
+		DAA6A4401CEE327F0061DFE1 /* menu-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DAA6A43D1CEE327F0061DFE1 /* menu-icon.png */; };
+		DAA6A4411CEE327F0061DFE1 /* z-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DAA6A43E1CEE327F0061DFE1 /* z-icon.png */; };
+		DAA6A4421CEE327F0061DFE1 /* create-event.png in Resources */ = {isa = PBXBuildFile; fileRef = DAA6A43F1CEE327F0061DFE1 /* create-event.png */; };
+		DAA6A4441CEE3FE50061DFE1 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAA6A4431CEE3FE50061DFE1 /* Profile.storyboard */; };
+		DAA6A4461CEE46EC0061DFE1 /* MyCrowdTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA6A4451CEE46EC0061DFE1 /* MyCrowdTableViewController.swift */; };
+		DAA6A4491CEE47B30061DFE1 /* InvitationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA6A4481CEE47B30061DFE1 /* InvitationsTableViewController.swift */; };
+		DAA6A44B1CEE489F0061DFE1 /* HostingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA6A44A1CEE489F0061DFE1 /* HostingTableViewController.swift */; };
+		DAA6A44D1CEE515D0061DFE1 /* CAPSPageMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA6A44C1CEE515D0061DFE1 /* CAPSPageMenu.swift */; };
+		DAE0CBB41CEE787B00FE69E3 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE0CBB31CEE787B00FE69E3 /* ProfileViewController.swift */; };
+		DAE0CBB81CEE9C3C00FE69E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAE0CBB71CEE9C3C00FE69E3 /* Main.storyboard */; };
+		DAE0CBBC1CEED7D400FE69E3 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE0CBBB1CEED7D400FE69E3 /* EventsViewController.swift */; };
+		DAE0CBBF1CEED89200FE69E3 /* SchoolTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE0CBBE1CEED89200FE69E3 /* SchoolTableViewController.swift */; };
+		DAE0CBC11CEED8B300FE69E3 /* NotSchoolTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE0CBC01CEED8B300FE69E3 /* NotSchoolTableViewController.swift */; };
+		DAE0CBC31CEED8C300FE69E3 /* MyEventsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE0CBC21CEED8C300FE69E3 /* MyEventsTableViewController.swift */; };
+		DAE0CBC51CEEDA1800FE69E3 /* CreateEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE0CBC41CEEDA1800FE69E3 /* CreateEventViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +50,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA1287E71CEF63D700DE6527 /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		DA8527DE1CEEE956001EEA31 /* PersonalProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalProfileViewController.swift; sourceTree = "<group>"; };
 		DAA6A3FA1CEE2C000061DFE1 /* Zanga_0.2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zanga_0.2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAA6A3FD1CEE2C000061DFE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DAA6A3FF1CEE2C000061DFE1 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		DAA6A4011CEE2C000061DFE1 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		DAA6A4041CEE2C000061DFE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DAA6A4061CEE2C000061DFE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAA6A4091CEE2C000061DFE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAA6A40B1CEE2C000061DFE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +63,22 @@
 		DAA6A41B1CEE2C000061DFE1 /* Zanga_0.2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Zanga_0.2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAA6A41F1CEE2C000061DFE1 /* Zanga_0_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zanga_0_2UITests.swift; sourceTree = "<group>"; };
 		DAA6A4211CEE2C000061DFE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAA6A4331CEE2FD40061DFE1 /* icon-profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-profile.png"; path = "../icon-profile.png"; sourceTree = "<group>"; };
+		DAA6A43D1CEE327F0061DFE1 /* menu-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "menu-icon.png"; path = "../../../project_images/menu-icon.png"; sourceTree = "<group>"; };
+		DAA6A43E1CEE327F0061DFE1 /* z-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "z-icon.png"; path = "../../../project_images/z-icon.png"; sourceTree = "<group>"; };
+		DAA6A43F1CEE327F0061DFE1 /* create-event.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "create-event.png"; path = "../../../project_images/create-event.png"; sourceTree = "<group>"; };
+		DAA6A4431CEE3FE50061DFE1 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		DAA6A4451CEE46EC0061DFE1 /* MyCrowdTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyCrowdTableViewController.swift; path = ../MyCrowdTableViewController.swift; sourceTree = "<group>"; };
+		DAA6A4481CEE47B30061DFE1 /* InvitationsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvitationsTableViewController.swift; sourceTree = "<group>"; };
+		DAA6A44A1CEE489F0061DFE1 /* HostingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostingTableViewController.swift; sourceTree = "<group>"; };
+		DAA6A44C1CEE515D0061DFE1 /* CAPSPageMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CAPSPageMenu.swift; path = ../CAPSPageMenu.swift; sourceTree = "<group>"; };
+		DAE0CBB31CEE787B00FE69E3 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = ../ProfileViewController.swift; sourceTree = "<group>"; };
+		DAE0CBB71CEE9C3C00FE69E3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		DAE0CBBB1CEED7D400FE69E3 /* EventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventsViewController.swift; path = ../EventsViewController.swift; sourceTree = "<group>"; };
+		DAE0CBBE1CEED89200FE69E3 /* SchoolTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolTableViewController.swift; sourceTree = "<group>"; };
+		DAE0CBC01CEED8B300FE69E3 /* NotSchoolTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotSchoolTableViewController.swift; sourceTree = "<group>"; };
+		DAE0CBC21CEED8C300FE69E3 /* MyEventsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyEventsTableViewController.swift; sourceTree = "<group>"; };
+		DAE0CBC41CEEDA1800FE69E3 /* CreateEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateEventViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,11 +130,12 @@
 			isa = PBXGroup;
 			children = (
 				DAA6A3FD1CEE2C000061DFE1 /* AppDelegate.swift */,
-				DAA6A3FF1CEE2C000061DFE1 /* FirstViewController.swift */,
-				DAA6A4011CEE2C000061DFE1 /* SecondViewController.swift */,
-				DAA6A4031CEE2C000061DFE1 /* Main.storyboard */,
+				DA1287E71CEF63D700DE6527 /* ColorExtension.swift */,
+				DAA6A44C1CEE515D0061DFE1 /* CAPSPageMenu.swift */,
+				DAA6A4361CEE30460061DFE1 /* Images */,
+				DAA6A42F1CEE2D1D0061DFE1 /* ViewControllers */,
+				DAA6A4301CEE2D530061DFE1 /* StoryBoards */,
 				DAA6A4061CEE2C000061DFE1 /* Assets.xcassets */,
-				DAA6A4081CEE2C000061DFE1 /* LaunchScreen.storyboard */,
 				DAA6A40B1CEE2C000061DFE1 /* Info.plist */,
 			);
 			path = Zanga_0.2;
@@ -126,6 +157,60 @@
 				DAA6A4211CEE2C000061DFE1 /* Info.plist */,
 			);
 			path = Zanga_0.2UITests;
+			sourceTree = "<group>";
+		};
+		DAA6A42F1CEE2D1D0061DFE1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DAE0CBB31CEE787B00FE69E3 /* ProfileViewController.swift */,
+				DAE0CBBB1CEED7D400FE69E3 /* EventsViewController.swift */,
+				DAE0CBC41CEEDA1800FE69E3 /* CreateEventViewController.swift */,
+				DAE0CBBD1CEED82D00FE69E3 /* Events Section */,
+				DAA6A4471CEE470E0061DFE1 /* Profile Section */,
+				DA8527DE1CEEE956001EEA31 /* PersonalProfileViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		DAA6A4301CEE2D530061DFE1 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				DAA6A4081CEE2C000061DFE1 /* LaunchScreen.storyboard */,
+				DAA6A4431CEE3FE50061DFE1 /* Profile.storyboard */,
+				DAE0CBB71CEE9C3C00FE69E3 /* Main.storyboard */,
+			);
+			name = StoryBoards;
+			sourceTree = "<group>";
+		};
+		DAA6A4361CEE30460061DFE1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DAA6A43D1CEE327F0061DFE1 /* menu-icon.png */,
+				DAA6A43E1CEE327F0061DFE1 /* z-icon.png */,
+				DAA6A43F1CEE327F0061DFE1 /* create-event.png */,
+				DAA6A4331CEE2FD40061DFE1 /* icon-profile.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		DAA6A4471CEE470E0061DFE1 /* Profile Section */ = {
+			isa = PBXGroup;
+			children = (
+				DAA6A4481CEE47B30061DFE1 /* InvitationsTableViewController.swift */,
+				DAA6A44A1CEE489F0061DFE1 /* HostingTableViewController.swift */,
+				DAA6A4451CEE46EC0061DFE1 /* MyCrowdTableViewController.swift */,
+			);
+			name = "Profile Section";
+			sourceTree = "<group>";
+		};
+		DAE0CBBD1CEED82D00FE69E3 /* Events Section */ = {
+			isa = PBXGroup;
+			children = (
+				DAE0CBBE1CEED89200FE69E3 /* SchoolTableViewController.swift */,
+				DAE0CBC01CEED8B300FE69E3 /* NotSchoolTableViewController.swift */,
+				DAE0CBC21CEED8C300FE69E3 /* MyEventsTableViewController.swift */,
+			);
+			name = "Events Section";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,8 +318,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAA6A40A1CEE2C000061DFE1 /* LaunchScreen.storyboard in Resources */,
+				DAA6A4421CEE327F0061DFE1 /* create-event.png in Resources */,
+				DAA6A4441CEE3FE50061DFE1 /* Profile.storyboard in Resources */,
+				DAE0CBB81CEE9C3C00FE69E3 /* Main.storyboard in Resources */,
+				DAA6A4411CEE327F0061DFE1 /* z-icon.png in Resources */,
 				DAA6A4071CEE2C000061DFE1 /* Assets.xcassets in Resources */,
-				DAA6A4051CEE2C000061DFE1 /* Main.storyboard in Resources */,
+				DAA6A4341CEE2FD40061DFE1 /* icon-profile.png in Resources */,
+				DAA6A4401CEE327F0061DFE1 /* menu-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +349,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAA6A4021CEE2C000061DFE1 /* SecondViewController.swift in Sources */,
+				DAA6A44B1CEE489F0061DFE1 /* HostingTableViewController.swift in Sources */,
+				DAA6A4461CEE46EC0061DFE1 /* MyCrowdTableViewController.swift in Sources */,
+				DAE0CBBC1CEED7D400FE69E3 /* EventsViewController.swift in Sources */,
 				DAA6A3FE1CEE2C000061DFE1 /* AppDelegate.swift in Sources */,
-				DAA6A4001CEE2C000061DFE1 /* FirstViewController.swift in Sources */,
+				DAE0CBB41CEE787B00FE69E3 /* ProfileViewController.swift in Sources */,
+				DAE0CBC31CEED8C300FE69E3 /* MyEventsTableViewController.swift in Sources */,
+				DAE0CBC11CEED8B300FE69E3 /* NotSchoolTableViewController.swift in Sources */,
+				DAA6A4491CEE47B30061DFE1 /* InvitationsTableViewController.swift in Sources */,
+				DAA6A44D1CEE515D0061DFE1 /* CAPSPageMenu.swift in Sources */,
+				DAE0CBBF1CEED89200FE69E3 /* SchoolTableViewController.swift in Sources */,
+				DA8527DF1CEEE956001EEA31 /* PersonalProfileViewController.swift in Sources */,
+				DAE0CBC51CEEDA1800FE69E3 /* CreateEventViewController.swift in Sources */,
+				DA1287E81CEF63D700DE6527 /* ColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +397,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DAA6A4031CEE2C000061DFE1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DAA6A4041CEE2C000061DFE1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DAA6A4081CEE2C000061DFE1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -486,6 +578,7 @@
 				DAA6A4261CEE2C000061DFE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DAA6A4271CEE2C000061DFE1 /* Build configuration list for PBXNativeTarget "Zanga_0.2Tests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +587,7 @@
 				DAA6A4291CEE2C000061DFE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DAA6A42A1CEE2C000061DFE1 /* Build configuration list for PBXNativeTarget "Zanga_0.2UITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +596,7 @@
 				DAA6A42C1CEE2C000061DFE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
