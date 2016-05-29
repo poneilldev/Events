@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA03F4B91CF8141A00DE0C33 /* SideMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA03F4B71CF8141A00DE0C33 /* SideMenuTableViewCell.swift */; };
+		DA03F4BA1CF8141A00DE0C33 /* SideMenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA03F4B81CF8141A00DE0C33 /* SideMenuTableViewCell.xib */; };
 		DA1287E81CEF63D700DE6527 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1287E71CEF63D700DE6527 /* ColorExtension.swift */; };
+		DA1287F41CF1565F00DE6527 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1287F31CF1565F00DE6527 /* SWRevealViewController.m */; };
 		DA8527DF1CEEE956001EEA31 /* PersonalProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8527DE1CEEE956001EEA31 /* PersonalProfileViewController.swift */; };
 		DAA6A3FE1CEE2C000061DFE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA6A3FD1CEE2C000061DFE1 /* AppDelegate.swift */; };
 		DAA6A4071CEE2C000061DFE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAA6A4061CEE2C000061DFE1 /* Assets.xcassets */; };
@@ -23,6 +26,7 @@
 		DAA6A4491CEE47B30061DFE1 /* InvitationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA6A4481CEE47B30061DFE1 /* InvitationsTableViewController.swift */; };
 		DAA6A44B1CEE489F0061DFE1 /* HostingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA6A44A1CEE489F0061DFE1 /* HostingTableViewController.swift */; };
 		DAA6A44D1CEE515D0061DFE1 /* CAPSPageMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA6A44C1CEE515D0061DFE1 /* CAPSPageMenu.swift */; };
+		DAD7FFF01CF172B800375BFE /* SideMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD7FFEF1CF172B800375BFE /* SideMenuTableViewController.swift */; };
 		DAE0CBB41CEE787B00FE69E3 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE0CBB31CEE787B00FE69E3 /* ProfileViewController.swift */; };
 		DAE0CBB81CEE9C3C00FE69E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAE0CBB71CEE9C3C00FE69E3 /* Main.storyboard */; };
 		DAE0CBBC1CEED7D400FE69E3 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE0CBBB1CEED7D400FE69E3 /* EventsViewController.swift */; };
@@ -50,7 +54,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA03F4B71CF8141A00DE0C33 /* SideMenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SideMenuTableViewCell.swift; path = ../SideMenuTableViewCell.swift; sourceTree = "<group>"; };
+		DA03F4B81CF8141A00DE0C33 /* SideMenuTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SideMenuTableViewCell.xib; path = ../SideMenuTableViewCell.xib; sourceTree = "<group>"; };
 		DA1287E71CEF63D700DE6527 /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		DA1287F11CF1565E00DE6527 /* Zanga_0.2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Zanga_0.2-Bridging-Header.h"; sourceTree = "<group>"; };
+		DA1287F21CF1565F00DE6527 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		DA1287F31CF1565F00DE6527 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		DA8527DE1CEEE956001EEA31 /* PersonalProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalProfileViewController.swift; sourceTree = "<group>"; };
 		DAA6A3FA1CEE2C000061DFE1 /* Zanga_0.2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zanga_0.2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAA6A3FD1CEE2C000061DFE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +81,7 @@
 		DAA6A4481CEE47B30061DFE1 /* InvitationsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvitationsTableViewController.swift; sourceTree = "<group>"; };
 		DAA6A44A1CEE489F0061DFE1 /* HostingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostingTableViewController.swift; sourceTree = "<group>"; };
 		DAA6A44C1CEE515D0061DFE1 /* CAPSPageMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CAPSPageMenu.swift; path = ../CAPSPageMenu.swift; sourceTree = "<group>"; };
+		DAD7FFEF1CF172B800375BFE /* SideMenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewController.swift; sourceTree = "<group>"; };
 		DAE0CBB31CEE787B00FE69E3 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = ../ProfileViewController.swift; sourceTree = "<group>"; };
 		DAE0CBB71CEE9C3C00FE69E3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		DAE0CBBB1CEED7D400FE69E3 /* EventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventsViewController.swift; path = ../EventsViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +116,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA03F4B21CF8133100DE0C33 /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+				DA1287F31CF1565F00DE6527 /* SWRevealViewController.m */,
+				DA1287F21CF1565F00DE6527 /* SWRevealViewController.h */,
+				DAA6A44C1CEE515D0061DFE1 /* CAPSPageMenu.swift */,
+			);
+			name = "Third Party";
+			sourceTree = "<group>";
+		};
 		DAA6A3F11CEE2C000061DFE1 = {
 			isa = PBXGroup;
 			children = (
@@ -131,12 +151,13 @@
 			children = (
 				DAA6A3FD1CEE2C000061DFE1 /* AppDelegate.swift */,
 				DA1287E71CEF63D700DE6527 /* ColorExtension.swift */,
-				DAA6A44C1CEE515D0061DFE1 /* CAPSPageMenu.swift */,
+				DA03F4B21CF8133100DE0C33 /* Third Party */,
 				DAA6A4361CEE30460061DFE1 /* Images */,
 				DAA6A42F1CEE2D1D0061DFE1 /* ViewControllers */,
 				DAA6A4301CEE2D530061DFE1 /* StoryBoards */,
 				DAA6A4061CEE2C000061DFE1 /* Assets.xcassets */,
 				DAA6A40B1CEE2C000061DFE1 /* Info.plist */,
+				DA1287F11CF1565E00DE6527 /* Zanga_0.2-Bridging-Header.h */,
 			);
 			path = Zanga_0.2;
 			sourceTree = "<group>";
@@ -165,9 +186,12 @@
 				DAE0CBB31CEE787B00FE69E3 /* ProfileViewController.swift */,
 				DAE0CBBB1CEED7D400FE69E3 /* EventsViewController.swift */,
 				DAE0CBC41CEEDA1800FE69E3 /* CreateEventViewController.swift */,
-				DAE0CBBD1CEED82D00FE69E3 /* Events Section */,
-				DAA6A4471CEE470E0061DFE1 /* Profile Section */,
+				DAE0CBBD1CEED82D00FE69E3 /* EventsTableViews */,
+				DAA6A4471CEE470E0061DFE1 /* ProfileTableViews */,
 				DA8527DE1CEEE956001EEA31 /* PersonalProfileViewController.swift */,
+				DA03F4B71CF8141A00DE0C33 /* SideMenuTableViewCell.swift */,
+				DA03F4B81CF8141A00DE0C33 /* SideMenuTableViewCell.xib */,
+				DAD7FFEF1CF172B800375BFE /* SideMenuTableViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -193,24 +217,24 @@
 			name = Images;
 			sourceTree = "<group>";
 		};
-		DAA6A4471CEE470E0061DFE1 /* Profile Section */ = {
+		DAA6A4471CEE470E0061DFE1 /* ProfileTableViews */ = {
 			isa = PBXGroup;
 			children = (
 				DAA6A4481CEE47B30061DFE1 /* InvitationsTableViewController.swift */,
 				DAA6A44A1CEE489F0061DFE1 /* HostingTableViewController.swift */,
 				DAA6A4451CEE46EC0061DFE1 /* MyCrowdTableViewController.swift */,
 			);
-			name = "Profile Section";
+			name = ProfileTableViews;
 			sourceTree = "<group>";
 		};
-		DAE0CBBD1CEED82D00FE69E3 /* Events Section */ = {
+		DAE0CBBD1CEED82D00FE69E3 /* EventsTableViews */ = {
 			isa = PBXGroup;
 			children = (
 				DAE0CBBE1CEED89200FE69E3 /* SchoolTableViewController.swift */,
 				DAE0CBC01CEED8B300FE69E3 /* NotSchoolTableViewController.swift */,
 				DAE0CBC21CEED8C300FE69E3 /* MyEventsTableViewController.swift */,
 			);
-			name = "Events Section";
+			name = EventsTableViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -323,6 +347,7 @@
 				DAE0CBB81CEE9C3C00FE69E3 /* Main.storyboard in Resources */,
 				DAA6A4411CEE327F0061DFE1 /* z-icon.png in Resources */,
 				DAA6A4071CEE2C000061DFE1 /* Assets.xcassets in Resources */,
+				DA03F4BA1CF8141A00DE0C33 /* SideMenuTableViewCell.xib in Resources */,
 				DAA6A4341CEE2FD40061DFE1 /* icon-profile.png in Resources */,
 				DAA6A4401CEE327F0061DFE1 /* menu-icon.png in Resources */,
 			);
@@ -351,7 +376,10 @@
 			files = (
 				DAA6A44B1CEE489F0061DFE1 /* HostingTableViewController.swift in Sources */,
 				DAA6A4461CEE46EC0061DFE1 /* MyCrowdTableViewController.swift in Sources */,
+				DA1287F41CF1565F00DE6527 /* SWRevealViewController.m in Sources */,
+				DA03F4B91CF8141A00DE0C33 /* SideMenuTableViewCell.swift in Sources */,
 				DAE0CBBC1CEED7D400FE69E3 /* EventsViewController.swift in Sources */,
+				DAD7FFF01CF172B800375BFE /* SideMenuTableViewController.swift in Sources */,
 				DAA6A3FE1CEE2C000061DFE1 /* AppDelegate.swift in Sources */,
 				DAE0CBB41CEE787B00FE69E3 /* ProfileViewController.swift in Sources */,
 				DAE0CBC31CEED8C300FE69E3 /* MyEventsTableViewController.swift in Sources */,
@@ -495,10 +523,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Zanga_0.2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.paulgrid.Zanga-0-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Zanga_0.2/Zanga_0.2-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -506,10 +537,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Zanga_0.2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.paulgrid.Zanga-0-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Zanga_0.2/Zanga_0.2-Bridging-Header.h";
 			};
 			name = Release;
 		};

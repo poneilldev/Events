@@ -11,11 +11,17 @@ import UIKit
 class ProfileViewController: UIViewController {
 
     var pageMenu : CAPSPageMenu?
-        
+    
+    @IBOutlet var Open: UIBarButtonItem!
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        Open.target = self.revealViewController()
+        Open.action = #selector(SWRevealViewController.revealToggle(_:))
+        
+        
         // MARK: - UI Setup
         self.tabBarController?.tabBar.barTintColor = UIColor.backGroundBlack()
         self.tabBarController?.tabBar.tintColor = UIColor.myRed()
