@@ -100,7 +100,7 @@
             </objects>
             <point key="canvasLocation" x="-344" y="911"/>
         </scene>
-        <!--Item-->
+        <!--Events-->
         <scene sceneID="4Sa-uh-sOe">
             <objects>
                 <viewController id="VDt-il-XEp" customClass="SWRevealViewController" sceneMemberID="viewController">
@@ -113,7 +113,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="F5T-Pp-Hta"/>
+                    <tabBarItem key="tabBarItem" title="Events" id="F5T-Pp-Hta"/>
                     <connections>
                         <segue destination="YfK-NJ-LsY" kind="custom" identifier="sw_rear" customClass="SWRevealViewControllerSegueSetController" id="tJN-EX-wtO"/>
                         <segue destination="ugJ-gB-uko" kind="custom" identifier="sw_front" customClass="SWRevealViewControllerSegueSetController" id="8XM-9R-GRh"/>

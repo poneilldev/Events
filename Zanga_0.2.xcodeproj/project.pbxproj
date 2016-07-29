@@ -9,9 +9,32 @@
 /* Begin PBXBuildFile section */
 		DA03F4B91CF8141A00DE0C33 /* SideMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA03F4B71CF8141A00DE0C33 /* SideMenuTableViewCell.swift */; };
 		DA03F4BA1CF8141A00DE0C33 /* SideMenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA03F4B81CF8141A00DE0C33 /* SideMenuTableViewCell.xib */; };
-		DA1287E81CEF63D700DE6527 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1287E71CEF63D700DE6527 /* ColorExtension.swift */; };
 		DA1287F41CF1565F00DE6527 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1287F31CF1565F00DE6527 /* SWRevealViewController.m */; };
+		DA30EB081D46CFD5001AF178 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA30EB071D46CFD5001AF178 /* Event.swift */; };
+		DA30EB0B1D46E9C1001AF178 /* SchoolTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA30EB091D46E9C1001AF178 /* SchoolTableViewCell.swift */; };
+		DA30EB0F1D46EA17001AF178 /* SchoolTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA30EB0D1D46EA17001AF178 /* SchoolTableViewController.swift */; };
+		DA30EB361D471061001AF178 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = DA30EB161D471061001AF178 /* MKAnnotationView+WebCache.m */; };
+		DA30EB371D471061001AF178 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = DA30EB181D471061001AF178 /* NSData+ImageContentType.m */; };
+		DA30EB381D471061001AF178 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = DA30EB1A1D471061001AF178 /* SDImageCache.m */; };
+		DA30EB391D471061001AF178 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = DA30EB1C1D471061001AF178 /* SDWebImageCompat.m */; };
+		DA30EB3A1D471062001AF178 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = DA30EB1E1D471061001AF178 /* SDWebImageDecoder.m */; };
+		DA30EB3B1D471062001AF178 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = DA30EB201D471061001AF178 /* SDWebImageDownloader.m */; };
+		DA30EB3C1D471062001AF178 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = DA30EB221D471061001AF178 /* SDWebImageDownloaderOperation.m */; };
+		DA30EB3D1D471062001AF178 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DA30EB241D471061001AF178 /* SDWebImageManager.m */; };
+		DA30EB3E1D471062001AF178 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = DA30EB271D471061001AF178 /* SDWebImagePrefetcher.m */; };
+		DA30EB3F1D471062001AF178 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = DA30EB291D471061001AF178 /* UIButton+WebCache.m */; };
+		DA30EB401D471062001AF178 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = DA30EB2B1D471061001AF178 /* UIImage+GIF.m */; };
+		DA30EB411D471062001AF178 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = DA30EB2D1D471061001AF178 /* UIImage+MultiFormat.m */; };
+		DA30EB421D471062001AF178 /* UIImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = DA30EB2F1D471061001AF178 /* UIImage+WebP.m */; };
+		DA30EB431D471062001AF178 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = DA30EB311D471061001AF178 /* UIImageView+HighlightedWebCache.m */; };
+		DA30EB441D471062001AF178 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = DA30EB331D471061001AF178 /* UIImageView+WebCache.m */; };
+		DA30EB451D471062001AF178 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = DA30EB351D471061001AF178 /* UIView+WebCacheOperation.m */; };
 		DA8527DF1CEEE956001EEA31 /* PersonalProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8527DE1CEEE956001EEA31 /* PersonalProfileViewController.swift */; };
+		DA8587BB1D471A9800D600C2 /* placeholder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA8587BA1D471A9800D600C2 /* placeholder.jpg */; };
+		DA8587BF1D47367700D600C2 /* SchoolTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA8587BE1D47367700D600C2 /* SchoolTableViewCell.xib */; };
+		DA8587C11D4AF94C00D600C2 /* SchoolEventTableView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA8587C01D4AF94C00D600C2 /* SchoolEventTableView.storyboard */; };
+		DA8587C31D4AFBC600D600C2 /* SchoolEvent_StoryBoardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8587C21D4AFBC600D600C2 /* SchoolEvent_StoryBoardTableViewCell.swift */; };
+		DA8587C51D4C0C6A00D600C2 /* StyleSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8587C41D4C0C6A00D600C2 /* StyleSheet.swift */; };
 		DAA6A3FE1CEE2C000061DFE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA6A3FD1CEE2C000061DFE1 /* AppDelegate.swift */; };
 		DAA6A4071CEE2C000061DFE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAA6A4061CEE2C000061DFE1 /* Assets.xcassets */; };
 		DAA6A40A1CEE2C000061DFE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAA6A4081CEE2C000061DFE1 /* LaunchScreen.storyboard */; };
@@ -30,7 +53,6 @@
 		DAE0CBB41CEE787B00FE69E3 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE0CBB31CEE787B00FE69E3 /* ProfileViewController.swift */; };
 		DAE0CBB81CEE9C3C00FE69E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAE0CBB71CEE9C3C00FE69E3 /* Main.storyboard */; };
 		DAE0CBBC1CEED7D400FE69E3 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE0CBBB1CEED7D400FE69E3 /* EventsViewController.swift */; };
-		DAE0CBBF1CEED89200FE69E3 /* SchoolTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE0CBBE1CEED89200FE69E3 /* SchoolTableViewController.swift */; };
 		DAE0CBC11CEED8B300FE69E3 /* NotSchoolTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE0CBC01CEED8B300FE69E3 /* NotSchoolTableViewController.swift */; };
 		DAE0CBC31CEED8C300FE69E3 /* MyEventsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE0CBC21CEED8C300FE69E3 /* MyEventsTableViewController.swift */; };
 		DAE0CBC51CEEDA1800FE69E3 /* CreateEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE0CBC41CEEDA1800FE69E3 /* CreateEventViewController.swift */; };
@@ -56,11 +78,52 @@
 /* Begin PBXFileReference section */
 		DA03F4B71CF8141A00DE0C33 /* SideMenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SideMenuTableViewCell.swift; path = ../SideMenuTableViewCell.swift; sourceTree = "<group>"; };
 		DA03F4B81CF8141A00DE0C33 /* SideMenuTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SideMenuTableViewCell.xib; path = ../SideMenuTableViewCell.xib; sourceTree = "<group>"; };
-		DA1287E71CEF63D700DE6527 /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		DA1287F11CF1565E00DE6527 /* Zanga_0.2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Zanga_0.2-Bridging-Header.h"; sourceTree = "<group>"; };
 		DA1287F21CF1565F00DE6527 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		DA1287F31CF1565F00DE6527 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		DA30EB071D46CFD5001AF178 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		DA30EB091D46E9C1001AF178 /* SchoolTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolTableViewCell.swift; sourceTree = "<group>"; };
+		DA30EB0D1D46EA17001AF178 /* SchoolTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolTableViewController.swift; sourceTree = "<group>"; };
+		DA30EB151D471061001AF178 /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
+		DA30EB161D471061001AF178 /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
+		DA30EB171D471061001AF178 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		DA30EB181D471061001AF178 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		DA30EB191D471061001AF178 /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		DA30EB1A1D471061001AF178 /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		DA30EB1B1D471061001AF178 /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		DA30EB1C1D471061001AF178 /* SDWebImageCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageCompat.m; sourceTree = "<group>"; };
+		DA30EB1D1D471061001AF178 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		DA30EB1E1D471061001AF178 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
+		DA30EB1F1D471061001AF178 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		DA30EB201D471061001AF178 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		DA30EB211D471061001AF178 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		DA30EB221D471061001AF178 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		DA30EB231D471061001AF178 /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		DA30EB241D471061001AF178 /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		DA30EB251D471061001AF178 /* SDWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageOperation.h; sourceTree = "<group>"; };
+		DA30EB261D471061001AF178 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		DA30EB271D471061001AF178 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		DA30EB281D471061001AF178 /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
+		DA30EB291D471061001AF178 /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
+		DA30EB2A1D471061001AF178 /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		DA30EB2B1D471061001AF178 /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
+		DA30EB2C1D471061001AF178 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		DA30EB2D1D471061001AF178 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		DA30EB2E1D471061001AF178 /* UIImage+WebP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WebP.h"; sourceTree = "<group>"; };
+		DA30EB2F1D471061001AF178 /* UIImage+WebP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WebP.m"; sourceTree = "<group>"; };
+		DA30EB301D471061001AF178 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		DA30EB311D471061001AF178 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		DA30EB321D471061001AF178 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		DA30EB331D471061001AF178 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		DA30EB341D471061001AF178 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		DA30EB351D471061001AF178 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		DA30EB471D471721001AF178 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
 		DA8527DE1CEEE956001EEA31 /* PersonalProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalProfileViewController.swift; sourceTree = "<group>"; };
+		DA8587BA1D471A9800D600C2 /* placeholder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = placeholder.jpg; sourceTree = "<group>"; };
+		DA8587BE1D47367700D600C2 /* SchoolTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SchoolTableViewCell.xib; sourceTree = "<group>"; };
+		DA8587C01D4AF94C00D600C2 /* SchoolEventTableView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SchoolEventTableView.storyboard; sourceTree = "<group>"; };
+		DA8587C21D4AFBC600D600C2 /* SchoolEvent_StoryBoardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolEvent_StoryBoardTableViewCell.swift; sourceTree = "<group>"; };
+		DA8587C41D4C0C6A00D600C2 /* StyleSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleSheet.swift; sourceTree = "<group>"; };
 		DAA6A3FA1CEE2C000061DFE1 /* Zanga_0.2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zanga_0.2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAA6A3FD1CEE2C000061DFE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAA6A4061CEE2C000061DFE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -85,7 +148,6 @@
 		DAE0CBB31CEE787B00FE69E3 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = ../ProfileViewController.swift; sourceTree = "<group>"; };
 		DAE0CBB71CEE9C3C00FE69E3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		DAE0CBBB1CEED7D400FE69E3 /* EventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventsViewController.swift; path = ../EventsViewController.swift; sourceTree = "<group>"; };
-		DAE0CBBE1CEED89200FE69E3 /* SchoolTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolTableViewController.swift; sourceTree = "<group>"; };
 		DAE0CBC01CEED8B300FE69E3 /* NotSchoolTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotSchoolTableViewController.swift; sourceTree = "<group>"; };
 		DAE0CBC21CEED8C300FE69E3 /* MyEventsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyEventsTableViewController.swift; sourceTree = "<group>"; };
 		DAE0CBC41CEEDA1800FE69E3 /* CreateEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateEventViewController.swift; sourceTree = "<group>"; };
@@ -126,6 +188,74 @@
 			name = "Third Party";
 			sourceTree = "<group>";
 		};
+		DA30EB111D46EA4A001AF178 /* School */ = {
+			isa = PBXGroup;
+			children = (
+				DA8587C21D4AFBC600D600C2 /* SchoolEvent_StoryBoardTableViewCell.swift */,
+				DA30EB0D1D46EA17001AF178 /* SchoolTableViewController.swift */,
+				DA30EB091D46E9C1001AF178 /* SchoolTableViewCell.swift */,
+				DA8587BE1D47367700D600C2 /* SchoolTableViewCell.xib */,
+			);
+			name = School;
+			sourceTree = "<group>";
+		};
+		DA30EB121D46EA54001AF178 /* Not School */ = {
+			isa = PBXGroup;
+			children = (
+				DAE0CBC01CEED8B300FE69E3 /* NotSchoolTableViewController.swift */,
+			);
+			name = "Not School";
+			sourceTree = "<group>";
+		};
+		DA30EB131D46EA60001AF178 /* My Events */ = {
+			isa = PBXGroup;
+			children = (
+				DAE0CBC21CEED8C300FE69E3 /* MyEventsTableViewController.swift */,
+			);
+			name = "My Events";
+			sourceTree = "<group>";
+		};
+		DA30EB461D471088001AF178 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				DA30EB471D471721001AF178 /* UIImageView+WebCache.h */,
+				DA30EB151D471061001AF178 /* MKAnnotationView+WebCache.h */,
+				DA30EB161D471061001AF178 /* MKAnnotationView+WebCache.m */,
+				DA30EB171D471061001AF178 /* NSData+ImageContentType.h */,
+				DA30EB181D471061001AF178 /* NSData+ImageContentType.m */,
+				DA30EB191D471061001AF178 /* SDImageCache.h */,
+				DA30EB1A1D471061001AF178 /* SDImageCache.m */,
+				DA30EB1B1D471061001AF178 /* SDWebImageCompat.h */,
+				DA30EB1C1D471061001AF178 /* SDWebImageCompat.m */,
+				DA30EB1D1D471061001AF178 /* SDWebImageDecoder.h */,
+				DA30EB1E1D471061001AF178 /* SDWebImageDecoder.m */,
+				DA30EB1F1D471061001AF178 /* SDWebImageDownloader.h */,
+				DA30EB201D471061001AF178 /* SDWebImageDownloader.m */,
+				DA30EB211D471061001AF178 /* SDWebImageDownloaderOperation.h */,
+				DA30EB221D471061001AF178 /* SDWebImageDownloaderOperation.m */,
+				DA30EB231D471061001AF178 /* SDWebImageManager.h */,
+				DA30EB241D471061001AF178 /* SDWebImageManager.m */,
+				DA30EB251D471061001AF178 /* SDWebImageOperation.h */,
+				DA30EB261D471061001AF178 /* SDWebImagePrefetcher.h */,
+				DA30EB271D471061001AF178 /* SDWebImagePrefetcher.m */,
+				DA30EB281D471061001AF178 /* UIButton+WebCache.h */,
+				DA30EB291D471061001AF178 /* UIButton+WebCache.m */,
+				DA30EB2A1D471061001AF178 /* UIImage+GIF.h */,
+				DA30EB2B1D471061001AF178 /* UIImage+GIF.m */,
+				DA30EB2C1D471061001AF178 /* UIImage+MultiFormat.h */,
+				DA30EB2D1D471061001AF178 /* UIImage+MultiFormat.m */,
+				DA30EB2E1D471061001AF178 /* UIImage+WebP.h */,
+				DA30EB2F1D471061001AF178 /* UIImage+WebP.m */,
+				DA30EB301D471061001AF178 /* UIImageView+HighlightedWebCache.h */,
+				DA30EB311D471061001AF178 /* UIImageView+HighlightedWebCache.m */,
+				DA30EB321D471061001AF178 /* UIImageView+WebCache.h */,
+				DA30EB331D471061001AF178 /* UIImageView+WebCache.m */,
+				DA30EB341D471061001AF178 /* UIView+WebCacheOperation.h */,
+				DA30EB351D471061001AF178 /* UIView+WebCacheOperation.m */,
+			);
+			name = SDWebImage;
+			sourceTree = "<group>";
+		};
 		DAA6A3F11CEE2C000061DFE1 = {
 			isa = PBXGroup;
 			children = (
@@ -150,7 +280,7 @@
 			isa = PBXGroup;
 			children = (
 				DAA6A3FD1CEE2C000061DFE1 /* AppDelegate.swift */,
-				DA1287E71CEF63D700DE6527 /* ColorExtension.swift */,
+				DA8587C41D4C0C6A00D600C2 /* StyleSheet.swift */,
 				DA03F4B21CF8133100DE0C33 /* Third Party */,
 				DAA6A4361CEE30460061DFE1 /* Images */,
 				DAA6A42F1CEE2D1D0061DFE1 /* ViewControllers */,
@@ -202,6 +332,7 @@
 				DAA6A4081CEE2C000061DFE1 /* LaunchScreen.storyboard */,
 				DAA6A4431CEE3FE50061DFE1 /* Profile.storyboard */,
 				DAE0CBB71CEE9C3C00FE69E3 /* Main.storyboard */,
+				DA8587C01D4AF94C00D600C2 /* SchoolEventTableView.storyboard */,
 			);
 			name = StoryBoards;
 			sourceTree = "<group>";
@@ -209,6 +340,7 @@
 		DAA6A4361CEE30460061DFE1 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				DA8587BA1D471A9800D600C2 /* placeholder.jpg */,
 				DAA6A43D1CEE327F0061DFE1 /* menu-icon.png */,
 				DAA6A43E1CEE327F0061DFE1 /* z-icon.png */,
 				DAA6A43F1CEE327F0061DFE1 /* create-event.png */,
@@ -230,9 +362,11 @@
 		DAE0CBBD1CEED82D00FE69E3 /* EventsTableViews */ = {
 			isa = PBXGroup;
 			children = (
-				DAE0CBBE1CEED89200FE69E3 /* SchoolTableViewController.swift */,
-				DAE0CBC01CEED8B300FE69E3 /* NotSchoolTableViewController.swift */,
-				DAE0CBC21CEED8C300FE69E3 /* MyEventsTableViewController.swift */,
+				DA30EB461D471088001AF178 /* SDWebImage */,
+				DA30EB071D46CFD5001AF178 /* Event.swift */,
+				DA30EB111D46EA4A001AF178 /* School */,
+				DA30EB121D46EA54001AF178 /* Not School */,
+				DA30EB131D46EA60001AF178 /* My Events */,
 			);
 			name = EventsTableViews;
 			sourceTree = "<group>";
@@ -342,12 +476,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAA6A40A1CEE2C000061DFE1 /* LaunchScreen.storyboard in Resources */,
+				DA8587BB1D471A9800D600C2 /* placeholder.jpg in Resources */,
 				DAA6A4421CEE327F0061DFE1 /* create-event.png in Resources */,
+				DA8587C11D4AF94C00D600C2 /* SchoolEventTableView.storyboard in Resources */,
 				DAA6A4441CEE3FE50061DFE1 /* Profile.storyboard in Resources */,
 				DAE0CBB81CEE9C3C00FE69E3 /* Main.storyboard in Resources */,
 				DAA6A4411CEE327F0061DFE1 /* z-icon.png in Resources */,
 				DAA6A4071CEE2C000061DFE1 /* Assets.xcassets in Resources */,
 				DA03F4BA1CF8141A00DE0C33 /* SideMenuTableViewCell.xib in Resources */,
+				DA8587BF1D47367700D600C2 /* SchoolTableViewCell.xib in Resources */,
 				DAA6A4341CEE2FD40061DFE1 /* icon-profile.png in Resources */,
 				DAA6A4401CEE327F0061DFE1 /* menu-icon.png in Resources */,
 			);
@@ -374,22 +511,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA30EB451D471062001AF178 /* UIView+WebCacheOperation.m in Sources */,
 				DAA6A44B1CEE489F0061DFE1 /* HostingTableViewController.swift in Sources */,
 				DAA6A4461CEE46EC0061DFE1 /* MyCrowdTableViewController.swift in Sources */,
+				DA30EB431D471062001AF178 /* UIImageView+HighlightedWebCache.m in Sources */,
 				DA1287F41CF1565F00DE6527 /* SWRevealViewController.m in Sources */,
 				DA03F4B91CF8141A00DE0C33 /* SideMenuTableViewCell.swift in Sources */,
 				DAE0CBBC1CEED7D400FE69E3 /* EventsViewController.swift in Sources */,
+				DA30EB3D1D471062001AF178 /* SDWebImageManager.m in Sources */,
+				DA30EB3A1D471062001AF178 /* SDWebImageDecoder.m in Sources */,
 				DAD7FFF01CF172B800375BFE /* SideMenuTableViewController.swift in Sources */,
 				DAA6A3FE1CEE2C000061DFE1 /* AppDelegate.swift in Sources */,
+				DA30EB3E1D471062001AF178 /* SDWebImagePrefetcher.m in Sources */,
+				DA30EB441D471062001AF178 /* UIImageView+WebCache.m in Sources */,
 				DAE0CBB41CEE787B00FE69E3 /* ProfileViewController.swift in Sources */,
+				DA8587C31D4AFBC600D600C2 /* SchoolEvent_StoryBoardTableViewCell.swift in Sources */,
+				DA30EB081D46CFD5001AF178 /* Event.swift in Sources */,
 				DAE0CBC31CEED8C300FE69E3 /* MyEventsTableViewController.swift in Sources */,
+				DA30EB401D471062001AF178 /* UIImage+GIF.m in Sources */,
+				DA30EB421D471062001AF178 /* UIImage+WebP.m in Sources */,
+				DA30EB371D471061001AF178 /* NSData+ImageContentType.m in Sources */,
+				DA30EB391D471061001AF178 /* SDWebImageCompat.m in Sources */,
 				DAE0CBC11CEED8B300FE69E3 /* NotSchoolTableViewController.swift in Sources */,
+				DA30EB0B1D46E9C1001AF178 /* SchoolTableViewCell.swift in Sources */,
+				DA30EB381D471061001AF178 /* SDImageCache.m in Sources */,
+				DA30EB3B1D471062001AF178 /* SDWebImageDownloader.m in Sources */,
 				DAA6A4491CEE47B30061DFE1 /* InvitationsTableViewController.swift in Sources */,
 				DAA6A44D1CEE515D0061DFE1 /* CAPSPageMenu.swift in Sources */,
-				DAE0CBBF1CEED89200FE69E3 /* SchoolTableViewController.swift in Sources */,
+				DA30EB411D471062001AF178 /* UIImage+MultiFormat.m in Sources */,
+				DA30EB3F1D471062001AF178 /* UIButton+WebCache.m in Sources */,
+				DA8587C51D4C0C6A00D600C2 /* StyleSheet.swift in Sources */,
 				DA8527DF1CEEE956001EEA31 /* PersonalProfileViewController.swift in Sources */,
+				DA30EB361D471061001AF178 /* MKAnnotationView+WebCache.m in Sources */,
+				DA30EB3C1D471062001AF178 /* SDWebImageDownloaderOperation.m in Sources */,
+				DA30EB0F1D46EA17001AF178 /* SchoolTableViewController.swift in Sources */,
 				DAE0CBC51CEEDA1800FE69E3 /* CreateEventViewController.swift in Sources */,
-				DA1287E81CEF63D700DE6527 /* ColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,6 +684,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.paulgrid.Zanga-0-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Zanga_0.2/Zanga_0.2-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -542,6 +699,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.paulgrid.Zanga-0-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Zanga_0.2/Zanga_0.2-Bridging-Header.h";
 			};
 			name = Release;

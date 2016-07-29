@@ -39,15 +39,19 @@ class EventsViewController: UIViewController {
         // Initialize view controllers to display and place in array
         var controllerArray : [UIViewController] = []
         
-        let school = SchoolTableViewController()
-        school.title = "SCHOOL"
-        controllerArray.append(school)
-        let notSchool  = NotSchoolTableViewController()
-        notSchool.title = "NOT SCHOOL"
-        controllerArray.append(notSchool)
-        let myEvents  = MyEventsTableViewController()
-        myEvents.title = "MY EVENTS"
-        controllerArray.append(myEvents)
+        let sb = UIStoryboard(name: "SchoolEventTableView", bundle: nil)
+        let tblvc = sb.instantiateViewControllerWithIdentifier("SchoolEventTableView")
+        
+        let schoolViewController = tblvc
+        schoolViewController.view.backgroundColor = UIColor.blackColor()
+        schoolViewController.title = "SCHOOL"
+        controllerArray.append(schoolViewController)
+        let notSchoolViewController  = NotSchoolTableViewController()
+        notSchoolViewController.title = "NOT SCHOOL"
+        controllerArray.append(notSchoolViewController)
+        let myEventsViewController  = MyEventsTableViewController()
+        myEventsViewController.title = "MY EVENTS"
+        controllerArray.append(myEventsViewController)
         
         // Customize menu (Optional)
         let parameters: [CAPSPageMenuOption] = [
@@ -68,8 +72,6 @@ class EventsViewController: UIViewController {
         self.addChildViewController(pageMenu!)
         self.view.addSubview(pageMenu!.view)
         pageMenu!.didMoveToParentViewController(self)
-
-        
         
     }
 

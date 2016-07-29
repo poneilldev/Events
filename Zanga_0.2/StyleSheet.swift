@@ -1,8 +1,8 @@
 //
-//  ColorExtension.swift
+//  StyleSheet.swift
 //  Zanga_0.2
 //
-//  Created by Paul O'Neill on 5/20/16.
+//  Created by Paul O'Neill on 7/29/16.
 //  Copyright © 2016 Paul O'Neill. All rights reserved.
 //
 
@@ -20,3 +20,36 @@ extension UIColor {
     }
     
 }
+
+
+// MARK: Color
+
+enum AppColor {
+    
+}
+
+
+// MARK: Color Style
+
+enum AppColorStyle {
+    
+}
+
+// MARK: Font
+
+enum AppFont {
+    
+}
+
+// MARK: Icons
+
+enum AppIcons {
+    
+}
+
+// MARK: Images
+
+enum AppImages {
+    
+}
+
