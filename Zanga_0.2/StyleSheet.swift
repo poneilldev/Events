@@ -43,13 +43,29 @@ enum AppFont {
 
 // MARK: Icons
 
-enum AppIcons {
+enum AppIcons: String {
+    case tabBarDiscover = "tabBarDiscover"
+    // ...
     
+    func image() -> UIImage? {
+        return UIImage(named: rawValue)
+    }
 }
 
 // MARK: Images
 
-enum AppImages {
+enum AppImages: String {
+    case PlaceHolder = "placeholder"
+    // ...
     
+    func image() -> UIImage? {
+        return UIImage(named: rawValue)
+    }
 }
 
+// MARK: TableViewCell
+
+enum AppCellAtrributes {
+    
+    
+}

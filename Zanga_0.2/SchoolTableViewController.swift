@@ -17,10 +17,8 @@ enum School: String {
 
 class SchoolTableViewController: UITableViewController, NSXMLParserDelegate {
     
-    
-    
-    
     var schoolEvents: [Event] = []
+    var selectedEvent = Event()
     
     var parser = NSXMLParser()
     var posts = NSMutableArray()
@@ -37,8 +35,7 @@ class SchoolTableViewController: UITableViewController, NSXMLParserDelegate {
         super.viewDidLoad()
         self.tableView.delegate = self
         self.tableView.dataSource = self
-        //self.tableView.registerNib(UINib(nibName: "eventCell", bundle: nil), forCellReuseIdentifier: "eventCell")
-        //self.tableView.registerClass(SchoolEvent_StoryBoardTableViewCell.self, forCellReuseIdentifier: "eventCell")
+
         do {
             try beginParsing()
         } catch {
@@ -168,7 +165,7 @@ class SchoolTableViewController: UITableViewController, NSXMLParserDelegate {
         let cell = tableView.dequeueReusableCellWithIdentifier("eventCell", forIndexPath: indexPath) as! SchoolEvent_StoryBoardTableViewCell
         
         if let day = posts.objectAtIndex(indexPath.row).valueForKey("pubDate") as? String{
-            let dayOfWeek = day.substringWithRange(Range<String.Index>(day.startIndex...day.startIndex.advancedBy(3)))
+            let dayOfWeek = day.substringWithRange(Range<String.Index>(day.startIndex..<day.startIndex.advancedBy(3)))
             let date = day.substringWithRange(Range<String.Index>(day.startIndex.advancedBy(5)...day.startIndex.advancedBy(11)))
             //let timeOfDay = day.substringWithRange(Range<String.Index>(day.startIndex.advancedBy(12)...day.endIndex))
             let url = posts.objectAtIndex(indexPath.row).valueForKey("enclosure") as? String
@@ -182,21 +179,16 @@ class SchoolTableViewController: UITableViewController, NSXMLParserDelegate {
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         let post : NSMutableDictionary = (self.posts[indexPath.row] as? NSMutableDictionary)!
-        let selectedEvent = Event()
-            selectedEvent.title = post.valueForKey("title") as? String
-            selectedEvent.eventDate = post.valueForKey("pubDate") as? String
-            selectedEvent.description = post.valueForKey("description") as? String
-            selectedEvent.pic_loc = post.valueForKey("enclosure") as? String
-            selectedEvent.location = "BYUI Campus"
-            self.performSegueWithIdentifier("eventDetailSegue", sender: self)
+        selectedEvent.title = post.valueForKey("title") as? String
+        selectedEvent.eventDate = post.valueForKey("pubDate") as? String
+        selectedEvent.description = post.valueForKey("description") as? String
+        selectedEvent.eventImage = post.valueForKey("enclosure") as? String
+        selectedEvent.location = "BYUI Campus"
+        self.performSegueWithIdentifier("eventDetailSegue", sender: self)
     }
     
     override func tableView(tableView: UITableView, didDeselectRowAtIndexPath indexPath: NSIndexPath) {
         //self.tableview.deselectRowAtIndexPath(indexPath, animated: true)
-    }
-    
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        
     }
     
     override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
@@ -238,14 +230,15 @@ class SchoolTableViewController: UITableViewController, NSXMLParserDelegate {
     }
     */
 
-    /*
+
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         // Get the new view controller using segue.destinationViewController.
+        let detailViewController = segue.destinationViewController as! EventInfoViewController
+        detailViewController.selectedEvent = self.selectedEvent
         // Pass the selected object to the new view controller.
     }
-    */
     
 }

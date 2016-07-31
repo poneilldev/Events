@@ -35,6 +35,8 @@
 		DA8587C11D4AF94C00D600C2 /* SchoolEventTableView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA8587C01D4AF94C00D600C2 /* SchoolEventTableView.storyboard */; };
 		DA8587C31D4AFBC600D600C2 /* SchoolEvent_StoryBoardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8587C21D4AFBC600D600C2 /* SchoolEvent_StoryBoardTableViewCell.swift */; };
 		DA8587C51D4C0C6A00D600C2 /* StyleSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8587C41D4C0C6A00D600C2 /* StyleSheet.swift */; };
+		DA8587C91D4D3EFE00D600C2 /* SchoolEventInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8587C81D4D3EFE00D600C2 /* SchoolEventInfoViewController.swift */; };
+		DA8587CB1D4DB60D00D600C2 /* EventInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8587CA1D4DB60D00D600C2 /* EventInfoViewController.swift */; };
 		DAA6A3FE1CEE2C000061DFE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA6A3FD1CEE2C000061DFE1 /* AppDelegate.swift */; };
 		DAA6A4071CEE2C000061DFE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAA6A4061CEE2C000061DFE1 /* Assets.xcassets */; };
 		DAA6A40A1CEE2C000061DFE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAA6A4081CEE2C000061DFE1 /* LaunchScreen.storyboard */; };
@@ -124,6 +126,8 @@
 		DA8587C01D4AF94C00D600C2 /* SchoolEventTableView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SchoolEventTableView.storyboard; sourceTree = "<group>"; };
 		DA8587C21D4AFBC600D600C2 /* SchoolEvent_StoryBoardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolEvent_StoryBoardTableViewCell.swift; sourceTree = "<group>"; };
 		DA8587C41D4C0C6A00D600C2 /* StyleSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleSheet.swift; sourceTree = "<group>"; };
+		DA8587C81D4D3EFE00D600C2 /* SchoolEventInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolEventInfoViewController.swift; sourceTree = "<group>"; };
+		DA8587CA1D4DB60D00D600C2 /* EventInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventInfoViewController.swift; sourceTree = "<group>"; };
 		DAA6A3FA1CEE2C000061DFE1 /* Zanga_0.2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zanga_0.2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAA6A3FD1CEE2C000061DFE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAA6A4061CEE2C000061DFE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -195,6 +199,7 @@
 				DA30EB0D1D46EA17001AF178 /* SchoolTableViewController.swift */,
 				DA30EB091D46E9C1001AF178 /* SchoolTableViewCell.swift */,
 				DA8587BE1D47367700D600C2 /* SchoolTableViewCell.xib */,
+				DA8587C81D4D3EFE00D600C2 /* SchoolEventInfoViewController.swift */,
 			);
 			name = School;
 			sourceTree = "<group>";
@@ -322,6 +327,7 @@
 				DA03F4B71CF8141A00DE0C33 /* SideMenuTableViewCell.swift */,
 				DA03F4B81CF8141A00DE0C33 /* SideMenuTableViewCell.xib */,
 				DAD7FFEF1CF172B800375BFE /* SideMenuTableViewController.swift */,
+				DA8587CA1D4DB60D00D600C2 /* EventInfoViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -520,6 +526,7 @@
 				DAE0CBBC1CEED7D400FE69E3 /* EventsViewController.swift in Sources */,
 				DA30EB3D1D471062001AF178 /* SDWebImageManager.m in Sources */,
 				DA30EB3A1D471062001AF178 /* SDWebImageDecoder.m in Sources */,
+				DA8587CB1D4DB60D00D600C2 /* EventInfoViewController.swift in Sources */,
 				DAD7FFF01CF172B800375BFE /* SideMenuTableViewController.swift in Sources */,
 				DAA6A3FE1CEE2C000061DFE1 /* AppDelegate.swift in Sources */,
 				DA30EB3E1D471062001AF178 /* SDWebImagePrefetcher.m in Sources */,
@@ -534,6 +541,7 @@
 				DA30EB391D471061001AF178 /* SDWebImageCompat.m in Sources */,
 				DAE0CBC11CEED8B300FE69E3 /* NotSchoolTableViewController.swift in Sources */,
 				DA30EB0B1D46E9C1001AF178 /* SchoolTableViewCell.swift in Sources */,
+				DA8587C91D4D3EFE00D600C2 /* SchoolEventInfoViewController.swift in Sources */,
 				DA30EB381D471061001AF178 /* SDImageCache.m in Sources */,
 				DA30EB3B1D471062001AF178 /* SDWebImageDownloader.m in Sources */,
 				DAA6A4491CEE47B30061DFE1 /* InvitationsTableViewController.swift in Sources */,

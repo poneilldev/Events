@@ -13,9 +13,9 @@ class Event {
     var title: String?
     var location: String?
     var description: String?
-    var pic_loc: String?
+    var eventImage: String?
     var event_type: String?
-    var creatorUserId: String?
+    var host: String?
     var startTime: String?
     var endTime: String?
     var school: String?
@@ -29,9 +29,9 @@ class Event {
         title = ""
         location = ""
         description = ""
-        pic_loc = ""
+        eventImage = ""
         event_type = ""
-        creatorUserId = ""
+        host = ""
         startTime = ""
         endTime = ""
         school = ""
@@ -39,15 +39,15 @@ class Event {
     }
     
     init(event_id: String, title: String, location: String, description: String,
-         pic_loc: String, event_type: String, creatorUserId: String, startTime: String,
+         eventImage: String, event_type: String, host: String, startTime: String,
          endTime: String, school: String, eventDate: String) {
         self.event_id = event_id
         self.title = title
         self.location = location
         self.description = description
-        self.pic_loc = pic_loc
+        self.eventImage = eventImage
         self.event_type = event_type
-        self.creatorUserId = creatorUserId
+        self.host = host
         self.startTime = startTime
         self.endTime = endTime
         self.school = school
