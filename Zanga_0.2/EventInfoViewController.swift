@@ -18,25 +18,38 @@ class EventInfoViewController: UIViewController {
     @IBOutlet weak var eventHost: UILabel!
     @IBOutlet weak var eventDescription: UITextView!
     
-    var selectedEvent = Event()
+    var passedEvent = Event()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        eventTitle.text = selectedEvent.title
-        if let imgURL = selectedEvent.eventImage {
-            eventImage.sd_setImageWithURL(NSURL(string: imgURL), placeholderImage: UIImage(named: "placeholder.jpg"))
-        }
-        eventDate.text = selectedEvent.eventDate
-        // User cannot add event without inputing start time
-        if selectedEvent.endTime != nil || selectedEvent.endTime != "" {
-            eventTime.text = "\(selectedEvent.startTime) - \(selectedEvent.endTime)"
-        }
-        eventLocation.text = selectedEvent.location
-        eventHost.text = "Host"
-        eventDescription.text = selectedEvent.description
         
-        // Do any additional setup after loading the view.
+        eventTitle.textColor = UIColor.whiteColor()
+        eventDate.textColor = UIColor.lightGrayColor()
+        eventTime.textColor = UIColor.lightGrayColor()
+        eventLocation.textColor = UIColor.lightGrayColor()
+        eventHost.textColor = UIColor.lightGrayColor()
+        eventDescription.textColor = UIColor.lightGrayColor()
+        
+        
+        eventTitle.text = passedEvent.title
+        eventImage.sd_setImageWithURL(NSURL(string: passedEvent.eventImage!), placeholderImage: AppImages.PlaceHolder.image())
+        eventDate.text = passedEvent.eventDate
+        
+        // User cannot add event without inputing start time
+        if passedEvent.startTime == "" && passedEvent.endTime == "" {
+            eventTime.text = "N/A"
+        } else if passedEvent.startTime != "" && passedEvent.endTime == "" {
+            eventTime.text = "\(passedEvent.startTime)"
+        }
+        else if passedEvent.startTime != "" && passedEvent.endTime != "" {
+            eventTime.text = "\(passedEvent.startTime) - \(passedEvent.endTime)"
+        }
+        
+        eventLocation.text = passedEvent.location
+        eventHost.text = "Host"
+        eventDescription.text = passedEvent.description
+        
     }
     
     override func didReceiveMemoryWarning() {
@@ -45,16 +58,9 @@ class EventInfoViewController: UIViewController {
     }
     
     
-    
-    
     @IBAction func imGoing(sender: UIButton) {
+        print("I'M GOING!")
     }
-
-
-    
-    @IBAction func inviteOtherFriends(sender: AnyObject) {
-    }
-    
     
 
 }

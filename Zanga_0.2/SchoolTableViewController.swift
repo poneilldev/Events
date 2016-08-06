@@ -179,16 +179,21 @@ class SchoolTableViewController: UITableViewController, NSXMLParserDelegate {
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         let post : NSMutableDictionary = (self.posts[indexPath.row] as? NSMutableDictionary)!
+        if let eventDate = post.valueForKey("pubDate") as? String {
+            selectedEvent.eventDate = eventDate.substringWithRange(Range<String.Index>(eventDate.startIndex..<eventDate.startIndex.advancedBy(12)))
+            selectedEvent.startTime = eventDate.substringWithRange(Range<String.Index>(eventDate.startIndex.advancedBy(12)..<eventDate.endIndex))
+        }
+        
         selectedEvent.title = post.valueForKey("title") as? String
-        selectedEvent.eventDate = post.valueForKey("pubDate") as? String
         selectedEvent.description = post.valueForKey("description") as? String
         selectedEvent.eventImage = post.valueForKey("enclosure") as? String
         selectedEvent.location = "BYUI Campus"
+        
         self.performSegueWithIdentifier("eventDetailSegue", sender: self)
     }
     
     override func tableView(tableView: UITableView, didDeselectRowAtIndexPath indexPath: NSIndexPath) {
-        //self.tableview.deselectRowAtIndexPath(indexPath, animated: true)
+        self.tableView.deselectRowAtIndexPath(indexPath, animated: true)
     }
     
     override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
@@ -232,13 +237,10 @@ class SchoolTableViewController: UITableViewController, NSXMLParserDelegate {
 
 
     // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        let detailViewController = segue.destinationViewController as! EventInfoViewController
-        detailViewController.selectedEvent = self.selectedEvent
-        // Pass the selected object to the new view controller.
-    }
     
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let detailVC = segue.destinationViewController as! EventInfoViewController
+        detailVC.passedEvent = self.selectedEvent
+    }
+
 }

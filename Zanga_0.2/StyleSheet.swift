@@ -55,7 +55,7 @@ enum AppIcons: String {
 // MARK: Images
 
 enum AppImages: String {
-    case PlaceHolder = "placeholder"
+    case PlaceHolder = "placeholder.jpg"
     // ...
     
     func image() -> UIImage? {
