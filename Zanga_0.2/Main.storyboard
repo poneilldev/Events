@@ -5,6 +5,44 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="TG9-hq-47R">
+            <objects>
+                <navigationController id="rsy-Ar-6Ci" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="saved.png" id="Rsl-k2-nMz">
+                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="-7"/>
+                    </tabBarItem>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="gzi-bN-6nl">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="bSn-GC-KHN" kind="relationship" relationship="rootViewController" id="WpA-oO-wir"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xrl-1a-z4d" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2025" y="768"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="XKD-ve-Vbw">
+            <objects>
+                <navigationController id="Kef-2X-uhp" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="notifications-icon.png" badgeValue="2" id="8Hj-ck-7h6">
+                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="-7"/>
+                    </tabBarItem>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="oEi-l3-B0R">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="g1d-8E-KLx" kind="relationship" relationship="rootViewController" id="u9i-jP-mM9"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z6Z-S3-vxx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1169" y="768"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="XuU-4I-nhz">
             <objects>
@@ -16,15 +54,15 @@
                     </tabBar>
                     <connections>
                         <segue destination="VDt-il-XEp" kind="relationship" relationship="viewControllers" id="RF9-4A-1X3"/>
-                        <segue destination="g1d-8E-KLx" kind="relationship" relationship="viewControllers" id="vGQ-Sx-oKN"/>
+                        <segue destination="Kef-2X-uhp" kind="relationship" relationship="viewControllers" id="UPX-Le-OAu"/>
                         <segue destination="ysa-Yn-XGr" kind="relationship" relationship="viewControllers" id="deT-Qr-kdn"/>
-                        <segue destination="bSn-GC-KHN" kind="relationship" relationship="viewControllers" id="Lhs-8H-yyh"/>
+                        <segue destination="rsy-Ar-6Ci" kind="relationship" relationship="viewControllers" id="Kei-Xg-mbv"/>
                         <segue destination="4d7-tJ-XLP" kind="relationship" relationship="viewControllers" id="idc-dG-MF6"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tpr-hv-PQH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-261" y="107"/>
+            <point key="canvasLocation" x="-356" y="-355"/>
         </scene>
         <!--Profile-->
         <scene sceneID="Hkk-Wg-Lil">
@@ -61,11 +99,11 @@
             </objects>
             <point key="canvasLocation" x="355" y="2255"/>
         </scene>
-        <!--Create Event-->
+        <!--Navigation Controller-->
         <scene sceneID="4DU-NB-GbJ">
             <objects>
                 <navigationController id="ysa-Yn-XGr" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Create Event" id="xRD-jy-Um8"/>
+                    <tabBarItem key="tabBarItem" title="" image="add-icon.png" id="xRD-jy-Um8"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="mcc-bc-McX">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -91,13 +129,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="saved.png" id="zbH-WP-J5D">
+                    <tabBarItem key="tabBarItem" title="" id="zbH-WP-J5D">
                         <inset key="imageInsets" minX="0.0" minY="9" maxX="0.0" maxY="-9"/>
                     </tabBarItem>
+                    <navigationItem key="navigationItem" id="bM4-XW-qCP"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qev-zE-War" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1773" y="1490"/>
+            <point key="canvasLocation" x="-2025" y="1542"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="psH-nM-h7r">
@@ -112,14 +151,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="notifications-icon.png" badgeValue="2" id="Il2-Fu-6ad">
-                        <inset key="imageInsets" minX="0.0" minY="9" maxX="0.0" maxY="-9"/>
-                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
-                    </tabBarItem>
+                    <navigationItem key="navigationItem" id="0H2-eO-JcF"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1uW-D4-P5p" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1091" y="1490"/>
+            <point key="canvasLocation" x="-1169" y="1534"/>
         </scene>
         <!--Reveal View Controller-->
         <scene sceneID="2TP-eP-erk">
@@ -136,7 +172,7 @@
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>
                     <tabBarItem key="tabBarItem" title="" image="icon-profile.png" id="zla-JP-oeG">
-                        <inset key="imageInsets" minX="0.0" minY="9" maxX="0.0" maxY="-9"/>
+                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="-7"/>
                     </tabBarItem>
                     <connections>
                         <segue destination="7oy-A0-lLl" kind="custom" identifier="sw_front" customClass="SWRevealViewControllerSegueSetController" id="3Lo-hm-DcH"/>
@@ -161,7 +197,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="search.png" id="F5T-Pp-Hta">
-                        <inset key="imageInsets" minX="0.0" minY="9" maxX="0.0" maxY="-9"/>
+                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="-7"/>
                     </tabBarItem>
                     <connections>
                         <segue destination="YfK-NJ-LsY" kind="custom" identifier="sw_rear" customClass="SWRevealViewControllerSegueSetController" id="tJN-EX-wtO"/>
@@ -645,6 +681,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="add-icon.png" width="60" height="60"/>
         <image name="icon-profile.png" width="35" height="35"/>
         <image name="menu-icon.png" width="30" height="30"/>
         <image name="notifications-icon.png" width="23" height="23"/>
@@ -653,6 +690,6 @@
         <image name="search.png" width="32" height="32"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Zr5-rP-7mq"/>
+        <segue reference="tJN-EX-wtO"/>
     </inferredMetricsTieBreakers>
 </document>

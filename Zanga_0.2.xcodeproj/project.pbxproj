@@ -14,6 +14,7 @@
 		DA19F32F1D67A26900278FA2 /* notifications-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DA19F32E1D67A26900278FA2 /* notifications-icon.png */; };
 		DA19F3311D67A2AA00278FA2 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = DA19F3301D67A2AA00278FA2 /* search.png */; };
 		DA19F3331D67A2EC00278FA2 /* saved.png in Resources */ = {isa = PBXBuildFile; fileRef = DA19F3321D67A2EC00278FA2 /* saved.png */; };
+		DA19F3391D67AC5400278FA2 /* add-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DA19F3381D67AC5400278FA2 /* add-icon.png */; };
 		DA30EB081D46CFD5001AF178 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA30EB071D46CFD5001AF178 /* Event.swift */; };
 		DA30EB0B1D46E9C1001AF178 /* SchoolTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA30EB091D46E9C1001AF178 /* SchoolTableViewCell.swift */; };
 		DA30EB0F1D46EA17001AF178 /* SchoolTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA30EB0D1D46EA17001AF178 /* SchoolTableViewController.swift */; };
@@ -90,6 +91,7 @@
 		DA19F32E1D67A26900278FA2 /* notifications-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "notifications-icon.png"; sourceTree = "<group>"; };
 		DA19F3301D67A2AA00278FA2 /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
 		DA19F3321D67A2EC00278FA2 /* saved.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = saved.png; sourceTree = "<group>"; };
+		DA19F3381D67AC5400278FA2 /* add-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add-icon.png"; sourceTree = "<group>"; };
 		DA30EB071D46CFD5001AF178 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		DA30EB091D46E9C1001AF178 /* SchoolTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolTableViewCell.swift; sourceTree = "<group>"; };
 		DA30EB0D1D46EA17001AF178 /* SchoolTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolTableViewController.swift; sourceTree = "<group>"; };
@@ -356,6 +358,7 @@
 				DA19F32E1D67A26900278FA2 /* notifications-icon.png */,
 				DA19F3321D67A2EC00278FA2 /* saved.png */,
 				DAA6A43D1CEE327F0061DFE1 /* menu-icon.png */,
+				DA19F3381D67AC5400278FA2 /* add-icon.png */,
 				DA19F3301D67A2AA00278FA2 /* search.png */,
 				DAA6A43E1CEE327F0061DFE1 /* z-icon.png */,
 				DAA6A43F1CEE327F0061DFE1 /* create-event.png */,
@@ -504,6 +507,7 @@
 				DA03F4BA1CF8141A00DE0C33 /* SideMenuTableViewCell.xib in Resources */,
 				DA8587BF1D47367700D600C2 /* SchoolTableViewCell.xib in Resources */,
 				DAA6A4341CEE2FD40061DFE1 /* icon-profile.png in Resources */,
+				DA19F3391D67AC5400278FA2 /* add-icon.png in Resources */,
 				DAA6A4401CEE327F0061DFE1 /* menu-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
