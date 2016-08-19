@@ -10,6 +10,7 @@
 		DA03F4B91CF8141A00DE0C33 /* SideMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA03F4B71CF8141A00DE0C33 /* SideMenuTableViewCell.swift */; };
 		DA03F4BA1CF8141A00DE0C33 /* SideMenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA03F4B81CF8141A00DE0C33 /* SideMenuTableViewCell.xib */; };
 		DA1287F41CF1565F00DE6527 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1287F31CF1565F00DE6527 /* SWRevealViewController.m */; };
+		DA19F3171D67945200278FA2 /* myExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA19F3161D67945200278FA2 /* myExtensions.swift */; };
 		DA30EB081D46CFD5001AF178 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA30EB071D46CFD5001AF178 /* Event.swift */; };
 		DA30EB0B1D46E9C1001AF178 /* SchoolTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA30EB091D46E9C1001AF178 /* SchoolTableViewCell.swift */; };
 		DA30EB0F1D46EA17001AF178 /* SchoolTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA30EB0D1D46EA17001AF178 /* SchoolTableViewController.swift */; };
@@ -82,6 +83,7 @@
 		DA1287F11CF1565E00DE6527 /* Zanga_0.2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Zanga_0.2-Bridging-Header.h"; sourceTree = "<group>"; };
 		DA1287F21CF1565F00DE6527 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		DA1287F31CF1565F00DE6527 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		DA19F3161D67945200278FA2 /* myExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myExtensions.swift; sourceTree = "<group>"; };
 		DA30EB071D46CFD5001AF178 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		DA30EB091D46E9C1001AF178 /* SchoolTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolTableViewCell.swift; sourceTree = "<group>"; };
 		DA30EB0D1D46EA17001AF178 /* SchoolTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolTableViewController.swift; sourceTree = "<group>"; };
@@ -283,6 +285,7 @@
 			children = (
 				DAA6A3FD1CEE2C000061DFE1 /* AppDelegate.swift */,
 				DA8587C41D4C0C6A00D600C2 /* StyleSheet.swift */,
+				DA19F3161D67945200278FA2 /* myExtensions.swift */,
 				DA03F4B21CF8133100DE0C33 /* Third Party */,
 				DAA6A4361CEE30460061DFE1 /* Images */,
 				DAA6A42F1CEE2D1D0061DFE1 /* ViewControllers */,
@@ -533,6 +536,7 @@
 				DA30EB081D46CFD5001AF178 /* Event.swift in Sources */,
 				DAE0CBC31CEED8C300FE69E3 /* MyEventsTableViewController.swift in Sources */,
 				DA30EB401D471062001AF178 /* UIImage+GIF.m in Sources */,
+				DA19F3171D67945200278FA2 /* myExtensions.swift in Sources */,
 				DA30EB421D471062001AF178 /* UIImage+WebP.m in Sources */,
 				DA30EB371D471061001AF178 /* NSData+ImageContentType.m in Sources */,
 				DA30EB391D471061001AF178 /* SDWebImageCompat.m in Sources */,
