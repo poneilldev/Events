@@ -14,7 +14,10 @@
 		DA19F32F1D67A26900278FA2 /* notifications-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DA19F32E1D67A26900278FA2 /* notifications-icon.png */; };
 		DA19F3311D67A2AA00278FA2 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = DA19F3301D67A2AA00278FA2 /* search.png */; };
 		DA19F3331D67A2EC00278FA2 /* saved.png in Resources */ = {isa = PBXBuildFile; fileRef = DA19F3321D67A2EC00278FA2 /* saved.png */; };
-		DA19F3391D67AC5400278FA2 /* add-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DA19F3381D67AC5400278FA2 /* add-icon.png */; };
+		DA19F33B1D67AF6600278FA2 /* add-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DA19F33A1D67AF6600278FA2 /* add-icon.png */; };
+		DA19F33D1D67BCE800278FA2 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA19F33C1D67BCE800278FA2 /* CustomTabBarController.swift */; };
+		DA19F3411D6BA07600278FA2 /* privateEvent-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DA19F3401D6BA07600278FA2 /* privateEvent-icon.png */; };
+		DA19F3431D6BA07B00278FA2 /* publicEvent-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DA19F3421D6BA07B00278FA2 /* publicEvent-icon.png */; };
 		DA30EB081D46CFD5001AF178 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA30EB071D46CFD5001AF178 /* Event.swift */; };
 		DA30EB0B1D46E9C1001AF178 /* SchoolTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA30EB091D46E9C1001AF178 /* SchoolTableViewCell.swift */; };
 		DA30EB0F1D46EA17001AF178 /* SchoolTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA30EB0D1D46EA17001AF178 /* SchoolTableViewController.swift */; };
@@ -91,7 +94,10 @@
 		DA19F32E1D67A26900278FA2 /* notifications-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "notifications-icon.png"; sourceTree = "<group>"; };
 		DA19F3301D67A2AA00278FA2 /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
 		DA19F3321D67A2EC00278FA2 /* saved.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = saved.png; sourceTree = "<group>"; };
-		DA19F3381D67AC5400278FA2 /* add-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add-icon.png"; sourceTree = "<group>"; };
+		DA19F33A1D67AF6600278FA2 /* add-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add-icon.png"; sourceTree = "<group>"; };
+		DA19F33C1D67BCE800278FA2 /* CustomTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		DA19F3401D6BA07600278FA2 /* privateEvent-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "privateEvent-icon.png"; sourceTree = "<group>"; };
+		DA19F3421D6BA07B00278FA2 /* publicEvent-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "publicEvent-icon.png"; sourceTree = "<group>"; };
 		DA30EB071D46CFD5001AF178 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		DA30EB091D46E9C1001AF178 /* SchoolTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolTableViewCell.swift; sourceTree = "<group>"; };
 		DA30EB0D1D46EA17001AF178 /* SchoolTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolTableViewController.swift; sourceTree = "<group>"; };
@@ -326,6 +332,7 @@
 		DAA6A42F1CEE2D1D0061DFE1 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				DA19F33C1D67BCE800278FA2 /* CustomTabBarController.swift */,
 				DAE0CBB31CEE787B00FE69E3 /* ProfileViewController.swift */,
 				DAE0CBBB1CEED7D400FE69E3 /* EventsViewController.swift */,
 				DAE0CBC41CEEDA1800FE69E3 /* CreateEventViewController.swift */,
@@ -358,8 +365,10 @@
 				DA19F32E1D67A26900278FA2 /* notifications-icon.png */,
 				DA19F3321D67A2EC00278FA2 /* saved.png */,
 				DAA6A43D1CEE327F0061DFE1 /* menu-icon.png */,
-				DA19F3381D67AC5400278FA2 /* add-icon.png */,
 				DA19F3301D67A2AA00278FA2 /* search.png */,
+				DA19F33A1D67AF6600278FA2 /* add-icon.png */,
+				DA19F3421D6BA07B00278FA2 /* publicEvent-icon.png */,
+				DA19F3401D6BA07600278FA2 /* privateEvent-icon.png */,
 				DAA6A43E1CEE327F0061DFE1 /* z-icon.png */,
 				DAA6A43F1CEE327F0061DFE1 /* create-event.png */,
 				DAA6A4331CEE2FD40061DFE1 /* icon-profile.png */,
@@ -380,8 +389,8 @@
 		DAE0CBBD1CEED82D00FE69E3 /* EventsTableViews */ = {
 			isa = PBXGroup;
 			children = (
-				DA30EB461D471088001AF178 /* SDWebImage */,
 				DA30EB071D46CFD5001AF178 /* Event.swift */,
+				DA30EB461D471088001AF178 /* SDWebImage */,
 				DA30EB111D46EA4A001AF178 /* School */,
 				DA30EB121D46EA54001AF178 /* Not School */,
 				DA30EB131D46EA60001AF178 /* My Events */,
@@ -501,13 +510,15 @@
 				DA19F3331D67A2EC00278FA2 /* saved.png in Resources */,
 				DAE0CBB81CEE9C3C00FE69E3 /* Main.storyboard in Resources */,
 				DAA6A4411CEE327F0061DFE1 /* z-icon.png in Resources */,
+				DA19F3431D6BA07B00278FA2 /* publicEvent-icon.png in Resources */,
 				DAA6A4071CEE2C000061DFE1 /* Assets.xcassets in Resources */,
 				DA19F32F1D67A26900278FA2 /* notifications-icon.png in Resources */,
 				DA19F3311D67A2AA00278FA2 /* search.png in Resources */,
 				DA03F4BA1CF8141A00DE0C33 /* SideMenuTableViewCell.xib in Resources */,
 				DA8587BF1D47367700D600C2 /* SchoolTableViewCell.xib in Resources */,
+				DA19F3411D6BA07600278FA2 /* privateEvent-icon.png in Resources */,
 				DAA6A4341CEE2FD40061DFE1 /* icon-profile.png in Resources */,
-				DA19F3391D67AC5400278FA2 /* add-icon.png in Resources */,
+				DA19F33B1D67AF6600278FA2 /* add-icon.png in Resources */,
 				DAA6A4401CEE327F0061DFE1 /* menu-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -535,6 +546,7 @@
 			files = (
 				DA30EB451D471062001AF178 /* UIView+WebCacheOperation.m in Sources */,
 				DAA6A44B1CEE489F0061DFE1 /* HostingTableViewController.swift in Sources */,
+				DA19F33D1D67BCE800278FA2 /* CustomTabBarController.swift in Sources */,
 				DAA6A4461CEE46EC0061DFE1 /* MyCrowdTableViewController.swift in Sources */,
 				DA30EB431D471062001AF178 /* UIImageView+HighlightedWebCache.m in Sources */,
 				DA1287F41CF1565F00DE6527 /* SWRevealViewController.m in Sources */,

@@ -44,8 +44,14 @@ enum AppFont {
 // MARK: Icons
 
 enum AppIcons: String {
-    case tabBarDiscover = "tabBarDiscover"
-    // ...
+    //case tabBarDiscover = "tabBarDiscover"
+    case discoverEvents = "search.png"
+    case savedEvents = "saved.png"
+    case createEvent = "add-icon.png"
+    case profile = "icon-profile.png"
+    case notification = "notifications-icon.png"
+    case createPublic = "publicEvent-icon.png"
+    case createPrivate = "privateEvent-icon.png"
     
     func image() -> UIImage? {
         return UIImage(named: rawValue)

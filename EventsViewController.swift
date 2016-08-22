@@ -12,17 +12,13 @@ class EventsViewController: UIViewController {
 
     var pageMenu : CAPSPageMenu?
     
-    @IBOutlet var Open: UIBarButtonItem!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        Open.target = self.revealViewController()
-        Open.action = #selector(SWRevealViewController.revealToggle(_:))
-
         // MARK: - UI Setup
         self.tabBarController?.tabBar.barTintColor = UIColor.backGroundBlack()
         self.tabBarController?.tabBar.tintColor = UIColor.myRed()
+        self.navigationController?.navigationBar.translucent = false
         
         self.navigationController?.navigationBar.barTintColor = UIColor(red: 30.0/255.0, green: 30.0/255.0, blue: 30.0/255.0, alpha: 1.0)
         self.navigationController?.navigationBar.shadowImage = UIImage()
@@ -30,9 +26,6 @@ class EventsViewController: UIViewController {
         self.navigationController?.navigationBar.barStyle = UIBarStyle.Black
         self.navigationController?.navigationBar.tintColor = UIColor.whiteColor()
         self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.myRed()]
-        
-        //        self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "<-", style: UIBarButtonItemStyle.Done, target: self, action: "didTapGoToLeft")
-        //        self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "->", style: UIBarButtonItemStyle.Done, target: self, action: "didTapGoToRight")
         
         // MARK: - Scroll menu setup
         
@@ -49,9 +42,6 @@ class EventsViewController: UIViewController {
         let notSchoolViewController  = NotSchoolTableViewController()
         notSchoolViewController.title = "NOT SCHOOL"
         controllerArray.append(notSchoolViewController)
-        let myEventsViewController  = MyEventsTableViewController()
-        myEventsViewController.title = "MY EVENTS"
-        controllerArray.append(myEventsViewController)
         
         // Customize menu (Optional)
         let parameters: [CAPSPageMenuOption] = [
