@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "LoginViewController.checkLogin(String, password : String) -&gt; Bool:LoginViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "KeychainWrapper.stringForKey(&quot;password&quot;)">
+            </PersistentString>
+            <PersistentString
+               value = "NSUserDefaults.standardUserDefaults().valueForKey(&quot;username&quot;) as? String">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LoginViewController.viewDidLoad() -&gt; ():LoginViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "NSUserDefaults.standardUserDefaults().boolForKey(&quot;hasLoginKey&quot;)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LoginViewController.loginAction() -&gt; ():LoginViewController.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
