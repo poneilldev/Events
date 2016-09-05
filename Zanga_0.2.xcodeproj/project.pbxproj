@@ -64,7 +64,6 @@
 		DAA6A4151CEE2C000061DFE1 /* Zanga_0_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA6A4141CEE2C000061DFE1 /* Zanga_0_2Tests.swift */; };
 		DAA6A4201CEE2C000061DFE1 /* Zanga_0_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA6A41F1CEE2C000061DFE1 /* Zanga_0_2UITests.swift */; };
 		DAA6A4341CEE2FD40061DFE1 /* icon-profile.png in Resources */ = {isa = PBXBuildFile; fileRef = DAA6A4331CEE2FD40061DFE1 /* icon-profile.png */; };
-		DAA6A4401CEE327F0061DFE1 /* menu-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DAA6A43D1CEE327F0061DFE1 /* menu-icon.png */; };
 		DAA6A4441CEE3FE50061DFE1 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAA6A4431CEE3FE50061DFE1 /* Profile.storyboard */; };
 		DAA6A4461CEE46EC0061DFE1 /* MyCrowdTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA6A4451CEE46EC0061DFE1 /* MyCrowdTableViewController.swift */; };
 		DAA6A4491CEE47B30061DFE1 /* InvitationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA6A4481CEE47B30061DFE1 /* InvitationsTableViewController.swift */; };
@@ -186,7 +185,6 @@
 		DAA6A41F1CEE2C000061DFE1 /* Zanga_0_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zanga_0_2UITests.swift; sourceTree = "<group>"; };
 		DAA6A4211CEE2C000061DFE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAA6A4331CEE2FD40061DFE1 /* icon-profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-profile.png"; path = "../icon-profile.png"; sourceTree = "<group>"; };
-		DAA6A43D1CEE327F0061DFE1 /* menu-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "menu-icon.png"; path = "../../../project_images/menu-icon.png"; sourceTree = "<group>"; };
 		DAA6A4431CEE3FE50061DFE1 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		DAA6A4451CEE46EC0061DFE1 /* MyCrowdTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyCrowdTableViewController.swift; path = ../MyCrowdTableViewController.swift; sourceTree = "<group>"; };
 		DAA6A4481CEE47B30061DFE1 /* InvitationsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvitationsTableViewController.swift; sourceTree = "<group>"; };
@@ -423,7 +421,6 @@
 				DA8587BA1D471A9800D600C2 /* placeholder.jpg */,
 				DA19F32E1D67A26900278FA2 /* notifications-icon.png */,
 				DA19F3321D67A2EC00278FA2 /* saved.png */,
-				DAA6A43D1CEE327F0061DFE1 /* menu-icon.png */,
 				DA19F3541D76A4FA00278FA2 /* logo.png */,
 				DA19F3301D67A2AA00278FA2 /* search.png */,
 				DA19F3561D76BF5500278FA2 /* password-icon.png */,
@@ -603,7 +600,6 @@
 				DA19F3551D76A4FA00278FA2 /* logo.png in Resources */,
 				DAA6A4341CEE2FD40061DFE1 /* icon-profile.png in Resources */,
 				DA19F33B1D67AF6600278FA2 /* add-icon.png in Resources */,
-				DAA6A4401CEE327F0061DFE1 /* menu-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
