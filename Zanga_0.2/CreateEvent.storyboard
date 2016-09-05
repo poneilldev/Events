@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15A279b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Create Public Event-->
+        <scene sceneID="Xqx-2d-dot">
+            <objects>
+                <viewController storyboardIdentifier="CreatePublicEvent" title="Create Public Event" id="cFA-7S-Typ" customClass="CreatePublicEventViewController" customModule="Zanga_0_2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mzq-Nh-hDS"/>
+                        <viewControllerLayoutGuide type="bottom" id="soT-Ua-J1I"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xnU-Hf-8jD">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Create a public event" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nUf-oy-8Yn">
+                                <rect key="frame" x="216" y="289" width="169" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.1580529453" blue="0.12267466639999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="soT-Ua-J1I" firstAttribute="top" secondItem="nUf-oy-8Yn" secondAttribute="bottom" constant="290" id="IRG-s0-qkl"/>
+                            <constraint firstItem="nUf-oy-8Yn" firstAttribute="leading" secondItem="xnU-Hf-8jD" secondAttribute="leadingMargin" constant="196" id="T6s-7V-gnR"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="nUf-oy-8Yn" secondAttribute="trailing" constant="195" id="iAC-iP-wCg"/>
+                            <constraint firstItem="nUf-oy-8Yn" firstAttribute="top" secondItem="mzq-Nh-hDS" secondAttribute="bottom" constant="269" id="l6f-DH-TlG"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Create Public Event" id="kRG-Dh-dEV">
+                        <barButtonItem key="rightBarButtonItem" systemItem="cancel" id="uCr-Rq-ikk">
+                            <connections>
+                                <action selector="cancel:" destination="cFA-7S-Typ" id="XG7-OT-EZv"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PYl-2a-zSd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="178" y="481"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="423-4C-8ik">
+            <objects>
+                <navigationController storyboardIdentifier="CreatePublicEventNav" id="6PY-Ob-H9d" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Sub-1U-O3B">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="cFA-7S-Typ" kind="relationship" relationship="rootViewController" id="UZi-Hg-bh1"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="55D-1P-LOG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="178" y="-247"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="7mx-5L-oXV">
+            <objects>
+                <navigationController storyboardIdentifier="CreatePrivateEventNav" id="Gzp-Kx-SRl" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hgi-pv-dbC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="zqz-Rh-Jb2" kind="relationship" relationship="rootViewController" id="UyR-jc-8eS"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QeL-FH-aVA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1026" y="-242"/>
+        </scene>
+        <!--Create Private Event-->
+        <scene sceneID="ayC-Qv-CdR">
+            <objects>
+                <viewController storyboardIdentifier="CreatePrivateEvent" title="Create Private Event" id="zqz-Rh-Jb2" customClass="CreatePrivateEventViewController" customModule="Zanga_0_2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="GXm-QN-nAn"/>
+                        <viewControllerLayoutGuide type="bottom" id="eqg-WX-7Hr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5RG-Uh-zAu">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Create a private event" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BOL-8U-zvu">
+                                <rect key="frame" x="211" y="289" width="178" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Create Private Event" id="s7N-Oi-w0m">
+                        <barButtonItem key="rightBarButtonItem" systemItem="cancel" id="jfH-rF-K8k">
+                            <connections>
+                                <action selector="cancel:" destination="zqz-Rh-Jb2" id="wRf-cp-bDg"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QcF-lY-fug" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1026" y="481"/>
+        </scene>
+    </scenes>
+</document>

@@ -4,3 +4,4 @@
 
 #import "SWRevealViewController.h"
 #import "UIImageView+WebCache.h"
+#import <FBSDKLoginKit/FBSDKLoginKit.h>

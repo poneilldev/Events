@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5AF319F2FC6B509E9052F58B /* Pods_Zanga_0_2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D768F7720529CC9F5E185985 /* Pods_Zanga_0_2UITests.framework */; };
+		69946CDE456B87B7355275AE /* Pods_Zanga_0_2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDB1959090367648CBF2C35F /* Pods_Zanga_0_2.framework */; };
 		DA03F4B91CF8141A00DE0C33 /* SideMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA03F4B71CF8141A00DE0C33 /* SideMenuTableViewCell.swift */; };
 		DA03F4BA1CF8141A00DE0C33 /* SideMenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA03F4B81CF8141A00DE0C33 /* SideMenuTableViewCell.xib */; };
 		DA1287F41CF1565F00DE6527 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1287F31CF1565F00DE6527 /* SWRevealViewController.m */; };
@@ -16,8 +18,17 @@
 		DA19F3331D67A2EC00278FA2 /* saved.png in Resources */ = {isa = PBXBuildFile; fileRef = DA19F3321D67A2EC00278FA2 /* saved.png */; };
 		DA19F33B1D67AF6600278FA2 /* add-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DA19F33A1D67AF6600278FA2 /* add-icon.png */; };
 		DA19F33D1D67BCE800278FA2 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA19F33C1D67BCE800278FA2 /* CustomTabBarController.swift */; };
-		DA19F3411D6BA07600278FA2 /* privateEvent-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DA19F3401D6BA07600278FA2 /* privateEvent-icon.png */; };
-		DA19F3431D6BA07B00278FA2 /* publicEvent-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DA19F3421D6BA07B00278FA2 /* publicEvent-icon.png */; };
+		DA19F3461D6BA20F00278FA2 /* privateEvent-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DA19F3441D6BA20F00278FA2 /* privateEvent-icon.png */; };
+		DA19F3471D6BA20F00278FA2 /* publicEvent-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DA19F3451D6BA20F00278FA2 /* publicEvent-icon.png */; };
+		DA19F3491D6BD9C300278FA2 /* CreateEvent.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA19F3481D6BD9C300278FA2 /* CreateEvent.storyboard */; };
+		DA19F34B1D6C3F9200278FA2 /* CreatePublicEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA19F34A1D6C3F9200278FA2 /* CreatePublicEventViewController.swift */; };
+		DA19F34D1D6C3FA800278FA2 /* CreatePrivateEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA19F34C1D6C3FA800278FA2 /* CreatePrivateEventViewController.swift */; };
+		DA19F34F1D6F4D6600278FA2 /* NotificationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA19F34E1D6F4D6600278FA2 /* NotificationsTableViewController.swift */; };
+		DA19F3511D768A0100278FA2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA19F3501D768A0100278FA2 /* LoginViewController.swift */; };
+		DA19F3531D769AA300278FA2 /* SignLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA19F3521D769AA300278FA2 /* SignLoginViewController.swift */; };
+		DA19F3551D76A4FA00278FA2 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = DA19F3541D76A4FA00278FA2 /* logo.png */; };
+		DA19F3571D76BF5500278FA2 /* password-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DA19F3561D76BF5500278FA2 /* password-icon.png */; };
+		DA19F3591D76BF5900278FA2 /* Email-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DA19F3581D76BF5900278FA2 /* Email-Icon.png */; };
 		DA30EB081D46CFD5001AF178 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA30EB071D46CFD5001AF178 /* Event.swift */; };
 		DA30EB0B1D46E9C1001AF178 /* SchoolTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA30EB091D46E9C1001AF178 /* SchoolTableViewCell.swift */; };
 		DA30EB0F1D46EA17001AF178 /* SchoolTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA30EB0D1D46EA17001AF178 /* SchoolTableViewController.swift */; };
@@ -44,6 +55,9 @@
 		DA8587C31D4AFBC600D600C2 /* SchoolEvent_StoryBoardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8587C21D4AFBC600D600C2 /* SchoolEvent_StoryBoardTableViewCell.swift */; };
 		DA8587C51D4C0C6A00D600C2 /* StyleSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8587C41D4C0C6A00D600C2 /* StyleSheet.swift */; };
 		DA8587CB1D4DB60D00D600C2 /* EventInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8587CA1D4DB60D00D600C2 /* EventInfoViewController.swift */; };
+		DA8DBA201D7A9D55002CF215 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8DBA1D1D7A9D55002CF215 /* FBSDKCoreKit.framework */; };
+		DA8DBA211D7A9D55002CF215 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8DBA1E1D7A9D55002CF215 /* FBSDKLoginKit.framework */; };
+		DA8DBA221D7A9D55002CF215 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8DBA1F1D7A9D55002CF215 /* FBSDKShareKit.framework */; };
 		DAA6A3FE1CEE2C000061DFE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA6A3FD1CEE2C000061DFE1 /* AppDelegate.swift */; };
 		DAA6A4071CEE2C000061DFE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAA6A4061CEE2C000061DFE1 /* Assets.xcassets */; };
 		DAA6A40A1CEE2C000061DFE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAA6A4081CEE2C000061DFE1 /* LaunchScreen.storyboard */; };
@@ -65,6 +79,7 @@
 		DAE0CBC11CEED8B300FE69E3 /* NotSchoolTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE0CBC01CEED8B300FE69E3 /* NotSchoolTableViewController.swift */; };
 		DAE0CBC31CEED8C300FE69E3 /* MyEventsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE0CBC21CEED8C300FE69E3 /* MyEventsTableViewController.swift */; };
 		DAE0CBC51CEEDA1800FE69E3 /* CreateEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE0CBC41CEEDA1800FE69E3 /* CreateEventViewController.swift */; };
+		E4834401F62DFE87B57C70D5 /* Pods_Zanga_0_2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E54CAC460913195039FAEFE4 /* Pods_Zanga_0_2Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +100,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		119C79EB298C1D20B10C6568 /* Pods-Zanga_0.2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zanga_0.2UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Zanga_0.2UITests/Pods-Zanga_0.2UITests.release.xcconfig"; sourceTree = "<group>"; };
+		15D6B8FC3B6EE779520EC8B2 /* Pods-Zanga_0.2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zanga_0.2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Zanga_0.2/Pods-Zanga_0.2.release.xcconfig"; sourceTree = "<group>"; };
+		4F48D5D41AE4FC3BF3F29ADC /* Pods-Zanga_0.2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zanga_0.2Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Zanga_0.2Tests/Pods-Zanga_0.2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8212FB415695449C58D5806E /* Pods-Zanga_0.2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zanga_0.2Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Zanga_0.2Tests/Pods-Zanga_0.2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C5F6AA45C3547CE9B22AFA43 /* Pods-Zanga_0.2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zanga_0.2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Zanga_0.2/Pods-Zanga_0.2.debug.xcconfig"; sourceTree = "<group>"; };
+		D2366ACDDCE86AB9B9867BE2 /* Pods-Zanga_0.2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zanga_0.2UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Zanga_0.2UITests/Pods-Zanga_0.2UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D768F7720529CC9F5E185985 /* Pods_Zanga_0_2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zanga_0_2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA03F4B71CF8141A00DE0C33 /* SideMenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SideMenuTableViewCell.swift; path = ../SideMenuTableViewCell.swift; sourceTree = "<group>"; };
 		DA03F4B81CF8141A00DE0C33 /* SideMenuTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SideMenuTableViewCell.xib; path = ../SideMenuTableViewCell.xib; sourceTree = "<group>"; };
 		DA1287F11CF1565E00DE6527 /* Zanga_0.2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Zanga_0.2-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -96,8 +118,17 @@
 		DA19F3321D67A2EC00278FA2 /* saved.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = saved.png; sourceTree = "<group>"; };
 		DA19F33A1D67AF6600278FA2 /* add-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add-icon.png"; sourceTree = "<group>"; };
 		DA19F33C1D67BCE800278FA2 /* CustomTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
-		DA19F3401D6BA07600278FA2 /* privateEvent-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "privateEvent-icon.png"; sourceTree = "<group>"; };
-		DA19F3421D6BA07B00278FA2 /* publicEvent-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "publicEvent-icon.png"; sourceTree = "<group>"; };
+		DA19F3441D6BA20F00278FA2 /* privateEvent-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "privateEvent-icon.png"; sourceTree = "<group>"; };
+		DA19F3451D6BA20F00278FA2 /* publicEvent-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "publicEvent-icon.png"; sourceTree = "<group>"; };
+		DA19F3481D6BD9C300278FA2 /* CreateEvent.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CreateEvent.storyboard; sourceTree = "<group>"; };
+		DA19F34A1D6C3F9200278FA2 /* CreatePublicEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePublicEventViewController.swift; sourceTree = "<group>"; };
+		DA19F34C1D6C3FA800278FA2 /* CreatePrivateEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePrivateEventViewController.swift; sourceTree = "<group>"; };
+		DA19F34E1D6F4D6600278FA2 /* NotificationsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsTableViewController.swift; sourceTree = "<group>"; };
+		DA19F3501D768A0100278FA2 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DA19F3521D769AA300278FA2 /* SignLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignLoginViewController.swift; sourceTree = "<group>"; };
+		DA19F3541D76A4FA00278FA2 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		DA19F3561D76BF5500278FA2 /* password-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "password-icon.png"; sourceTree = "<group>"; };
+		DA19F3581D76BF5900278FA2 /* Email-Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Email-Icon.png"; sourceTree = "<group>"; };
 		DA30EB071D46CFD5001AF178 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		DA30EB091D46E9C1001AF178 /* SchoolTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolTableViewCell.swift; sourceTree = "<group>"; };
 		DA30EB0D1D46EA17001AF178 /* SchoolTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolTableViewController.swift; sourceTree = "<group>"; };
@@ -142,6 +173,9 @@
 		DA8587C21D4AFBC600D600C2 /* SchoolEvent_StoryBoardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolEvent_StoryBoardTableViewCell.swift; sourceTree = "<group>"; };
 		DA8587C41D4C0C6A00D600C2 /* StyleSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleSheet.swift; sourceTree = "<group>"; };
 		DA8587CA1D4DB60D00D600C2 /* EventInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventInfoViewController.swift; sourceTree = "<group>"; };
+		DA8DBA1D1D7A9D55002CF215 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		DA8DBA1E1D7A9D55002CF215 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		DA8DBA1F1D7A9D55002CF215 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
 		DAA6A3FA1CEE2C000061DFE1 /* Zanga_0.2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zanga_0.2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAA6A3FD1CEE2C000061DFE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAA6A4061CEE2C000061DFE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -169,6 +203,8 @@
 		DAE0CBC01CEED8B300FE69E3 /* NotSchoolTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotSchoolTableViewController.swift; sourceTree = "<group>"; };
 		DAE0CBC21CEED8C300FE69E3 /* MyEventsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyEventsTableViewController.swift; sourceTree = "<group>"; };
 		DAE0CBC41CEEDA1800FE69E3 /* CreateEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateEventViewController.swift; sourceTree = "<group>"; };
+		DDB1959090367648CBF2C35F /* Pods_Zanga_0_2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zanga_0_2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E54CAC460913195039FAEFE4 /* Pods_Zanga_0_2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zanga_0_2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +212,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA8DBA221D7A9D55002CF215 /* FBSDKShareKit.framework in Frameworks */,
+				69946CDE456B87B7355275AE /* Pods_Zanga_0_2.framework in Frameworks */,
+				DA8DBA201D7A9D55002CF215 /* FBSDKCoreKit.framework in Frameworks */,
+				DA8DBA211D7A9D55002CF215 /* FBSDKLoginKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,6 +223,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4834401F62DFE87B57C70D5 /* Pods_Zanga_0_2Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,12 +231,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AF319F2FC6B509E9052F58B /* Pods_Zanga_0_2UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07F67E3E0D8965536A8E066E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5F6AA45C3547CE9B22AFA43 /* Pods-Zanga_0.2.debug.xcconfig */,
+				15D6B8FC3B6EE779520EC8B2 /* Pods-Zanga_0.2.release.xcconfig */,
+				8212FB415695449C58D5806E /* Pods-Zanga_0.2Tests.debug.xcconfig */,
+				4F48D5D41AE4FC3BF3F29ADC /* Pods-Zanga_0.2Tests.release.xcconfig */,
+				D2366ACDDCE86AB9B9867BE2 /* Pods-Zanga_0.2UITests.debug.xcconfig */,
+				119C79EB298C1D20B10C6568 /* Pods-Zanga_0.2UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DA03F4B21CF8133100DE0C33 /* Third Party */ = {
 			isa = PBXGroup;
 			children = (
@@ -281,6 +336,8 @@
 				DAA6A4131CEE2C000061DFE1 /* Zanga_0.2Tests */,
 				DAA6A41E1CEE2C000061DFE1 /* Zanga_0.2UITests */,
 				DAA6A3FB1CEE2C000061DFE1 /* Products */,
+				07F67E3E0D8965536A8E066E /* Pods */,
+				EF35A4A0307800C081638575 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -343,6 +400,11 @@
 				DA03F4B81CF8141A00DE0C33 /* SideMenuTableViewCell.xib */,
 				DAD7FFEF1CF172B800375BFE /* SideMenuTableViewController.swift */,
 				DA8587CA1D4DB60D00D600C2 /* EventInfoViewController.swift */,
+				DA19F34C1D6C3FA800278FA2 /* CreatePrivateEventViewController.swift */,
+				DA19F34A1D6C3F9200278FA2 /* CreatePublicEventViewController.swift */,
+				DA19F34E1D6F4D6600278FA2 /* NotificationsTableViewController.swift */,
+				DA19F3501D768A0100278FA2 /* LoginViewController.swift */,
+				DA19F3521D769AA300278FA2 /* SignLoginViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -354,6 +416,7 @@
 				DAA6A4431CEE3FE50061DFE1 /* Profile.storyboard */,
 				DAE0CBB71CEE9C3C00FE69E3 /* Main.storyboard */,
 				DA8587C01D4AF94C00D600C2 /* SchoolEventTableView.storyboard */,
+				DA19F3481D6BD9C300278FA2 /* CreateEvent.storyboard */,
 			);
 			name = StoryBoards;
 			sourceTree = "<group>";
@@ -365,10 +428,13 @@
 				DA19F32E1D67A26900278FA2 /* notifications-icon.png */,
 				DA19F3321D67A2EC00278FA2 /* saved.png */,
 				DAA6A43D1CEE327F0061DFE1 /* menu-icon.png */,
+				DA19F3541D76A4FA00278FA2 /* logo.png */,
 				DA19F3301D67A2AA00278FA2 /* search.png */,
+				DA19F3561D76BF5500278FA2 /* password-icon.png */,
 				DA19F33A1D67AF6600278FA2 /* add-icon.png */,
-				DA19F3421D6BA07B00278FA2 /* publicEvent-icon.png */,
-				DA19F3401D6BA07600278FA2 /* privateEvent-icon.png */,
+				DA19F3441D6BA20F00278FA2 /* privateEvent-icon.png */,
+				DA19F3581D76BF5900278FA2 /* Email-Icon.png */,
+				DA19F3451D6BA20F00278FA2 /* publicEvent-icon.png */,
 				DAA6A43E1CEE327F0061DFE1 /* z-icon.png */,
 				DAA6A43F1CEE327F0061DFE1 /* create-event.png */,
 				DAA6A4331CEE2FD40061DFE1 /* icon-profile.png */,
@@ -398,6 +464,19 @@
 			name = EventsTableViews;
 			sourceTree = "<group>";
 		};
+		EF35A4A0307800C081638575 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDB1959090367648CBF2C35F /* Pods_Zanga_0_2.framework */,
+				E54CAC460913195039FAEFE4 /* Pods_Zanga_0_2Tests.framework */,
+				DA8DBA1D1D7A9D55002CF215 /* FBSDKCoreKit.framework */,
+				DA8DBA1E1D7A9D55002CF215 /* FBSDKLoginKit.framework */,
+				DA8DBA1F1D7A9D55002CF215 /* FBSDKShareKit.framework */,
+				D768F7720529CC9F5E185985 /* Pods_Zanga_0_2UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -405,9 +484,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DAA6A4241CEE2C000061DFE1 /* Build configuration list for PBXNativeTarget "Zanga_0.2" */;
 			buildPhases = (
+				6B5D9C26B89C900FBB10FABD /* [CP] Check Pods Manifest.lock */,
 				DAA6A3F61CEE2C000061DFE1 /* Sources */,
 				DAA6A3F71CEE2C000061DFE1 /* Frameworks */,
 				DAA6A3F81CEE2C000061DFE1 /* Resources */,
+				093266FE94DDB027564A9178 /* [CP] Embed Pods Frameworks */,
+				2CE1A594181458C84FC3955D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -422,9 +504,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DAA6A4271CEE2C000061DFE1 /* Build configuration list for PBXNativeTarget "Zanga_0.2Tests" */;
 			buildPhases = (
+				E11543A369DA994499C05168 /* [CP] Check Pods Manifest.lock */,
 				DAA6A40C1CEE2C000061DFE1 /* Sources */,
 				DAA6A40D1CEE2C000061DFE1 /* Frameworks */,
 				DAA6A40E1CEE2C000061DFE1 /* Resources */,
+				E0CFF6ACB20A7DBDB015C8C9 /* [CP] Embed Pods Frameworks */,
+				997C2FA261A73826F7636927 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -440,9 +525,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DAA6A42A1CEE2C000061DFE1 /* Build configuration list for PBXNativeTarget "Zanga_0.2UITests" */;
 			buildPhases = (
+				A5D88A824CFC45E09F02E969 /* [CP] Check Pods Manifest.lock */,
 				DAA6A4171CEE2C000061DFE1 /* Sources */,
 				DAA6A4181CEE2C000061DFE1 /* Frameworks */,
 				DAA6A4191CEE2C000061DFE1 /* Resources */,
+				70E9FFCB3AA888803274A28D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -466,6 +553,7 @@
 				TargetAttributes = {
 					DAA6A3F91CEE2C000061DFE1 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = XC6L8V932J;
 					};
 					DAA6A40F1CEE2C000061DFE1 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -506,17 +594,21 @@
 				DA8587BB1D471A9800D600C2 /* placeholder.jpg in Resources */,
 				DAA6A4421CEE327F0061DFE1 /* create-event.png in Resources */,
 				DA8587C11D4AF94C00D600C2 /* SchoolEventTableView.storyboard in Resources */,
+				DA19F3491D6BD9C300278FA2 /* CreateEvent.storyboard in Resources */,
+				DA19F3591D76BF5900278FA2 /* Email-Icon.png in Resources */,
 				DAA6A4441CEE3FE50061DFE1 /* Profile.storyboard in Resources */,
 				DA19F3331D67A2EC00278FA2 /* saved.png in Resources */,
 				DAE0CBB81CEE9C3C00FE69E3 /* Main.storyboard in Resources */,
+				DA19F3461D6BA20F00278FA2 /* privateEvent-icon.png in Resources */,
+				DA19F3471D6BA20F00278FA2 /* publicEvent-icon.png in Resources */,
 				DAA6A4411CEE327F0061DFE1 /* z-icon.png in Resources */,
-				DA19F3431D6BA07B00278FA2 /* publicEvent-icon.png in Resources */,
 				DAA6A4071CEE2C000061DFE1 /* Assets.xcassets in Resources */,
 				DA19F32F1D67A26900278FA2 /* notifications-icon.png in Resources */,
 				DA19F3311D67A2AA00278FA2 /* search.png in Resources */,
 				DA03F4BA1CF8141A00DE0C33 /* SideMenuTableViewCell.xib in Resources */,
+				DA19F3571D76BF5500278FA2 /* password-icon.png in Resources */,
 				DA8587BF1D47367700D600C2 /* SchoolTableViewCell.xib in Resources */,
-				DA19F3411D6BA07600278FA2 /* privateEvent-icon.png in Resources */,
+				DA19F3551D76A4FA00278FA2 /* logo.png in Resources */,
 				DAA6A4341CEE2FD40061DFE1 /* icon-profile.png in Resources */,
 				DA19F33B1D67AF6600278FA2 /* add-icon.png in Resources */,
 				DAA6A4401CEE327F0061DFE1 /* menu-icon.png in Resources */,
@@ -539,11 +631,135 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		093266FE94DDB027564A9178 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Zanga_0.2/Pods-Zanga_0.2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CE1A594181458C84FC3955D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Zanga_0.2/Pods-Zanga_0.2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B5D9C26B89C900FBB10FABD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		70E9FFCB3AA888803274A28D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Zanga_0.2UITests/Pods-Zanga_0.2UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		997C2FA261A73826F7636927 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Zanga_0.2Tests/Pods-Zanga_0.2Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5D88A824CFC45E09F02E969 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E0CFF6ACB20A7DBDB015C8C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Zanga_0.2Tests/Pods-Zanga_0.2Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E11543A369DA994499C05168 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DAA6A3F61CEE2C000061DFE1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA19F3511D768A0100278FA2 /* LoginViewController.swift in Sources */,
 				DA30EB451D471062001AF178 /* UIView+WebCacheOperation.m in Sources */,
 				DAA6A44B1CEE489F0061DFE1 /* HostingTableViewController.swift in Sources */,
 				DA19F33D1D67BCE800278FA2 /* CustomTabBarController.swift in Sources */,
@@ -553,6 +769,7 @@
 				DA03F4B91CF8141A00DE0C33 /* SideMenuTableViewCell.swift in Sources */,
 				DAE0CBBC1CEED7D400FE69E3 /* EventsViewController.swift in Sources */,
 				DA30EB3D1D471062001AF178 /* SDWebImageManager.m in Sources */,
+				DA19F34D1D6C3FA800278FA2 /* CreatePrivateEventViewController.swift in Sources */,
 				DA30EB3A1D471062001AF178 /* SDWebImageDecoder.m in Sources */,
 				DA8587CB1D4DB60D00D600C2 /* EventInfoViewController.swift in Sources */,
 				DAD7FFF01CF172B800375BFE /* SideMenuTableViewController.swift in Sources */,
@@ -568,6 +785,7 @@
 				DA30EB421D471062001AF178 /* UIImage+WebP.m in Sources */,
 				DA30EB371D471061001AF178 /* NSData+ImageContentType.m in Sources */,
 				DA30EB391D471061001AF178 /* SDWebImageCompat.m in Sources */,
+				DA19F3531D769AA300278FA2 /* SignLoginViewController.swift in Sources */,
 				DAE0CBC11CEED8B300FE69E3 /* NotSchoolTableViewController.swift in Sources */,
 				DA30EB0B1D46E9C1001AF178 /* SchoolTableViewCell.swift in Sources */,
 				DA30EB381D471061001AF178 /* SDImageCache.m in Sources */,
@@ -576,6 +794,8 @@
 				DAA6A44D1CEE515D0061DFE1 /* CAPSPageMenu.swift in Sources */,
 				DA30EB411D471062001AF178 /* UIImage+MultiFormat.m in Sources */,
 				DA30EB3F1D471062001AF178 /* UIButton+WebCache.m in Sources */,
+				DA19F34B1D6C3F9200278FA2 /* CreatePublicEventViewController.swift in Sources */,
+				DA19F34F1D6F4D6600278FA2 /* NotificationsTableViewController.swift in Sources */,
 				DA8587C51D4C0C6A00D600C2 /* StyleSheet.swift in Sources */,
 				DA8527DF1CEEE956001EEA31 /* PersonalProfileViewController.swift in Sources */,
 				DA30EB361D471061001AF178 /* MKAnnotationView+WebCache.m in Sources */,
@@ -637,6 +857,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
@@ -682,6 +903,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
@@ -713,13 +935,22 @@
 		};
 		DAA6A4251CEE2C000061DFE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5F6AA45C3547CE9B22AFA43 /* Pods-Zanga_0.2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Zanga_0.2",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Zanga_0.2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.paulgrid.Zanga-0-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Zanga_0.2/Zanga_0.2-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -728,13 +959,22 @@
 		};
 		DAA6A4261CEE2C000061DFE1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15D6B8FC3B6EE779520EC8B2 /* Pods-Zanga_0.2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Zanga_0.2",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Zanga_0.2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.paulgrid.Zanga-0-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Zanga_0.2/Zanga_0.2-Bridging-Header.h";
 			};
@@ -742,6 +982,7 @@
 		};
 		DAA6A4281CEE2C000061DFE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8212FB415695449C58D5806E /* Pods-Zanga_0.2Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = Zanga_0.2Tests/Info.plist;
@@ -754,6 +995,7 @@
 		};
 		DAA6A4291CEE2C000061DFE1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F48D5D41AE4FC3BF3F29ADC /* Pods-Zanga_0.2Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = Zanga_0.2Tests/Info.plist;
@@ -766,6 +1008,7 @@
 		};
 		DAA6A42B1CEE2C000061DFE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2366ACDDCE86AB9B9867BE2 /* Pods-Zanga_0.2UITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = Zanga_0.2UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -777,6 +1020,7 @@
 		};
 		DAA6A42C1CEE2C000061DFE1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 119C79EB298C1D20B10C6568 /* Pods-Zanga_0.2UITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = Zanga_0.2UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
