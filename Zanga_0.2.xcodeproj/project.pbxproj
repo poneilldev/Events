@@ -65,8 +65,6 @@
 		DAA6A4201CEE2C000061DFE1 /* Zanga_0_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA6A41F1CEE2C000061DFE1 /* Zanga_0_2UITests.swift */; };
 		DAA6A4341CEE2FD40061DFE1 /* icon-profile.png in Resources */ = {isa = PBXBuildFile; fileRef = DAA6A4331CEE2FD40061DFE1 /* icon-profile.png */; };
 		DAA6A4401CEE327F0061DFE1 /* menu-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DAA6A43D1CEE327F0061DFE1 /* menu-icon.png */; };
-		DAA6A4411CEE327F0061DFE1 /* z-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DAA6A43E1CEE327F0061DFE1 /* z-icon.png */; };
-		DAA6A4421CEE327F0061DFE1 /* create-event.png in Resources */ = {isa = PBXBuildFile; fileRef = DAA6A43F1CEE327F0061DFE1 /* create-event.png */; };
 		DAA6A4441CEE3FE50061DFE1 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAA6A4431CEE3FE50061DFE1 /* Profile.storyboard */; };
 		DAA6A4461CEE46EC0061DFE1 /* MyCrowdTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA6A4451CEE46EC0061DFE1 /* MyCrowdTableViewController.swift */; };
 		DAA6A4491CEE47B30061DFE1 /* InvitationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA6A4481CEE47B30061DFE1 /* InvitationsTableViewController.swift */; };
@@ -189,8 +187,6 @@
 		DAA6A4211CEE2C000061DFE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAA6A4331CEE2FD40061DFE1 /* icon-profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-profile.png"; path = "../icon-profile.png"; sourceTree = "<group>"; };
 		DAA6A43D1CEE327F0061DFE1 /* menu-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "menu-icon.png"; path = "../../../project_images/menu-icon.png"; sourceTree = "<group>"; };
-		DAA6A43E1CEE327F0061DFE1 /* z-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "z-icon.png"; path = "../../../project_images/z-icon.png"; sourceTree = "<group>"; };
-		DAA6A43F1CEE327F0061DFE1 /* create-event.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "create-event.png"; path = "../../../project_images/create-event.png"; sourceTree = "<group>"; };
 		DAA6A4431CEE3FE50061DFE1 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		DAA6A4451CEE46EC0061DFE1 /* MyCrowdTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyCrowdTableViewController.swift; path = ../MyCrowdTableViewController.swift; sourceTree = "<group>"; };
 		DAA6A4481CEE47B30061DFE1 /* InvitationsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvitationsTableViewController.swift; sourceTree = "<group>"; };
@@ -435,8 +431,6 @@
 				DA19F3441D6BA20F00278FA2 /* privateEvent-icon.png */,
 				DA19F3581D76BF5900278FA2 /* Email-Icon.png */,
 				DA19F3451D6BA20F00278FA2 /* publicEvent-icon.png */,
-				DAA6A43E1CEE327F0061DFE1 /* z-icon.png */,
-				DAA6A43F1CEE327F0061DFE1 /* create-event.png */,
 				DAA6A4331CEE2FD40061DFE1 /* icon-profile.png */,
 			);
 			name = Images;
@@ -592,7 +586,6 @@
 			files = (
 				DAA6A40A1CEE2C000061DFE1 /* LaunchScreen.storyboard in Resources */,
 				DA8587BB1D471A9800D600C2 /* placeholder.jpg in Resources */,
-				DAA6A4421CEE327F0061DFE1 /* create-event.png in Resources */,
 				DA8587C11D4AF94C00D600C2 /* SchoolEventTableView.storyboard in Resources */,
 				DA19F3491D6BD9C300278FA2 /* CreateEvent.storyboard in Resources */,
 				DA19F3591D76BF5900278FA2 /* Email-Icon.png in Resources */,
@@ -601,7 +594,6 @@
 				DAE0CBB81CEE9C3C00FE69E3 /* Main.storyboard in Resources */,
 				DA19F3461D6BA20F00278FA2 /* privateEvent-icon.png in Resources */,
 				DA19F3471D6BA20F00278FA2 /* publicEvent-icon.png in Resources */,
-				DAA6A4411CEE327F0061DFE1 /* z-icon.png in Resources */,
 				DAA6A4071CEE2C000061DFE1 /* Assets.xcassets in Resources */,
 				DA19F32F1D67A26900278FA2 /* notifications-icon.png in Resources */,
 				DA19F3311D67A2AA00278FA2 /* search.png in Resources */,

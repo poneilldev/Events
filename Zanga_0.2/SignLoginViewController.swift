@@ -14,6 +14,7 @@ var fbLoginSuccess = false
 
 let fbLoginButton: FBSDKLoginButton = {
     let button = FBSDKLoginButton()
+    button.layer.cornerRadius = 30
     button.readPermissions = ["email"]
     return button
 }()
@@ -37,12 +38,12 @@ class SignLoginViewController: UIViewController, FBSDKLoginButtonDelegate {
         view.addSubview(fbLoginButton)
         fbLoginButton.layer.cornerRadius = 30
         
+        
         let horizontalConstraint = fbLoginButton.centerXAnchor.constraintEqualToAnchor(view.centerXAnchor)
         let verticalConstraint = fbLoginButton.bottomAnchor.constraintEqualToAnchor(view.bottomAnchor, constant: -50)
         let widthConstraint = fbLoginButton.widthAnchor.constraintEqualToAnchor(nil, constant: view.frame.width - 30)
         let heightConstraint = fbLoginButton.heightAnchor.constraintEqualToAnchor(nil, constant: 60)
         NSLayoutConstraint.activateConstraints([horizontalConstraint, verticalConstraint, widthConstraint, heightConstraint])
-        
         
         
         if let token = FBSDKAccessToken.currentAccessToken() {
