@@ -72,7 +72,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hbT-xE-wfq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1171" y="1538"/>
+            <point key="canvasLocation" x="-1767" y="1522.5"/>
         </scene>
         <!--Sign Login View Controller-->
         <scene sceneID="9x3-rP-i8F">
@@ -92,15 +92,65 @@
                                     <constraint firstAttribute="height" constant="128" id="uLS-7J-msi"/>
                                 </constraints>
                             </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JuC-1w-3VB">
+                                <rect key="frame" x="20" y="380" width="560" height="65"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="Eub-W3-eQQ"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="05H-yi-b8L">
+                                <rect key="frame" x="20" y="460" width="560" height="64"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="googleLoginIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="uty-BS-6GE">
+                                        <rect key="frame" x="17" y="16" width="31" height="32"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="31" id="dGt-L1-V32"/>
+                                            <constraint firstAttribute="height" constant="32" id="tbJ-oT-Mt9"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Log in with Google" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fM2-A6-nkB">
+                                        <rect key="frame" x="107" y="21" width="150" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="35j-86-dGA"/>
+                                            <constraint firstAttribute="width" constant="150" id="3kG-ni-asn"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.20814233530000001" green="0.22086163519999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="fM2-A6-nkB" firstAttribute="leading" secondItem="uty-BS-6GE" secondAttribute="trailing" constant="59" id="6vZ-kB-86c"/>
+                                    <constraint firstAttribute="height" constant="64" id="Gsr-wN-cdH"/>
+                                    <constraint firstItem="uty-BS-6GE" firstAttribute="top" secondItem="05H-yi-b8L" secondAttribute="top" constant="16" id="Q2M-Os-Ac2"/>
+                                    <constraint firstItem="uty-BS-6GE" firstAttribute="leading" secondItem="05H-yi-b8L" secondAttribute="leading" constant="17" id="ZHc-nN-7EP"/>
+                                    <constraint firstItem="fM2-A6-nkB" firstAttribute="top" secondItem="05H-yi-b8L" secondAttribute="top" constant="21" id="xvk-b6-q9Y"/>
+                                    <constraint firstAttribute="bottom" secondItem="fM2-A6-nkB" secondAttribute="bottom" constant="22" id="zUY-Yf-GUc"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="05H-yi-b8L" secondAttribute="trailing" id="9uf-Zn-hQ1"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="05H-yi-b8L" secondAttribute="leading" id="Gbh-X5-ZBq"/>
                             <constraint firstItem="9tF-tj-74G" firstAttribute="top" secondItem="NYl-in-6Z4" secondAttribute="bottom" constant="98" id="HfG-Cp-tZL"/>
                             <constraint firstAttribute="trailingMargin" secondItem="9tF-tj-74G" secondAttribute="trailing" constant="160" id="SCo-Rl-hyF"/>
+                            <constraint firstItem="f6P-HM-NIi" firstAttribute="top" secondItem="05H-yi-b8L" secondAttribute="bottom" constant="27" id="WVW-ft-G7g"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="JuC-1w-3VB" secondAttribute="leading" id="YKt-SE-reG"/>
                             <constraint firstItem="9tF-tj-74G" firstAttribute="leading" secondItem="KPX-2a-bbI" secondAttribute="leadingMargin" constant="160" id="ePW-JM-0cm"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="JuC-1w-3VB" secondAttribute="trailing" id="eRN-8E-mBB"/>
+                            <constraint firstItem="05H-yi-b8L" firstAttribute="top" secondItem="JuC-1w-3VB" secondAttribute="bottom" constant="15" id="ze7-MN-7J7"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="fbButtonContainer" destination="JuC-1w-3VB" id="Uqv-ZO-NCB"/>
+                        <outlet property="ggButtonContainer" destination="05H-yi-b8L" id="FwK-Hr-Mso"/>
+                        <outlet property="googleIcon" destination="uty-BS-6GE" id="LO8-8w-4KK"/>
                         <segue destination="K1T-ck-N12" kind="show" identifier="LoggedIn" id="hAW-qU-GaM"/>
                     </connections>
                 </viewController>
@@ -278,35 +328,35 @@
                         <segue destination="Kef-2X-uhp" kind="relationship" relationship="viewControllers" id="UPX-Le-OAu"/>
                         <segue destination="ysa-Yn-XGr" kind="relationship" relationship="viewControllers" id="deT-Qr-kdn"/>
                         <segue destination="rsy-Ar-6Ci" kind="relationship" relationship="viewControllers" id="Kei-Xg-mbv"/>
-                        <segue destination="4d7-tJ-XLP" kind="relationship" relationship="viewControllers" id="idc-dG-MF6"/>
                         <segue destination="cav-0T-Ihg" kind="show" identifier="newUser" id="jkw-IG-ZNF"/>
+                        <segue destination="7oy-A0-lLl" kind="relationship" relationship="viewControllers" id="84i-Ka-0Ig"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tpr-hv-PQH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-241" y="-452"/>
         </scene>
-        <!--Profile-->
+        <!--Navigation Controller-->
         <scene sceneID="Hkk-Wg-Lil">
             <objects>
                 <navigationController id="7oy-A0-lLl" sceneMemberID="viewController">
                     <extendedEdge key="edgesForExtendedLayout"/>
-                    <tabBarItem key="tabBarItem" title="Profile" id="6ji-Yz-eZP"/>
+                    <tabBarItem key="tabBarItem" title="" image="icon-profile.png" id="6ji-Yz-eZP">
+                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="-7"/>
+                    </tabBarItem>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="ESF-ow-DIn">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
-                    <connections>
-                        <segue destination="qhF-t9-8JA" kind="relationship" relationship="rootViewController" id="eOh-a9-hqB"/>
-                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fUZ-EQ-SwO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-372" y="2267"/>
+            <point key="canvasLocation" x="-381" y="768"/>
         </scene>
         <!--Events-->
         <scene sceneID="ZMv-2O-oYR">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TgL-iU-CkA" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController id="ugJ-gB-uko" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Events" id="qgd-VB-yLQ"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="F4i-MZ-NiP">
@@ -317,7 +367,6 @@
                         <segue destination="Dzf-kF-gvM" kind="relationship" relationship="rootViewController" id="ep0-KU-uad"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="TgL-iU-CkA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="355" y="2255"/>
         </scene>
@@ -355,32 +404,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qev-zE-War" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2025" y="1542"/>
-        </scene>
-        <!--Profile-->
-        <scene sceneID="2TP-eP-erk">
-            <objects>
-                <viewController storyboardIdentifier="SideMenu" title="Profile" id="4d7-tJ-XLP" customClass="SWRevealViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="peH-Vj-XNx"/>
-                        <viewControllerLayoutGuide type="bottom" id="918-Js-3Ta"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="lhg-iC-7Bc">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <extendedEdge key="edgesForExtendedLayout"/>
-                    <tabBarItem key="tabBarItem" title="" image="icon-profile.png" id="zla-JP-oeG">
-                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="-7"/>
-                    </tabBarItem>
-                    <connections>
-                        <segue destination="7oy-A0-lLl" kind="custom" identifier="sw_front" customClass="SWRevealViewControllerSegueSetController" id="3Lo-hm-DcH"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="rqT-u3-e4I" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-356" y="1294"/>
+            <point key="canvasLocation" x="-2502" y="1522.5"/>
         </scene>
         <!--Discover Events-->
         <scene sceneID="4Sa-uh-sOe">
@@ -406,29 +430,10 @@
             </objects>
             <point key="canvasLocation" x="365" y="1294"/>
         </scene>
-        <!--Profile-->
-        <scene sceneID="GMt-3U-PIL">
-            <objects>
-                <viewController id="qhF-t9-8JA" customClass="ProfileViewController" customModule="Zanga_0_2" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="4aI-cT-KSg"/>
-                        <viewControllerLayoutGuide type="bottom" id="QpS-9r-gbr"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="wYs-et-Idn">
-                        <rect key="frame" x="0.0" y="64" width="600" height="536"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                    </view>
-                    <extendedEdge key="edgesForExtendedLayout"/>
-                    <navigationItem key="navigationItem" title="Profile" id="WIf-TU-Jcs"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Py9-k8-pUv" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-378" y="3019"/>
-        </scene>
         <!--Events-->
         <scene sceneID="YdE-M5-Ter">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yxb-nf-lAF" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController storyboardIdentifier="DiscoverEvents" id="Dzf-kF-gvM" customClass="EventsViewController" customModule="Zanga_0_2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="IcV-GJ-nOi"/>
@@ -442,7 +447,6 @@
                     <extendedEdge key="edgesForExtendedLayout"/>
                     <navigationItem key="navigationItem" title="Events" id="enm-fP-Kqy"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Yxb-nf-lAF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="347" y="3027"/>
         </scene>
@@ -538,6 +542,9 @@
                                                 <state key="normal" title="Invite Friends">
                                                     <color key="titleColor" red="1" green="0.19568158190000001" blue="0.066081531930000006" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                                    <rect key="frame" x="244" y="670" width="114" height="30"/>
+                                                </variation>
                                             </button>
                                             <datePicker contentMode="scaleToFill" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="30" translatesAutoresizingMaskIntoConstraints="NO" id="2MM-7k-G2j">
                                                 <rect key="frame" x="0.0" y="94" width="600" height="169"/>
@@ -634,6 +641,7 @@
     <resources>
         <image name="Email-Icon.png" width="512" height="512"/>
         <image name="add-icon.png" width="55" height="55"/>
+        <image name="googleLoginIcon.png" width="117" height="82"/>
         <image name="icon-profile.png" width="35" height="35"/>
         <image name="logo.png" width="200" height="200"/>
         <image name="notifications-icon.png" width="23" height="23"/>

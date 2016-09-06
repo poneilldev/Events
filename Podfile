@@ -8,6 +8,7 @@ target 'Zanga_0.2' do
     pod 'SwiftyJSON', :git => 'https://github.com/SwiftyJSON/SwiftyJSON.git'
     pod 'SwiftKeychainWrapper'
     pod 'Bolts'
+    pod 'Google/SignIn'
 
   target 'Zanga_0.2Tests' do
     inherit! :search_paths

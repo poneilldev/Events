@@ -29,20 +29,13 @@ class CustomTabBarController: UITabBarController {
         if loginEmail == nil && firstName == nil && lastName == nil {
             performSegueWithIdentifier("newUser", sender: self)
         }
-        
-        
-        //        let hasLogin = NSUserDefaults.standardUserDefaults().boolForKey("hasLoginKey")
-        //        let pass = KeychainWrapper.stringForKey("v_Data")
-        //        if !hasLogin || pass == nil{
-        //            performSegueWithIdentifier("newUser", sender: self)
-        //        }
-        
     }
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
         let mainSb = UIStoryboard(name: "Main", bundle: nil)
+        let profileSB = UIStoryboard(name: "Profile", bundle: nil)
         
         let controller1 = mainSb.instantiateViewControllerWithIdentifier("DiscoverEvents")
         controller1.tabBarItem = UITabBarItem(title: "", image: AppIcons.discoverEvents.image(), tag: 1)
@@ -67,7 +60,7 @@ class CustomTabBarController: UITabBarController {
         controller4.tabBarItem.imageInsets.top = 6
         let nav4 = UINavigationController(rootViewController: controller4)
         
-        let controller5 = UIViewController() //storyBoard.instantiateViewControllerWithIdentifier("SideMenu")
+        let controller5 = profileSB.instantiateViewControllerWithIdentifier("main")
         controller5.tabBarItem = UITabBarItem(title: "", image: AppIcons.profile.image(), tag: 5)
         controller5.tabBarItem.imageInsets.bottom = -7
         controller5.tabBarItem.imageInsets.top = 7

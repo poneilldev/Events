@@ -83,9 +83,9 @@ class LoginViewController: UIViewController, FBSDKLoginButtonDelegate {
         
         
         
-        fbLoginButton.delegate = self
-        fbLoginButton.center = self.view.center
-        self.view.addSubview(fbLoginButton)
+//        fbLoginButton.delegate = self
+//        fbLoginButton.center = self.view.center
+//        self.view.addSubview(fbLoginButton)
         
         if let token = FBSDKAccessToken.currentAccessToken() {
             fetchProfile()

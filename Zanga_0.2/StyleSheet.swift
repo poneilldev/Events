@@ -56,6 +56,7 @@ enum AppIcons: String {
     case notification = "notifications-icon.png"
     case createPublic = "publicEvent-icon.png"
     case createPrivate = "privateEvent-icon.png"
+    case settings = "settings-icon.png"
     
     func image() -> UIImage? {
         return UIImage(named: rawValue)

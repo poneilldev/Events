@@ -7,61 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04C0082F6870C6DE50B11245E4221A39 /* BFCancellationTokenRegistration.h in Headers */ = {isa = PBXBuildFile; fileRef = 17E9C64BE69F903A7DFC6F71E63F1379 /* BFCancellationTokenRegistration.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		079F1EBA6840EB9BE24BD57AFBD73C57 /* BFAppLinkReturnToRefererController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C824FA1B485F17B53FD0D08A5419D5D /* BFAppLinkReturnToRefererController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		11074EF1935280D147266516C9B27B0B /* BFURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CC8854D80F77E0F3CDB297C24F3050 /* BFURL.m */; };
-		1223F5A55842762540827B06FF111C4A /* BFAppLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 5502D005ED62D5D4AF5DAEF3DE878CEA /* BFAppLink.m */; };
-		132458EB60BAA5BC75398E85E9074E8C /* BFAppLinkResolving.h in Headers */ = {isa = PBXBuildFile; fileRef = E5918AC807C1967B89B6D09D5C0F4539 /* BFAppLinkResolving.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		18CE9D61375040945DED78819CF3B09E /* BFCancellationTokenSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F4335FD433BA20E1A3FE0C25BB353E0B /* BFCancellationTokenSource.m */; };
-		21C2EDD822EFC4620D4709B0B4AF6154 /* Bolts.m in Sources */ = {isa = PBXBuildFile; fileRef = F84FA4CB30F08F47D1C1B20EEF477978 /* Bolts.m */; };
-		23B28BD68B353554241365676C9CC968 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6938DF9BCB7A44079D3C5EC78F3A0A0 /* KeychainWrapper.swift */; };
-		2AD890CEC2DF58FFC3BCEBE534538030 /* SwiftKeychainWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = C7C4A1360166D85411AEA6298A157BC7 /* SwiftKeychainWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04C0082F6870C6DE50B11245E4221A39 /* BFCancellationTokenRegistration.h in Headers */ = {isa = PBXBuildFile; fileRef = B2784D9E0B0A6F25820B5CB7EC0A7EF9 /* BFCancellationTokenRegistration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		079F1EBA6840EB9BE24BD57AFBD73C57 /* BFAppLinkReturnToRefererController.h in Headers */ = {isa = PBXBuildFile; fileRef = A2A459991718F15C67CC8018C0FD3757 /* BFAppLinkReturnToRefererController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11074EF1935280D147266516C9B27B0B /* BFURL.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C0280DD61D444A49AA643A8D1052F2 /* BFURL.m */; };
+		1223F5A55842762540827B06FF111C4A /* BFAppLink.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD2CD316AC3344ED89AC1D07C4633F6 /* BFAppLink.m */; };
+		132458EB60BAA5BC75398E85E9074E8C /* BFAppLinkResolving.h in Headers */ = {isa = PBXBuildFile; fileRef = 7192282533A85ECCFF05C43F43F648CB /* BFAppLinkResolving.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18CE9D61375040945DED78819CF3B09E /* BFCancellationTokenSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D57FB34F7BA85BD4331011A7D787425D /* BFCancellationTokenSource.m */; };
+		21C2EDD822EFC4620D4709B0B4AF6154 /* Bolts.m in Sources */ = {isa = PBXBuildFile; fileRef = 662D955DE8BFB90855E52267ADA92744 /* Bolts.m */; };
+		23B28BD68B353554241365676C9CC968 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77922992FDDDDE8259E3ADC9672D6301 /* KeychainWrapper.swift */; };
+		2AD890CEC2DF58FFC3BCEBE534538030 /* SwiftKeychainWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 031D8790CEF1D1538C67C7AB5887CB2B /* SwiftKeychainWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		31F19BBD274184789EF6FAD6624891CE /* Pods-Zanga_0.2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72DD92CB0742732AC69F349B576D260A /* Pods-Zanga_0.2-dummy.m */; };
-		33E8F1F452BE57EB3B065D5B2E065683 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3626D5C3C2F9BA0711EE6079D14E10A0 /* SwiftyJSON.swift */; };
-		3606A4DF8BB01301D9C86021F19BD2A5 /* BFAppLinkReturnToRefererView.m in Sources */ = {isa = PBXBuildFile; fileRef = 95958D6507C52CD78BF1BE612C3A4ACB /* BFAppLinkReturnToRefererView.m */; };
-		38E856869AE417CEFC8F9F02FE454291 /* BFAppLinkReturnToRefererView_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 08D249290DC61C31209785156C9C8B88 /* BFAppLinkReturnToRefererView_Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3A415174C2F353DE70FCC2C3FD7A59F1 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC694E27D8043A02C869DA09D2345ACF /* SwiftyJSON-dummy.m */; };
-		4842CF7A08B39729833F408902F1ADF0 /* BFCancellationTokenSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F675FC5E2531475CD762B1E8EA02B06 /* BFCancellationTokenSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33E8F1F452BE57EB3B065D5B2E065683 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = C401B29A9C5CE4909ECA804CD217407C /* SwiftyJSON.swift */; };
+		3606A4DF8BB01301D9C86021F19BD2A5 /* BFAppLinkReturnToRefererView.m in Sources */ = {isa = PBXBuildFile; fileRef = 972F2FC23165EC0F28FAD80392E3F102 /* BFAppLinkReturnToRefererView.m */; };
+		38E856869AE417CEFC8F9F02FE454291 /* BFAppLinkReturnToRefererView_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = AA7B0255AA6D85103B6F30CDBD1DF0EC /* BFAppLinkReturnToRefererView_Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A415174C2F353DE70FCC2C3FD7A59F1 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5A4B15C3923866E64A33CBDA2CCE97 /* SwiftyJSON-dummy.m */; };
+		4842CF7A08B39729833F408902F1ADF0 /* BFCancellationTokenSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B56664F2B3A243D7256A492ED88D67A /* BFCancellationTokenSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		494165EE081E1C154393EE39E2B9ACAB /* Pods-Zanga_0.2Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A50F61CB1E59C1CF421255678B7782B /* Pods-Zanga_0.2Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4A80256228FFF634955F08FE71606089 /* SwiftKeychainWrapper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65F950DE8F4791108ACDED207DF3DFD9 /* SwiftKeychainWrapper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4ECD20B3FB85C1CC4873DE1463254036 /* BFURL_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E350BF2153D8FC5B5A0F60261EC727A /* BFURL_Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		538E4565A1286D23297E4D4AB4A5C9A9 /* BFCancellationToken.h in Headers */ = {isa = PBXBuildFile; fileRef = DF2A8CFEF2FF20D5A64E77CA3FC3AE79 /* BFCancellationToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		55ECA0312F535997CA9126E808CA2B7E /* BFExecutor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A2602A82145FC9895CE5E8785964EA5 /* BFExecutor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A80256228FFF634955F08FE71606089 /* SwiftKeychainWrapper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 634F951850168A7003164B5969CA5308 /* SwiftKeychainWrapper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4ECD20B3FB85C1CC4873DE1463254036 /* BFURL_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = BFBFC0E559A2D9C9A06D0445293DEEDB /* BFURL_Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		538E4565A1286D23297E4D4AB4A5C9A9 /* BFCancellationToken.h in Headers */ = {isa = PBXBuildFile; fileRef = D5B121114BAFB14D6934D58B9DCEABBF /* BFCancellationToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55ECA0312F535997CA9126E808CA2B7E /* BFExecutor.h in Headers */ = {isa = PBXBuildFile; fileRef = D561E71F5FB1EBD4F4F695ABF7F8B144 /* BFExecutor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		55F8406105CC97A0CE298A58C2FD09A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		5B3E54989E42E7F23D380EFDBB3A41AF /* BFAppLinkNavigation.h in Headers */ = {isa = PBXBuildFile; fileRef = AB0E6CB70580DFE5581033343327FFD2 /* BFAppLinkNavigation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6312E1B8FE4FC1059BA2B23537E7B3D0 /* BFAppLink.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C49FE5F22C16DAB53DEBF0EA2FB8DCD /* BFAppLink.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		63A1D4520045D9226F552AB3BA4134D6 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0DC722E9B237F36ED1207B217590A08 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6C613E015135F347BC8492380E05F9E0 /* BFAppLink_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9157D4F8D165F8FBF9199D1FCB57259F /* BFAppLink_Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B3E54989E42E7F23D380EFDBB3A41AF /* BFAppLinkNavigation.h in Headers */ = {isa = PBXBuildFile; fileRef = 30920A8E38C02D5F22993200F80C9DE6 /* BFAppLinkNavigation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6312E1B8FE4FC1059BA2B23537E7B3D0 /* BFAppLink.h in Headers */ = {isa = PBXBuildFile; fileRef = A652715605FB1DE5379786BD2900521E /* BFAppLink.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63A1D4520045D9226F552AB3BA4134D6 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AADA1A12986D7A5F18D69B9993327330 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C613E015135F347BC8492380E05F9E0 /* BFAppLink_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = A24C43E3D696C14A16F052D15E71F078 /* BFAppLink_Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		899122FD5329F931600C9D41F6FA6443 /* Pods-Zanga_0.2UITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B447C9913A1D42EBD914A55495FAF79 /* Pods-Zanga_0.2UITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8EE4F8A28DC540EB08B46C0F57CC9BCC /* BFAppLinkTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3FE8B15BAA03E9CE2807E59B9F2446 /* BFAppLinkTarget.m */; };
-		8FFB8C1D3CC1E94BE11F7E0148B1A01E /* BFAppLinkNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0176F567F2C4D34F75551F5BFEF9CCAF /* BFAppLinkNavigation.m */; };
-		963024E730FDCBE25283A208880579DE /* BFMeasurementEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = FB5E9C48DB3AFC5F0FB687291473D70A /* BFMeasurementEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EE4F8A28DC540EB08B46C0F57CC9BCC /* BFAppLinkTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEC783C62A94646DC75E18B8B5EA6EB /* BFAppLinkTarget.m */; };
+		8FFB8C1D3CC1E94BE11F7E0148B1A01E /* BFAppLinkNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BAAC5FA5B02E44EB4D440C3E2D8880 /* BFAppLinkNavigation.m */; };
+		963024E730FDCBE25283A208880579DE /* BFMeasurementEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F1D28A7901469518876FB5B7BD15D57 /* BFMeasurementEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9BD8BC59C0D0133C26AAA3AB077E992B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		9E2EA28B89C6E43B96479DE6A8B55388 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		9F8BF4E2D8B9626F7068C10C985AFDC4 /* Pods-Zanga_0.2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98EF5833DBAD28416B1C43EC81468862 /* Pods-Zanga_0.2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A44B9556C3A558F0120EE35F290B3FCE /* BFMeasurementEvent_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = A29088BCB85EC531EC8A1677E96D539F /* BFMeasurementEvent_Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4A4B6DCAD90B231B771EB8AAA9401BC /* Bolts-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9505DEFB3B0302948FAEECC0F0ABF70 /* Bolts-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A59E0D04139EA956AF2F0E32B469E1E3 /* Bolts.h in Headers */ = {isa = PBXBuildFile; fileRef = 28B67F57997D8DDAF44C6E602766D75B /* Bolts.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA363E22E4DDB87A037ED04A117ABC51 /* BFAppLinkTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = E03882D125DB9982CFDADE432876E1F3 /* BFAppLinkTarget.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE8AA2056202F72341129D6710EB387E /* BFCancellationTokenRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = B01F3BA9427411C35E2F23475C350AF9 /* BFCancellationTokenRegistration.m */; };
-		BDB6E5CDFB2E0B1A5D70C177B7F4857D /* BFTaskCompletionSource.h in Headers */ = {isa = PBXBuildFile; fileRef = E5F6DE38F7CA09C8E57A951FA19D7FA0 /* BFTaskCompletionSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C6F00128759C9066964CC0EA790B58E7 /* SwiftKeychainWrapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC2938E660CD854182E7A86D47FE11C /* SwiftKeychainWrapper-dummy.m */; };
-		C7AFBE94195CDE9B5B71175851E7B4AB /* BFWebViewAppLinkResolver.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F6688775EB848F926F6CFCEA7736210 /* BFWebViewAppLinkResolver.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD0E79BBA8608E3E44545EF8B22F06FB /* BFURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DEF64A989653FFD4AEC3386255F2C31 /* BFURL.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CE8DF067B27FBDA7F6FE393391DB4FFE /* BFAppLinkReturnToRefererController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F782B2E2572BD807D82417AFE71928 /* BFAppLinkReturnToRefererController.m */; };
-		D383F164776657D6F6BBDB7ADAC4F87F /* BFMeasurementEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = EB744484772AC8041764AD5756B352D6 /* BFMeasurementEvent.m */; };
+		A44B9556C3A558F0120EE35F290B3FCE /* BFMeasurementEvent_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B92E91852941E7FF15D7D3204049144 /* BFMeasurementEvent_Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4A4B6DCAD90B231B771EB8AAA9401BC /* Bolts-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E33D5D6B0C2E12C639BFB1BB85D527C /* Bolts-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A59E0D04139EA956AF2F0E32B469E1E3 /* Bolts.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FEC05E31ED8421B9093BCE67B1D5F4D /* Bolts.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA363E22E4DDB87A037ED04A117ABC51 /* BFAppLinkTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = 29E390A7AB6AFEBA2928A25E819A9370 /* BFAppLinkTarget.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE8AA2056202F72341129D6710EB387E /* BFCancellationTokenRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = C892494A39E55166F816D3002B67C21A /* BFCancellationTokenRegistration.m */; };
+		BDB6E5CDFB2E0B1A5D70C177B7F4857D /* BFTaskCompletionSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EF2A3360543D5DD9F76A13B36910D0F /* BFTaskCompletionSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6F00128759C9066964CC0EA790B58E7 /* SwiftKeychainWrapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 779A542E35696805F491B92A72FA6596 /* SwiftKeychainWrapper-dummy.m */; };
+		C7AFBE94195CDE9B5B71175851E7B4AB /* BFWebViewAppLinkResolver.h in Headers */ = {isa = PBXBuildFile; fileRef = E7CDDC7046B68295835DD4FCF231D642 /* BFWebViewAppLinkResolver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD0E79BBA8608E3E44545EF8B22F06FB /* BFURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DD3700EA245BD8D00F409B5F119B39A /* BFURL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE8DF067B27FBDA7F6FE393391DB4FFE /* BFAppLinkReturnToRefererController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2792628FBCE391C0EFE626BBCA859C /* BFAppLinkReturnToRefererController.m */; };
+		D383F164776657D6F6BBDB7ADAC4F87F /* BFMeasurementEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFDC2BE6DCCCDF39C6A4079C5B56AFA /* BFMeasurementEvent.m */; };
 		D953132798D66D8258052710DDFDE6B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		D9D122FDBEB9A3DD165D36FB2E889EC6 /* Bolts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BEFB8E56D589B83254407282BE7CF89 /* Bolts-dummy.m */; };
-		DE26D5B7913CBFECC1EF14616527C4F8 /* BFTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 186E405F07F31EE5A411B141B233F4F8 /* BFTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DFCE253B5AB51985901EDF9BDA576736 /* BFCancellationToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AD5E12F6EF3A3C3A223DE268D2173C /* BFCancellationToken.m */; };
-		E11E491CE327A39F0FCB60EB963A4C59 /* BFTaskCompletionSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E23D6615B0EFECA8B84CFB8CFA58E7 /* BFTaskCompletionSource.m */; };
+		D9D122FDBEB9A3DD165D36FB2E889EC6 /* Bolts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1599E14F7DEE7CD847532A12AE1DAC72 /* Bolts-dummy.m */; };
+		DE26D5B7913CBFECC1EF14616527C4F8 /* BFTask.h in Headers */ = {isa = PBXBuildFile; fileRef = D047DFA1E87846A350E098880340B3DD /* BFTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFCE253B5AB51985901EDF9BDA576736 /* BFCancellationToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1AB2D6B940245758A4AF07824D95DC /* BFCancellationToken.m */; };
+		E11E491CE327A39F0FCB60EB963A4C59 /* BFTaskCompletionSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E21AB14FCD3056F9570DE361CC9B97C /* BFTaskCompletionSource.m */; };
 		E1DA9A34E1DBF7983933FFDC77BB3D5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		E39928E033EB7BF93D8230FBFEBF3E36 /* Pods-Zanga_0.2Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB419F07E53C6B98DDEA3893692ABFD /* Pods-Zanga_0.2Tests-dummy.m */; };
-		EA7ACAA2A7830DE376AFD0D534DE30E0 /* BFExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC136843391B2A674838116A0F475AE /* BFExecutor.m */; };
-		ED837ED8AB0A49C40B7D562300D31203 /* BFTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D7EBFA55A628A079865241A6BB4196 /* BFTask.m */; };
-		F0255DAC729629E968EA52EC310AA8C9 /* BFAppLinkReturnToRefererView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6066F3C0C31B943FDF25042346C41481 /* BFAppLinkReturnToRefererView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA7ACAA2A7830DE376AFD0D534DE30E0 /* BFExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 12471A085B75F5E0338D3E0206A2ECE9 /* BFExecutor.m */; };
+		ED837ED8AB0A49C40B7D562300D31203 /* BFTask.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B43899748515F9DEEEE5EB2DC0DD7D /* BFTask.m */; };
+		F0255DAC729629E968EA52EC310AA8C9 /* BFAppLinkReturnToRefererView.h in Headers */ = {isa = PBXBuildFile; fileRef = A7849CEA2DF560C756E16DD95863AF76 /* BFAppLinkReturnToRefererView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F11ED8EC0E3697568E6B40EF37373C0F /* Pods-Zanga_0.2UITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F30DDC64D377DA0EAA1ED43A68BF14F /* Pods-Zanga_0.2UITests-dummy.m */; };
-		F5605EA4F2ED84C2E0B1601D390129AB /* BFWebViewAppLinkResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 6168A62392F895CC8CDEE43641284DAB /* BFWebViewAppLinkResolver.m */; };
+		F5605EA4F2ED84C2E0B1601D390129AB /* BFWebViewAppLinkResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = F8509A06D8A7B82ADF70446C90DDC97B /* BFWebViewAppLinkResolver.m */; };
 		FC9AF67A10351E971AAAC532343E764C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -90,100 +90,148 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00EC25EEE93046359C48B623EB8CFF52 /* Bolts.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Bolts.xcconfig; sourceTree = "<group>"; };
-		0176F567F2C4D34F75551F5BFEF9CCAF /* BFAppLinkNavigation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFAppLinkNavigation.m; path = Bolts/iOS/BFAppLinkNavigation.m; sourceTree = "<group>"; };
 		022F836598292C6DC8A5D8C8964DA6E0 /* Pods-Zanga_0.2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Zanga_0.2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		031D8790CEF1D1538C67C7AB5887CB2B /* SwiftKeychainWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftKeychainWrapper.h; path = SwiftKeychainWrapper/SwiftKeychainWrapper.h; sourceTree = "<group>"; };
+		032F2AC868AF539462A3C11EA0484838 /* GIDProfileData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GIDProfileData.h; path = Headers/Public/GIDProfileData.h; sourceTree = "<group>"; };
+		046BBA495714911B9DD79E1929BCCF58 /* AppInvite-Module.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AppInvite-Module.h"; path = "Headers/ModuleHeaders/AppInvite-Module.h"; sourceTree = "<group>"; };
+		054D24EAE781044D329539D4CD761B7A /* libGTM_NSData+zlib_external.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libGTM_NSData+zlib_external.a"; path = "Libraries/libGTM_NSData+zlib_external.a"; sourceTree = "<group>"; };
 		05753F58107BCEFA4760DF8F43F6D6AA /* Pods-Zanga_0.2Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Zanga_0.2Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		08D249290DC61C31209785156C9C8B88 /* BFAppLinkReturnToRefererView_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkReturnToRefererView_Internal.h; path = Bolts/iOS/BFAppLinkReturnToRefererView_Internal.h; sourceTree = "<group>"; };
-		0D3FE8B15BAA03E9CE2807E59B9F2446 /* BFAppLinkTarget.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFAppLinkTarget.m; path = Bolts/iOS/BFAppLinkTarget.m; sourceTree = "<group>"; };
-		0DEF64A989653FFD4AEC3386255F2C31 /* BFURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFURL.h; path = Bolts/iOS/BFURL.h; sourceTree = "<group>"; };
+		07E2879264E9CF8DE2A5204B1346AA51 /* AdMob-Module.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AdMob-Module.h"; path = "Headers/ModuleHeaders/AdMob-Module.h"; sourceTree = "<group>"; };
+		0A09E2404A32FBB169480DBD56CA5950 /* libGTMSessionFetcher_full_external.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTMSessionFetcher_full_external.a; path = Libraries/libGTMSessionFetcher_full_external.a; sourceTree = "<group>"; };
+		0A1AB2D6B940245758A4AF07824D95DC /* BFCancellationToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFCancellationToken.m; path = Bolts/Common/BFCancellationToken.m; sourceTree = "<group>"; };
+		0B92E91852941E7FF15D7D3204049144 /* BFMeasurementEvent_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFMeasurementEvent_Internal.h; path = Bolts/iOS/BFMeasurementEvent_Internal.h; sourceTree = "<group>"; };
+		0BE484E431A26EA85E3D6CA635D3E7EF /* Core.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Core.h; path = Headers/GGLCore/Public/Core.h; sourceTree = "<group>"; };
 		0F78A450C85144105E56C8E158685AF7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		10D7EBFA55A628A079865241A6BB4196 /* BFTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFTask.m; path = Bolts/Common/BFTask.m; sourceTree = "<group>"; };
+		1015ABDCA90EECD951BD75748ABDF879 /* libGTM_KVO_external.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_KVO_external.a; path = Libraries/libGTM_KVO_external.a; sourceTree = "<group>"; };
+		12471A085B75F5E0338D3E0206A2ECE9 /* BFExecutor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFExecutor.m; path = Bolts/Common/BFExecutor.m; sourceTree = "<group>"; };
+		13040AABC9BE0D2CBAF5D491DA662DCA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		132EECD80AC36C72C281E83926CEBEF8 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
 		13E8857AF12121761767BF93548D3DC4 /* Pods-Zanga_0.2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Zanga_0.2.release.xcconfig"; sourceTree = "<group>"; };
 		15875C2E80C2C473D801DFE69E9CB81B /* Pods-Zanga_0.2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Zanga_0.2UITests.debug.xcconfig"; sourceTree = "<group>"; };
-		17E9C64BE69F903A7DFC6F71E63F1379 /* BFCancellationTokenRegistration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFCancellationTokenRegistration.h; path = Bolts/Common/BFCancellationTokenRegistration.h; sourceTree = "<group>"; };
-		186E405F07F31EE5A411B141B233F4F8 /* BFTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFTask.h; path = Bolts/Common/BFTask.h; sourceTree = "<group>"; };
+		1599E14F7DEE7CD847532A12AE1DAC72 /* Bolts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Bolts-dummy.m"; sourceTree = "<group>"; };
 		1A2C79773E40E2EF07D48F6641D1ACE5 /* Pods_Zanga_0_2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zanga_0_2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A50F61CB1E59C1CF421255678B7782B /* Pods-Zanga_0.2Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Zanga_0.2Tests-umbrella.h"; sourceTree = "<group>"; };
-		1CB53380CC814D91CEA3ABF85FDC098D /* Bolts-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bolts-prefix.pch"; sourceTree = "<group>"; };
-		1F675FC5E2531475CD762B1E8EA02B06 /* BFCancellationTokenSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFCancellationTokenSource.h; path = Bolts/Common/BFCancellationTokenSource.h; sourceTree = "<group>"; };
+		1C5A4B15C3923866E64A33CBDA2CCE97 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		1DD3700EA245BD8D00F409B5F119B39A /* BFURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFURL.h; path = Bolts/iOS/BFURL.h; sourceTree = "<group>"; };
+		1F1D28A7901469518876FB5B7BD15D57 /* BFMeasurementEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFMeasurementEvent.h; path = Bolts/iOS/BFMeasurementEvent.h; sourceTree = "<group>"; };
 		1F9A5F437E9794AE431B7AFE74DC45EE /* Pods-Zanga_0.2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Zanga_0.2.modulemap"; sourceTree = "<group>"; };
-		244E70F229B49C98D50DCB18DFAEF820 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		28B67F57997D8DDAF44C6E602766D75B /* Bolts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Bolts.h; path = Bolts/Common/Bolts.h; sourceTree = "<group>"; };
-		29AD5E12F6EF3A3C3A223DE268D2173C /* BFCancellationToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFCancellationToken.m; path = Bolts/Common/BFCancellationToken.m; sourceTree = "<group>"; };
-		2C49FE5F22C16DAB53DEBF0EA2FB8DCD /* BFAppLink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLink.h; path = Bolts/iOS/BFAppLink.h; sourceTree = "<group>"; };
+		233BADBCBBDD3FB9B35EAB3050E8554F /* libGTM_NSDictionary+URLArguments_external.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libGTM_NSDictionary+URLArguments_external.a"; path = "Libraries/libGTM_NSDictionary+URLArguments_external.a"; sourceTree = "<group>"; };
+		23D1CB5A3CB8C3CD8738E2B896AD143D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		243D4966C7212401EB5BBAF45D96991F /* libGGLCore.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGGLCore.a; path = Libraries/libGGLCore.a; sourceTree = "<group>"; };
+		24BAAC5FA5B02E44EB4D440C3E2D8880 /* BFAppLinkNavigation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFAppLinkNavigation.m; path = Bolts/iOS/BFAppLinkNavigation.m; sourceTree = "<group>"; };
+		273FE291B12F8DA6E95FA4A4DF04FCE4 /* libGTM_UIFont+LineHeight_external.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libGTM_UIFont+LineHeight_external.a"; path = "Libraries/libGTM_UIFont+LineHeight_external.a"; sourceTree = "<group>"; };
+		286BF2AEA09A4898F9FE3688C5EF945A /* SwiftKeychainWrapper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftKeychainWrapper.modulemap; sourceTree = "<group>"; };
+		28ED38D8B6073AFC25B8FD795A66B216 /* libGTM_NSStringHTML_external.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_NSStringHTML_external.a; path = Libraries/libGTM_NSStringHTML_external.a; sourceTree = "<group>"; };
+		29E390A7AB6AFEBA2928A25E819A9370 /* BFAppLinkTarget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkTarget.h; path = Bolts/iOS/BFAppLinkTarget.h; sourceTree = "<group>"; };
+		2EF2A3360543D5DD9F76A13B36910D0F /* BFTaskCompletionSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFTaskCompletionSource.h; path = Bolts/Common/BFTaskCompletionSource.h; sourceTree = "<group>"; };
+		2F2792628FBCE391C0EFE626BBCA859C /* BFAppLinkReturnToRefererController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFAppLinkReturnToRefererController.m; path = Bolts/iOS/BFAppLinkReturnToRefererController.m; sourceTree = "<group>"; };
+		30920A8E38C02D5F22993200F80C9DE6 /* BFAppLinkNavigation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkNavigation.h; path = Bolts/iOS/BFAppLinkNavigation.h; sourceTree = "<group>"; };
 		30C852D6CF4A54BF36CE7753A5C5EFC0 /* Pods-Zanga_0.2-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Zanga_0.2-frameworks.sh"; sourceTree = "<group>"; };
-		3626D5C3C2F9BA0711EE6079D14E10A0 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		33C4C03D3A8994B0A1CFECED76AB6076 /* libGTMStackTrace_external.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTMStackTrace_external.a; path = Libraries/libGTMStackTrace_external.a; sourceTree = "<group>"; };
 		38170DE842D626059DB9406A9AEADA75 /* Pods-Zanga_0.2Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Zanga_0.2Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		385A17ED8AA56459D987F5D63B34A20A /* GMRConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMRConfiguration.h; path = Headers/GGLCore/Public/GMRConfiguration.h; sourceTree = "<group>"; };
+		3AC319ABFC46F77DE34FA98C44F3A4FC /* SwiftKeychainWrapper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftKeychainWrapper.xcconfig; sourceTree = "<group>"; };
 		3C92BEDE218CFB556A0B4D2B33FC412E /* Pods-Zanga_0.2UITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Zanga_0.2UITests-frameworks.sh"; sourceTree = "<group>"; };
-		43DAEDC80CF452FD5349500AFD61180A /* Bolts.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Bolts.modulemap; sourceTree = "<group>"; };
+		3CFBF7485A47A7FF5384CE791A9BA7E9 /* GGLContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGLContext.h; path = Headers/GGLCore/Public/GGLContext.h; sourceTree = "<group>"; };
+		3DDF47A5376EEC79A89E7953C0CD2B62 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4141E1B96F692070A08C4F48D0BAD6A5 /* CloudMessaging-Module.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CloudMessaging-Module.h"; path = "Headers/ModuleHeaders/CloudMessaging-Module.h"; sourceTree = "<group>"; };
+		44E826EC9AEA8B70B70545566C872AF8 /* GoogleSignIn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GoogleSignIn.h; path = Headers/Public/GoogleSignIn.h; sourceTree = "<group>"; };
 		47A38188AC8ABCDAE1286BB006E88BAA /* Pods-Zanga_0.2UITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Zanga_0.2UITests-resources.sh"; sourceTree = "<group>"; };
+		4AA5F9C8EA88907168EB2C9C8C6F3442 /* libGSDK_Overload_external.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGSDK_Overload_external.a; path = Libraries/libGSDK_Overload_external.a; sourceTree = "<group>"; };
 		4B447C9913A1D42EBD914A55495FAF79 /* Pods-Zanga_0.2UITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Zanga_0.2UITests-umbrella.h"; sourceTree = "<group>"; };
-		4BEFB8E56D589B83254407282BE7CF89 /* Bolts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Bolts-dummy.m"; sourceTree = "<group>"; };
 		4DB419F07E53C6B98DDEA3893692ABFD /* Pods-Zanga_0.2Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Zanga_0.2Tests-dummy.m"; sourceTree = "<group>"; };
-		5502D005ED62D5D4AF5DAEF3DE878CEA /* BFAppLink.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFAppLink.m; path = Bolts/iOS/BFAppLink.m; sourceTree = "<group>"; };
+		4E33D5D6B0C2E12C639BFB1BB85D527C /* Bolts-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bolts-umbrella.h"; sourceTree = "<group>"; };
+		4FFDC2BE6DCCCDF39C6A4079C5B56AFA /* BFMeasurementEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFMeasurementEvent.m; path = Bolts/iOS/BFMeasurementEvent.m; sourceTree = "<group>"; };
+		554FB6D13338B7C29D0F44DA6CC75B20 /* Analytics-Module.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Analytics-Module.h"; path = "Headers/ModuleHeaders/Analytics-Module.h"; sourceTree = "<group>"; };
 		55997307B1A038727E99524685AB5C2D /* Pods-Zanga_0.2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Zanga_0.2.debug.xcconfig"; sourceTree = "<group>"; };
-		56CC8854D80F77E0F3CDB297C24F3050 /* BFURL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFURL.m; path = Bolts/iOS/BFURL.m; sourceTree = "<group>"; };
+		586E55A170A3AB09336AA3664566C0A1 /* SignIn-Module.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SignIn-Module.h"; path = "Headers/ModuleHeaders/SignIn-Module.h"; sourceTree = "<group>"; };
+		59D80A092E59EF4FCB6FD946C08B0510 /* libGTM_DebugUtils_external.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_DebugUtils_external.a; path = Libraries/libGTM_DebugUtils_external.a; sourceTree = "<group>"; };
 		5B5A5FA7CBF0E611EC7A0C5BABF4EF33 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6066F3C0C31B943FDF25042346C41481 /* BFAppLinkReturnToRefererView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkReturnToRefererView.h; path = Bolts/iOS/BFAppLinkReturnToRefererView.h; sourceTree = "<group>"; };
-		6168A62392F895CC8CDEE43641284DAB /* BFWebViewAppLinkResolver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFWebViewAppLinkResolver.m; path = Bolts/iOS/BFWebViewAppLinkResolver.m; sourceTree = "<group>"; };
-		65F950DE8F4791108ACDED207DF3DFD9 /* SwiftKeychainWrapper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftKeychainWrapper-umbrella.h"; sourceTree = "<group>"; };
-		6A2602A82145FC9895CE5E8785964EA5 /* BFExecutor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFExecutor.h; path = Bolts/Common/BFExecutor.h; sourceTree = "<group>"; };
+		5C7F8018113C155041FB33B2FAFE6D03 /* GGLConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGLConfiguration.h; path = Headers/GGLCore/Public/GGLConfiguration.h; sourceTree = "<group>"; };
+		5DA27E93DD048819447F47829460C574 /* libGTM_StringEncoding_external.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_StringEncoding_external.a; path = Libraries/libGTM_StringEncoding_external.a; sourceTree = "<group>"; };
+		5E21AB14FCD3056F9570DE361CC9B97C /* BFTaskCompletionSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFTaskCompletionSource.m; path = Bolts/Common/BFTaskCompletionSource.m; sourceTree = "<group>"; };
+		5FEC05E31ED8421B9093BCE67B1D5F4D /* Bolts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Bolts.h; path = Bolts/Common/Bolts.h; sourceTree = "<group>"; };
+		634F951850168A7003164B5969CA5308 /* SwiftKeychainWrapper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftKeychainWrapper-umbrella.h"; sourceTree = "<group>"; };
+		662D955DE8BFB90855E52267ADA92744 /* Bolts.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Bolts.m; path = Bolts/Common/Bolts.m; sourceTree = "<group>"; };
 		6AF5CCB517C1BF0BDCB0B08B177DC53A /* Pods-Zanga_0.2Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Zanga_0.2Tests.modulemap"; sourceTree = "<group>"; };
 		6C4DBC5A015F3083D058B74EDA27E3B0 /* Pods_Zanga_0_2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zanga_0_2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CC40029658DC1B9F92FE3F518E40430 /* Pods-Zanga_0.2Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Zanga_0.2Tests-resources.sh"; sourceTree = "<group>"; };
-		6E350BF2153D8FC5B5A0F60261EC727A /* BFURL_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFURL_Internal.h; path = Bolts/iOS/BFURL_Internal.h; sourceTree = "<group>"; };
+		6F1A509FF637705D549FFB7B617392F8 /* GGLContext+SignIn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GGLContext+SignIn.h"; path = "Headers/GGLSignIn/Public/GGLContext+SignIn.h"; sourceTree = "<group>"; };
 		6F30DDC64D377DA0EAA1ED43A68BF14F /* Pods-Zanga_0.2UITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Zanga_0.2UITests-dummy.m"; sourceTree = "<group>"; };
-		6F6688775EB848F926F6CFCEA7736210 /* BFWebViewAppLinkResolver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFWebViewAppLinkResolver.h; path = Bolts/iOS/BFWebViewAppLinkResolver.h; sourceTree = "<group>"; };
 		704F0022944A257DFC137C2490235DCF /* Pods-Zanga_0.2Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Zanga_0.2Tests-frameworks.sh"; sourceTree = "<group>"; };
+		7192282533A85ECCFF05C43F43F648CB /* BFAppLinkResolving.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkResolving.h; path = Bolts/iOS/BFAppLinkResolving.h; sourceTree = "<group>"; };
+		71954417AF08C19BEB732B6F9630BDEA /* GGLErrorCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGLErrorCode.h; path = Headers/GGLCore/Public/GGLErrorCode.h; sourceTree = "<group>"; };
 		72DD92CB0742732AC69F349B576D260A /* Pods-Zanga_0.2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Zanga_0.2-dummy.m"; sourceTree = "<group>"; };
-		7C824FA1B485F17B53FD0D08A5419D5D /* BFAppLinkReturnToRefererController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkReturnToRefererController.h; path = Bolts/iOS/BFAppLinkReturnToRefererController.h; sourceTree = "<group>"; };
-		7EC136843391B2A674838116A0F475AE /* BFExecutor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFExecutor.m; path = Bolts/Common/BFExecutor.m; sourceTree = "<group>"; };
+		76A3462F90C884790D396A0CA741C8CA /* GIDAuthentication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GIDAuthentication.h; path = Headers/Public/GIDAuthentication.h; sourceTree = "<group>"; };
+		77922992FDDDDE8259E3ADC9672D6301 /* KeychainWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainWrapper.swift; path = SwiftKeychainWrapper/KeychainWrapper.swift; sourceTree = "<group>"; };
+		779A542E35696805F491B92A72FA6596 /* SwiftKeychainWrapper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftKeychainWrapper-dummy.m"; sourceTree = "<group>"; };
+		7C6AB12AE60BC441DD7E269795D7DDAE /* libSignIn_external.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSignIn_external.a; path = Libraries/libSignIn_external.a; sourceTree = "<group>"; };
+		7D472C4CEBDD9AB3192BB644619ED111 /* Core-Module.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Core-Module.h"; path = "Headers/ModuleHeaders/Core-Module.h"; sourceTree = "<group>"; };
+		7E0C05D92AB116EF8A6746D873E1D84E /* libGTM_SystemVersion_external.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_SystemVersion_external.a; path = Libraries/libGTM_SystemVersion_external.a; sourceTree = "<group>"; };
 		7EFA67F7D4FFC7768CA7B3B671935938 /* Pods-Zanga_0.2-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Zanga_0.2-resources.sh"; sourceTree = "<group>"; };
+		801913C1FE3C131729532C9972E4A24E /* libGTM_Regex_external.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_Regex_external.a; path = Libraries/libGTM_Regex_external.a; sourceTree = "<group>"; };
+		81636751C864D313DAFD7C73E43320F0 /* GIDSignInButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GIDSignInButton.h; path = Headers/Public/GIDSignInButton.h; sourceTree = "<group>"; };
 		82620BDBF3AF009C027982FE54B80705 /* Pods_Zanga_0_2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zanga_0_2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		856FCECDFCAABA5FCDAE17BE6CDA7B5E /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		84B9CEC938B51BE791FAE67B2009C340 /* libProtocolBuffers_external.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libProtocolBuffers_external.a; path = Libraries/libProtocolBuffers_external.a; sourceTree = "<group>"; };
 		8850245D4CB483683445E5F766E16D0C /* Bolts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Bolts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AEC783C62A94646DC75E18B8B5EA6EB /* BFAppLinkTarget.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFAppLinkTarget.m; path = Bolts/iOS/BFAppLinkTarget.m; sourceTree = "<group>"; };
 		8C04AEACA256A0A6BAFC99686F588F27 /* SwiftKeychainWrapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftKeychainWrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9041946C8A0CC3538FE9EB15EA3F340E /* SwiftKeychainWrapper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftKeychainWrapper-prefix.pch"; sourceTree = "<group>"; };
+		8D6CD24766820041BE9CE161CA59439B /* GIDGoogleUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GIDGoogleUser.h; path = Headers/Public/GIDGoogleUser.h; sourceTree = "<group>"; };
+		9046C578E1EA9E350E2A6D078A8E406F /* libGTM_AddressBook_external.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_AddressBook_external.a; path = Libraries/libGTM_AddressBook_external.a; sourceTree = "<group>"; };
 		906CD10A29D565681D5F5C7EE2EDA667 /* Pods-Zanga_0.2UITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Zanga_0.2UITests.modulemap"; sourceTree = "<group>"; };
-		90F782B2E2572BD807D82417AFE71928 /* BFAppLinkReturnToRefererController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFAppLinkReturnToRefererController.m; path = Bolts/iOS/BFAppLinkReturnToRefererController.m; sourceTree = "<group>"; };
-		9157D4F8D165F8FBF9199D1FCB57259F /* BFAppLink_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLink_Internal.h; path = Bolts/iOS/BFAppLink_Internal.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		95958D6507C52CD78BF1BE612C3A4ACB /* BFAppLinkReturnToRefererView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFAppLinkReturnToRefererView.m; path = Bolts/iOS/BFAppLinkReturnToRefererView.m; sourceTree = "<group>"; };
 		96AFA26DD8328E8BF271D3ABC05CB9BA /* Pods-Zanga_0.2UITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Zanga_0.2UITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		972F2FC23165EC0F28FAD80392E3F102 /* BFAppLinkReturnToRefererView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFAppLinkReturnToRefererView.m; path = Bolts/iOS/BFAppLinkReturnToRefererView.m; sourceTree = "<group>"; };
 		98EF5833DBAD28416B1C43EC81468862 /* Pods-Zanga_0.2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Zanga_0.2-umbrella.h"; sourceTree = "<group>"; };
-		A29088BCB85EC531EC8A1677E96D539F /* BFMeasurementEvent_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFMeasurementEvent_Internal.h; path = Bolts/iOS/BFMeasurementEvent_Internal.h; sourceTree = "<group>"; };
-		A9E23D6615B0EFECA8B84CFB8CFA58E7 /* BFTaskCompletionSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFTaskCompletionSource.m; path = Bolts/Common/BFTaskCompletionSource.m; sourceTree = "<group>"; };
-		AB0E6CB70580DFE5581033343327FFD2 /* BFAppLinkNavigation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkNavigation.h; path = Bolts/iOS/BFAppLinkNavigation.h; sourceTree = "<group>"; };
+		9B56664F2B3A243D7256A492ED88D67A /* BFCancellationTokenSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFCancellationTokenSource.h; path = Bolts/Common/BFCancellationTokenSource.h; sourceTree = "<group>"; };
+		A0C0280DD61D444A49AA643A8D1052F2 /* BFURL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFURL.m; path = Bolts/iOS/BFURL.m; sourceTree = "<group>"; };
+		A24C43E3D696C14A16F052D15E71F078 /* BFAppLink_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLink_Internal.h; path = Bolts/iOS/BFAppLink_Internal.h; sourceTree = "<group>"; };
+		A25270E33AEAFCCF28E9371E7C7C78B9 /* Bolts.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Bolts.modulemap; sourceTree = "<group>"; };
+		A2A459991718F15C67CC8018C0FD3757 /* BFAppLinkReturnToRefererController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkReturnToRefererController.h; path = Bolts/iOS/BFAppLinkReturnToRefererController.h; sourceTree = "<group>"; };
+		A34AB9C5494182318529FBB8C4D452DC /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		A36CD207273C980738A5CECA27284D0F /* libGTM_NSScannerJSON_external.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_NSScannerJSON_external.a; path = Libraries/libGTM_NSScannerJSON_external.a; sourceTree = "<group>"; };
+		A652715605FB1DE5379786BD2900521E /* BFAppLink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLink.h; path = Bolts/iOS/BFAppLink.h; sourceTree = "<group>"; };
+		A6B43899748515F9DEEEE5EB2DC0DD7D /* BFTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFTask.m; path = Bolts/Common/BFTask.m; sourceTree = "<group>"; };
+		A7849CEA2DF560C756E16DD95863AF76 /* BFAppLinkReturnToRefererView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkReturnToRefererView.h; path = Bolts/iOS/BFAppLinkReturnToRefererView.h; sourceTree = "<group>"; };
+		A95BEA7288EA49F38D606AF367FE825F /* libGTM_iPhone_external.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_iPhone_external.a; path = Libraries/libGTM_iPhone_external.a; sourceTree = "<group>"; };
+		AA7B0255AA6D85103B6F30CDBD1DF0EC /* BFAppLinkReturnToRefererView_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkReturnToRefererView_Internal.h; path = Bolts/iOS/BFAppLinkReturnToRefererView_Internal.h; sourceTree = "<group>"; };
+		AADA1A12986D7A5F18D69B9993327330 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
 		ABE5BA6B91D26864A1B1C0AA5D21301C /* Pods-Zanga_0.2-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Zanga_0.2-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AC694E27D8043A02C869DA09D2345ACF /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
-		B01F3BA9427411C35E2F23475C350AF9 /* BFCancellationTokenRegistration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFCancellationTokenRegistration.m; path = Bolts/Common/BFCancellationTokenRegistration.m; sourceTree = "<group>"; };
+		AF60BB5CB2F827B91837E47999BB06E4 /* SignIn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SignIn.h; path = Headers/GGLSignIn/Public/SignIn.h; sourceTree = "<group>"; };
+		B2784D9E0B0A6F25820B5CB7EC0A7EF9 /* BFCancellationTokenRegistration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFCancellationTokenRegistration.h; path = Bolts/Common/BFCancellationTokenRegistration.h; sourceTree = "<group>"; };
 		B29FEBAC83D75C38450120224AC0A901 /* Pods-Zanga_0.2UITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Zanga_0.2UITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B2D3467B1668D2FED1219B4AAC8B26AA /* libGTMOAuth2_external_external.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTMOAuth2_external_external.a; path = Libraries/libGTMOAuth2_external_external.a; sourceTree = "<group>"; };
 		B6A421BF2135F7377154C56F7B3AF995 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B819124629954D6A04EDC38ACD41D17E /* Pods-Zanga_0.2-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Zanga_0.2-acknowledgements.plist"; sourceTree = "<group>"; };
 		B91207E5EBEDDC9235C4505A8A321222 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B9505DEFB3B0302948FAEECC0F0ABF70 /* Bolts-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bolts-umbrella.h"; sourceTree = "<group>"; };
-		C0DC722E9B237F36ED1207B217590A08 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
-		C40D9F59B8A99AF891C454052949D43E /* SwiftKeychainWrapper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftKeychainWrapper.modulemap; sourceTree = "<group>"; };
+		BAD2CD316AC3344ED89AC1D07C4633F6 /* BFAppLink.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFAppLink.m; path = Bolts/iOS/BFAppLink.m; sourceTree = "<group>"; };
+		BB20A6B3B7D91219746A1D8E09363965 /* libGIPNSURL+FIFE_external.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libGIPNSURL+FIFE_external.a"; path = "Libraries/libGIPNSURL+FIFE_external.a"; sourceTree = "<group>"; };
+		BFBFC0E559A2D9C9A06D0445293DEEDB /* BFURL_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFURL_Internal.h; path = Bolts/iOS/BFURL_Internal.h; sourceTree = "<group>"; };
+		C2A2269667C3C4E45F6D2DB4FEDB5231 /* Bolts-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bolts-prefix.pch"; sourceTree = "<group>"; };
+		C401B29A9C5CE4909ECA804CD217407C /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
 		C612DAA880801F9AA3B372B63F791689 /* Pods-Zanga_0.2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Zanga_0.2UITests.release.xcconfig"; sourceTree = "<group>"; };
-		C7C4A1360166D85411AEA6298A157BC7 /* SwiftKeychainWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftKeychainWrapper.h; path = SwiftKeychainWrapper/SwiftKeychainWrapper.h; sourceTree = "<group>"; };
-		CA4FFB9592BC93A7BB8CA537BAAA9C61 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
-		CDC2938E660CD854182E7A86D47FE11C /* SwiftKeychainWrapper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftKeychainWrapper-dummy.m"; sourceTree = "<group>"; };
+		C892494A39E55166F816D3002B67C21A /* BFCancellationTokenRegistration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFCancellationTokenRegistration.m; path = Bolts/Common/BFCancellationTokenRegistration.m; sourceTree = "<group>"; };
+		CE346921B887FB18741FD2466063A043 /* libGTM_NSStringXML_external.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_NSStringXML_external.a; path = Libraries/libGTM_NSStringXML_external.a; sourceTree = "<group>"; };
+		CEA36300CEFF170512CAD4D725B56348 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DF2A8CFEF2FF20D5A64E77CA3FC3AE79 /* BFCancellationToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFCancellationToken.h; path = Bolts/Common/BFCancellationToken.h; sourceTree = "<group>"; };
-		E03882D125DB9982CFDADE432876E1F3 /* BFAppLinkTarget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkTarget.h; path = Bolts/iOS/BFAppLinkTarget.h; sourceTree = "<group>"; };
-		E5918AC807C1967B89B6D09D5C0F4539 /* BFAppLinkResolving.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkResolving.h; path = Bolts/iOS/BFAppLinkResolving.h; sourceTree = "<group>"; };
-		E5F6DE38F7CA09C8E57A951FA19D7FA0 /* BFTaskCompletionSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFTaskCompletionSource.h; path = Bolts/Common/BFTaskCompletionSource.h; sourceTree = "<group>"; };
-		E689F674172D8D9733437D18DBD91514 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E6938DF9BCB7A44079D3C5EC78F3A0A0 /* KeychainWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainWrapper.swift; path = SwiftKeychainWrapper/KeychainWrapper.swift; sourceTree = "<group>"; };
+		D047DFA1E87846A350E098880340B3DD /* BFTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFTask.h; path = Bolts/Common/BFTask.h; sourceTree = "<group>"; };
+		D063950B21B2D5302143B81545768420 /* libGTM_GTMURLBuilder_external.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_GTMURLBuilder_external.a; path = Libraries/libGTM_GTMURLBuilder_external.a; sourceTree = "<group>"; };
+		D09DE869FC80CBF59347CC9D6DD031A4 /* GoogleSignIn.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleSignIn.bundle; path = Resources/GoogleSignIn.bundle; sourceTree = "<group>"; };
+		D27A7E4D0888B9B6364AED2CCF3DE2D1 /* SwiftKeychainWrapper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftKeychainWrapper-prefix.pch"; sourceTree = "<group>"; };
+		D561E71F5FB1EBD4F4F695ABF7F8B144 /* BFExecutor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFExecutor.h; path = Bolts/Common/BFExecutor.h; sourceTree = "<group>"; };
+		D57FB34F7BA85BD4331011A7D787425D /* BFCancellationTokenSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFCancellationTokenSource.m; path = Bolts/Common/BFCancellationTokenSource.m; sourceTree = "<group>"; };
+		D5B121114BAFB14D6934D58B9DCEABBF /* BFCancellationToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFCancellationToken.h; path = Bolts/Common/BFCancellationToken.h; sourceTree = "<group>"; };
+		D897F0E65B9A141B7388ED25C978296E /* libOpenInChrome_external.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libOpenInChrome_external.a; path = Libraries/libOpenInChrome_external.a; sourceTree = "<group>"; };
+		D8BACB15E4BBA13875EEA22E40EF7FEC /* libGGLSignIn.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGGLSignIn.a; path = Libraries/libGGLSignIn.a; sourceTree = "<group>"; };
+		E39246B43618FB4FE9E857ECC0615A12 /* libGTM_core_external.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_core_external.a; path = Libraries/libGTM_core_external.a; sourceTree = "<group>"; };
+		E7CDDC7046B68295835DD4FCF231D642 /* BFWebViewAppLinkResolver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFWebViewAppLinkResolver.h; path = Bolts/iOS/BFWebViewAppLinkResolver.h; sourceTree = "<group>"; };
 		E99AC8DF30ACE6A4FADCAC4FA4270261 /* Pods-Zanga_0.2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Zanga_0.2Tests.release.xcconfig"; sourceTree = "<group>"; };
-		EB744484772AC8041764AD5756B352D6 /* BFMeasurementEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFMeasurementEvent.m; path = Bolts/iOS/BFMeasurementEvent.m; sourceTree = "<group>"; };
-		F32AAA74E52A15A991D7CDA6F4DBC1F7 /* SwiftKeychainWrapper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftKeychainWrapper.xcconfig; sourceTree = "<group>"; };
-		F4335FD433BA20E1A3FE0C25BB353E0B /* BFCancellationTokenSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFCancellationTokenSource.m; path = Bolts/Common/BFCancellationTokenSource.m; sourceTree = "<group>"; };
-		F56B50DF06487090AC60D3FA8FB1DE99 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
-		F64565F7CDBFE1FAA564240A2A214711 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F84FA4CB30F08F47D1C1B20EEF477978 /* Bolts.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Bolts.m; path = Bolts/Common/Bolts.m; sourceTree = "<group>"; };
-		FB5E9C48DB3AFC5F0FB687291473D70A /* BFMeasurementEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFMeasurementEvent.h; path = Bolts/iOS/BFMeasurementEvent.h; sourceTree = "<group>"; };
+		EA4DF455381BDC59F04CD3784B9E9006 /* libGTMOAuth2_internal_external.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTMOAuth2_internal_external.a; path = Libraries/libGTMOAuth2_internal_external.a; sourceTree = "<group>"; };
+		EC3B419F567F4B55E6FBABF4DBCFFAB3 /* Bolts.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Bolts.xcconfig; sourceTree = "<group>"; };
+		F2C5F8CACC06E6A634E1B637F66980BA /* libGTM_RoundedRectPath_external.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_RoundedRectPath_external.a; path = Libraries/libGTM_RoundedRectPath_external.a; sourceTree = "<group>"; };
+		F43F7E5D67E915539942B262C8A85F3A /* libGTMSessionFetcher_core_external.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTMSessionFetcher_core_external.a; path = Libraries/libGTMSessionFetcher_core_external.a; sourceTree = "<group>"; };
+		F782791406C3BEEB5DA1777BA9BE9B98 /* GIDSignIn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GIDSignIn.h; path = Headers/Public/GIDSignIn.h; sourceTree = "<group>"; };
+		F8509A06D8A7B82ADF70446C90DDC97B /* BFWebViewAppLinkResolver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFWebViewAppLinkResolver.m; path = Bolts/iOS/BFWebViewAppLinkResolver.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -238,14 +286,79 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		084414D6FBAFBD030CB66E6C3C99E1B2 /* SwiftKeychainWrapper */ = {
+		026F67DA02723EA115F417CC97FA92E6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E6938DF9BCB7A44079D3C5EC78F3A0A0 /* KeychainWrapper.swift */,
-				C7C4A1360166D85411AEA6298A157BC7 /* SwiftKeychainWrapper.h */,
-				5DAA97342A505941C5852134C47FA101 /* Support Files */,
+				D897F0E65B9A141B7388ED25C978296E /* libOpenInChrome_external.a */,
 			);
-			path = SwiftKeychainWrapper;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		07D70CDE194FAAA4AE46BCAE837CFCCF /* AppLinks */ = {
+			isa = PBXGroup;
+			children = (
+				A652715605FB1DE5379786BD2900521E /* BFAppLink.h */,
+				BAD2CD316AC3344ED89AC1D07C4633F6 /* BFAppLink.m */,
+				A24C43E3D696C14A16F052D15E71F078 /* BFAppLink_Internal.h */,
+				30920A8E38C02D5F22993200F80C9DE6 /* BFAppLinkNavigation.h */,
+				24BAAC5FA5B02E44EB4D440C3E2D8880 /* BFAppLinkNavigation.m */,
+				7192282533A85ECCFF05C43F43F648CB /* BFAppLinkResolving.h */,
+				A2A459991718F15C67CC8018C0FD3757 /* BFAppLinkReturnToRefererController.h */,
+				2F2792628FBCE391C0EFE626BBCA859C /* BFAppLinkReturnToRefererController.m */,
+				A7849CEA2DF560C756E16DD95863AF76 /* BFAppLinkReturnToRefererView.h */,
+				972F2FC23165EC0F28FAD80392E3F102 /* BFAppLinkReturnToRefererView.m */,
+				AA7B0255AA6D85103B6F30CDBD1DF0EC /* BFAppLinkReturnToRefererView_Internal.h */,
+				29E390A7AB6AFEBA2928A25E819A9370 /* BFAppLinkTarget.h */,
+				8AEC783C62A94646DC75E18B8B5EA6EB /* BFAppLinkTarget.m */,
+				1F1D28A7901469518876FB5B7BD15D57 /* BFMeasurementEvent.h */,
+				4FFDC2BE6DCCCDF39C6A4079C5B56AFA /* BFMeasurementEvent.m */,
+				0B92E91852941E7FF15D7D3204049144 /* BFMeasurementEvent_Internal.h */,
+				1DD3700EA245BD8D00F409B5F119B39A /* BFURL.h */,
+				A0C0280DD61D444A49AA643A8D1052F2 /* BFURL.m */,
+				BFBFC0E559A2D9C9A06D0445293DEEDB /* BFURL_Internal.h */,
+				E7CDDC7046B68295835DD4FCF231D642 /* BFWebViewAppLinkResolver.h */,
+				F8509A06D8A7B82ADF70446C90DDC97B /* BFWebViewAppLinkResolver.m */,
+			);
+			name = AppLinks;
+			sourceTree = "<group>";
+		};
+		0FA1C560B95E9E4E28E16301B0049539 /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				D5B121114BAFB14D6934D58B9DCEABBF /* BFCancellationToken.h */,
+				0A1AB2D6B940245758A4AF07824D95DC /* BFCancellationToken.m */,
+				B2784D9E0B0A6F25820B5CB7EC0A7EF9 /* BFCancellationTokenRegistration.h */,
+				C892494A39E55166F816D3002B67C21A /* BFCancellationTokenRegistration.m */,
+				9B56664F2B3A243D7256A492ED88D67A /* BFCancellationTokenSource.h */,
+				D57FB34F7BA85BD4331011A7D787425D /* BFCancellationTokenSource.m */,
+				D561E71F5FB1EBD4F4F695ABF7F8B144 /* BFExecutor.h */,
+				12471A085B75F5E0338D3E0206A2ECE9 /* BFExecutor.m */,
+				D047DFA1E87846A350E098880340B3DD /* BFTask.h */,
+				A6B43899748515F9DEEEE5EB2DC0DD7D /* BFTask.m */,
+				2EF2A3360543D5DD9F76A13B36910D0F /* BFTaskCompletionSource.h */,
+				5E21AB14FCD3056F9570DE361CC9B97C /* BFTaskCompletionSource.m */,
+				5FEC05E31ED8421B9093BCE67B1D5F4D /* Bolts.h */,
+				662D955DE8BFB90855E52267ADA92744 /* Bolts.m */,
+			);
+			name = Tasks;
+			sourceTree = "<group>";
+		};
+		19AC63BECE0B0ACB9AA789AD9682BEFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2D3467B1668D2FED1219B4AAC8B26AA /* libGTMOAuth2_external_external.a */,
+				EA4DF455381BDC59F04CD3784B9E9006 /* libGTMOAuth2_internal_external.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1BED408A41C62351072D56C70E549B45 /* Google */ = {
+			isa = PBXGroup;
+			children = (
+				420BFA006BF48FDA98629520F0C7969E /* Core */,
+				4EFBDE6ADE2882676FA1CC96C9B93699 /* SignIn */,
+			);
+			path = Google;
 			sourceTree = "<group>";
 		};
 		2245CE9D90D927DC2DA31169CBDA77F2 /* Targets Support Files */ = {
@@ -258,44 +371,20 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		28FD05490BB4CCD6E33CFA0832B3DB41 /* SwiftyJSON */ = {
+		3982E6CA9152DF89A0582EAD2195E0BB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				3626D5C3C2F9BA0711EE6079D14E10A0 /* SwiftyJSON.swift */,
-				73429EF034779CCB02EA689EAACB26A4 /* Support Files */,
+				D09DE869FC80CBF59347CC9D6DD031A4 /* GoogleSignIn.bundle */,
 			);
-			path = SwiftyJSON;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		319BF1988645E4F4CF115DF966970E36 /* Tasks */ = {
+		3C8DE1059E071FE84484E0CF3FFCCC2D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DF2A8CFEF2FF20D5A64E77CA3FC3AE79 /* BFCancellationToken.h */,
-				29AD5E12F6EF3A3C3A223DE268D2173C /* BFCancellationToken.m */,
-				17E9C64BE69F903A7DFC6F71E63F1379 /* BFCancellationTokenRegistration.h */,
-				B01F3BA9427411C35E2F23475C350AF9 /* BFCancellationTokenRegistration.m */,
-				1F675FC5E2531475CD762B1E8EA02B06 /* BFCancellationTokenSource.h */,
-				F4335FD433BA20E1A3FE0C25BB353E0B /* BFCancellationTokenSource.m */,
-				6A2602A82145FC9895CE5E8785964EA5 /* BFExecutor.h */,
-				7EC136843391B2A674838116A0F475AE /* BFExecutor.m */,
-				186E405F07F31EE5A411B141B233F4F8 /* BFTask.h */,
-				10D7EBFA55A628A079865241A6BB4196 /* BFTask.m */,
-				E5F6DE38F7CA09C8E57A951FA19D7FA0 /* BFTaskCompletionSource.h */,
-				A9E23D6615B0EFECA8B84CFB8CFA58E7 /* BFTaskCompletionSource.m */,
-				28B67F57997D8DDAF44C6E602766D75B /* Bolts.h */,
-				F84FA4CB30F08F47D1C1B20EEF477978 /* Bolts.m */,
+				243D4966C7212401EB5BBAF45D96991F /* libGGLCore.a */,
 			);
-			name = Tasks;
-			sourceTree = "<group>";
-		};
-		33B917445219716AC7475047F89B66D8 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F0D2AAAC839542821B7F57F92FAB2121 /* Bolts */,
-				084414D6FBAFBD030CB66E6C3C99E1B2 /* SwiftKeychainWrapper */,
-				28FD05490BB4CCD6E33CFA0832B3DB41 /* SwiftyJSON */,
-			);
-			name = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
@@ -306,46 +395,66 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		589C85BF7EC846F4988633185ED7517F /* Support Files */ = {
+		420BFA006BF48FDA98629520F0C7969E /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				43DAEDC80CF452FD5349500AFD61180A /* Bolts.modulemap */,
-				00EC25EEE93046359C48B623EB8CFF52 /* Bolts.xcconfig */,
-				4BEFB8E56D589B83254407282BE7CF89 /* Bolts-dummy.m */,
-				1CB53380CC814D91CEA3ABF85FDC098D /* Bolts-prefix.pch */,
-				B9505DEFB3B0302948FAEECC0F0ABF70 /* Bolts-umbrella.h */,
-				F64565F7CDBFE1FAA564240A2A214711 /* Info.plist */,
+				07E2879264E9CF8DE2A5204B1346AA51 /* AdMob-Module.h */,
+				554FB6D13338B7C29D0F44DA6CC75B20 /* Analytics-Module.h */,
+				046BBA495714911B9DD79E1929BCCF58 /* AppInvite-Module.h */,
+				4141E1B96F692070A08C4F48D0BAD6A5 /* CloudMessaging-Module.h */,
+				0BE484E431A26EA85E3D6CA635D3E7EF /* Core.h */,
+				7D472C4CEBDD9AB3192BB644619ED111 /* Core-Module.h */,
+				5C7F8018113C155041FB33B2FAFE6D03 /* GGLConfiguration.h */,
+				3CFBF7485A47A7FF5384CE791A9BA7E9 /* GGLContext.h */,
+				71954417AF08C19BEB732B6F9630BDEA /* GGLErrorCode.h */,
+				385A17ED8AA56459D987F5D63B34A20A /* GMRConfiguration.h */,
+				586E55A170A3AB09336AA3664566C0A1 /* SignIn-Module.h */,
+				3C8DE1059E071FE84484E0CF3FFCCC2D /* Frameworks */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Bolts";
+			name = Core;
 			sourceTree = "<group>";
 		};
-		5DAA97342A505941C5852134C47FA101 /* Support Files */ = {
+		46487A95BA7E0DAB4F895F387A1E6893 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E689F674172D8D9733437D18DBD91514 /* Info.plist */,
-				C40D9F59B8A99AF891C454052949D43E /* SwiftKeychainWrapper.modulemap */,
-				F32AAA74E52A15A991D7CDA6F4DBC1F7 /* SwiftKeychainWrapper.xcconfig */,
-				CDC2938E660CD854182E7A86D47FE11C /* SwiftKeychainWrapper-dummy.m */,
-				9041946C8A0CC3538FE9EB15EA3F340E /* SwiftKeychainWrapper-prefix.pch */,
-				65F950DE8F4791108ACDED207DF3DFD9 /* SwiftKeychainWrapper-umbrella.h */,
+				F43F7E5D67E915539942B262C8A85F3A /* libGTMSessionFetcher_core_external.a */,
+				0A09E2404A32FBB169480DBD56CA5950 /* libGTMSessionFetcher_full_external.a */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/SwiftKeychainWrapper";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		73429EF034779CCB02EA689EAACB26A4 /* Support Files */ = {
+		487B10AB56581A78F26CC310F255EE31 /* GoogleSymbolUtilities */ = {
 			isa = PBXGroup;
 			children = (
-				244E70F229B49C98D50DCB18DFAEF820 /* Info.plist */,
-				F56B50DF06487090AC60D3FA8FB1DE99 /* SwiftyJSON.modulemap */,
-				CA4FFB9592BC93A7BB8CA537BAAA9C61 /* SwiftyJSON.xcconfig */,
-				AC694E27D8043A02C869DA09D2345ACF /* SwiftyJSON-dummy.m */,
-				856FCECDFCAABA5FCDAE17BE6CDA7B5E /* SwiftyJSON-prefix.pch */,
-				C0DC722E9B237F36ED1207B217590A08 /* SwiftyJSON-umbrella.h */,
+				993DB1CEC63C3A0964CC7BBFDE51A449 /* Frameworks */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/SwiftyJSON";
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		4EFBDE6ADE2882676FA1CC96C9B93699 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				6F1A509FF637705D549FFB7B617392F8 /* GGLContext+SignIn.h */,
+				AF60BB5CB2F827B91837E47999BB06E4 /* SignIn.h */,
+				7D1B66AF7CB5CD54DF675FD24ADDE346 /* Frameworks */,
+			);
+			name = SignIn;
+			sourceTree = "<group>";
+		};
+		56CE99ABF05EC77D6B2B1B73D1072667 /* GoogleAppUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				026F67DA02723EA115F417CC97FA92E6 /* Frameworks */,
+			);
+			path = GoogleAppUtilities;
+			sourceTree = "<group>";
+		};
+		74C800E3A528DFA3A9AB7BBE31FF7AE9 /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				BA027826ED1CF693567AD55B6B557C0F /* Frameworks */,
+			);
+			path = GoogleUtilities;
 			sourceTree = "<group>";
 		};
 		7CB7F14E6AB8E119263885B8DCED369F /* Pods-Zanga_0.2 */ = {
@@ -366,12 +475,20 @@
 			path = "Target Support Files/Pods-Zanga_0.2";
 			sourceTree = "<group>";
 		};
+		7D1B66AF7CB5CD54DF675FD24ADDE346 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8BACB15E4BBA13875EEA22E40EF7FEC /* libGGLSignIn.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				33B917445219716AC7475047F89B66D8 /* Pods */,
+				B6A8AECE9C361C66213A251C653B35C9 /* Pods */,
 				B3742F16A2EB31F91E9EFD9AF602A35D /* Products */,
 				2245CE9D90D927DC2DA31169CBDA77F2 /* Targets Support Files */,
 			);
@@ -393,6 +510,31 @@
 			);
 			name = "Pods-Zanga_0.2UITests";
 			path = "Target Support Files/Pods-Zanga_0.2UITests";
+			sourceTree = "<group>";
+		};
+		94B3C286F02155B38FE23F6579580912 /* GoogleAuthUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				19AC63BECE0B0ACB9AA789AD9682BEFF /* Frameworks */,
+			);
+			path = GoogleAuthUtilities;
+			sourceTree = "<group>";
+		};
+		9598376C4B7BDC3E1C3585E32011B239 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB20A6B3B7D91219746A1D8E09363965 /* libGIPNSURL+FIFE_external.a */,
+				7C6AB12AE60BC441DD7E269795D7DDAE /* libSignIn_external.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		993DB1CEC63C3A0964CC7BBFDE51A449 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4AA5F9C8EA88907168EB2C9C8C6F3442 /* libGSDK_Overload_external.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		9DC088ACEA8B3B61E8234D92C39BF125 /* Pods-Zanga_0.2Tests */ = {
@@ -426,6 +568,56 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		B6A8AECE9C361C66213A251C653B35C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD16C0197B582CCB443D9F07D2AB89A9 /* Bolts */,
+				1BED408A41C62351072D56C70E549B45 /* Google */,
+				56CE99ABF05EC77D6B2B1B73D1072667 /* GoogleAppUtilities */,
+				94B3C286F02155B38FE23F6579580912 /* GoogleAuthUtilities */,
+				BA9422006EF73E07903966262A7417B1 /* GoogleInterchangeUtilities */,
+				DC6D340E76332F0E3DF7B3EC0BF7BB8B /* GoogleNetworkingUtilities */,
+				E741800E671BA1A4BC1FA12C55248A02 /* GoogleSignIn */,
+				487B10AB56581A78F26CC310F255EE31 /* GoogleSymbolUtilities */,
+				74C800E3A528DFA3A9AB7BBE31FF7AE9 /* GoogleUtilities */,
+				E98D5BAE2C39527C3A20455D1C502D6C /* SwiftKeychainWrapper */,
+				EF6E5F5CEB608F112208268535A609F5 /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BA027826ED1CF693567AD55B6B557C0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9046C578E1EA9E350E2A6D078A8E406F /* libGTM_AddressBook_external.a */,
+				E39246B43618FB4FE9E857ECC0615A12 /* libGTM_core_external.a */,
+				59D80A092E59EF4FCB6FD946C08B0510 /* libGTM_DebugUtils_external.a */,
+				D063950B21B2D5302143B81545768420 /* libGTM_GTMURLBuilder_external.a */,
+				A95BEA7288EA49F38D606AF367FE825F /* libGTM_iPhone_external.a */,
+				1015ABDCA90EECD951BD75748ABDF879 /* libGTM_KVO_external.a */,
+				054D24EAE781044D329539D4CD761B7A /* libGTM_NSData+zlib_external.a */,
+				233BADBCBBDD3FB9B35EAB3050E8554F /* libGTM_NSDictionary+URLArguments_external.a */,
+				A36CD207273C980738A5CECA27284D0F /* libGTM_NSScannerJSON_external.a */,
+				28ED38D8B6073AFC25B8FD795A66B216 /* libGTM_NSStringHTML_external.a */,
+				CE346921B887FB18741FD2466063A043 /* libGTM_NSStringXML_external.a */,
+				801913C1FE3C131729532C9972E4A24E /* libGTM_Regex_external.a */,
+				F2C5F8CACC06E6A634E1B637F66980BA /* libGTM_RoundedRectPath_external.a */,
+				5DA27E93DD048819447F47829460C574 /* libGTM_StringEncoding_external.a */,
+				7E0C05D92AB116EF8A6746D873E1D84E /* libGTM_SystemVersion_external.a */,
+				273FE291B12F8DA6E95FA4A4DF04FCE4 /* libGTM_UIFont+LineHeight_external.a */,
+				33C4C03D3A8994B0A1CFECED76AB6076 /* libGTMStackTrace_external.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA9422006EF73E07903966262A7417B1 /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				FBA4BC32DE8B6A45E6F8A4CA5D489832 /* Frameworks */,
+			);
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -434,42 +626,106 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E3ED4C2AE3DB82684287522AE22468A9 /* AppLinks */ = {
+		CC4F3CD949C0FCB903D1EEE8DBB9B606 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2C49FE5F22C16DAB53DEBF0EA2FB8DCD /* BFAppLink.h */,
-				5502D005ED62D5D4AF5DAEF3DE878CEA /* BFAppLink.m */,
-				9157D4F8D165F8FBF9199D1FCB57259F /* BFAppLink_Internal.h */,
-				AB0E6CB70580DFE5581033343327FFD2 /* BFAppLinkNavigation.h */,
-				0176F567F2C4D34F75551F5BFEF9CCAF /* BFAppLinkNavigation.m */,
-				E5918AC807C1967B89B6D09D5C0F4539 /* BFAppLinkResolving.h */,
-				7C824FA1B485F17B53FD0D08A5419D5D /* BFAppLinkReturnToRefererController.h */,
-				90F782B2E2572BD807D82417AFE71928 /* BFAppLinkReturnToRefererController.m */,
-				6066F3C0C31B943FDF25042346C41481 /* BFAppLinkReturnToRefererView.h */,
-				95958D6507C52CD78BF1BE612C3A4ACB /* BFAppLinkReturnToRefererView.m */,
-				08D249290DC61C31209785156C9C8B88 /* BFAppLinkReturnToRefererView_Internal.h */,
-				E03882D125DB9982CFDADE432876E1F3 /* BFAppLinkTarget.h */,
-				0D3FE8B15BAA03E9CE2807E59B9F2446 /* BFAppLinkTarget.m */,
-				FB5E9C48DB3AFC5F0FB687291473D70A /* BFMeasurementEvent.h */,
-				EB744484772AC8041764AD5756B352D6 /* BFMeasurementEvent.m */,
-				A29088BCB85EC531EC8A1677E96D539F /* BFMeasurementEvent_Internal.h */,
-				0DEF64A989653FFD4AEC3386255F2C31 /* BFURL.h */,
-				56CC8854D80F77E0F3CDB297C24F3050 /* BFURL.m */,
-				6E350BF2153D8FC5B5A0F60261EC727A /* BFURL_Internal.h */,
-				6F6688775EB848F926F6CFCEA7736210 /* BFWebViewAppLinkResolver.h */,
-				6168A62392F895CC8CDEE43641284DAB /* BFWebViewAppLinkResolver.m */,
+				23D1CB5A3CB8C3CD8738E2B896AD143D /* Info.plist */,
+				A34AB9C5494182318529FBB8C4D452DC /* SwiftyJSON.modulemap */,
+				132EECD80AC36C72C281E83926CEBEF8 /* SwiftyJSON.xcconfig */,
+				1C5A4B15C3923866E64A33CBDA2CCE97 /* SwiftyJSON-dummy.m */,
+				CEA36300CEFF170512CAD4D725B56348 /* SwiftyJSON-prefix.pch */,
+				AADA1A12986D7A5F18D69B9993327330 /* SwiftyJSON-umbrella.h */,
 			);
-			name = AppLinks;
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
 			sourceTree = "<group>";
 		};
-		F0D2AAAC839542821B7F57F92FAB2121 /* Bolts */ = {
+		CD16C0197B582CCB443D9F07D2AB89A9 /* Bolts */ = {
 			isa = PBXGroup;
 			children = (
-				E3ED4C2AE3DB82684287522AE22468A9 /* AppLinks */,
-				589C85BF7EC846F4988633185ED7517F /* Support Files */,
-				319BF1988645E4F4CF115DF966970E36 /* Tasks */,
+				07D70CDE194FAAA4AE46BCAE837CFCCF /* AppLinks */,
+				F386A683FF15EE0FE7DF26A7A71C1A6C /* Support Files */,
+				0FA1C560B95E9E4E28E16301B0049539 /* Tasks */,
 			);
 			path = Bolts;
+			sourceTree = "<group>";
+		};
+		D64E25EA86CC2456A2894831333942F2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DDF47A5376EEC79A89E7953C0CD2B62 /* Info.plist */,
+				286BF2AEA09A4898F9FE3688C5EF945A /* SwiftKeychainWrapper.modulemap */,
+				3AC319ABFC46F77DE34FA98C44F3A4FC /* SwiftKeychainWrapper.xcconfig */,
+				779A542E35696805F491B92A72FA6596 /* SwiftKeychainWrapper-dummy.m */,
+				D27A7E4D0888B9B6364AED2CCF3DE2D1 /* SwiftKeychainWrapper-prefix.pch */,
+				634F951850168A7003164B5969CA5308 /* SwiftKeychainWrapper-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftKeychainWrapper";
+			sourceTree = "<group>";
+		};
+		DC6D340E76332F0E3DF7B3EC0BF7BB8B /* GoogleNetworkingUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				46487A95BA7E0DAB4F895F387A1E6893 /* Frameworks */,
+			);
+			path = GoogleNetworkingUtilities;
+			sourceTree = "<group>";
+		};
+		E741800E671BA1A4BC1FA12C55248A02 /* GoogleSignIn */ = {
+			isa = PBXGroup;
+			children = (
+				76A3462F90C884790D396A0CA741C8CA /* GIDAuthentication.h */,
+				8D6CD24766820041BE9CE161CA59439B /* GIDGoogleUser.h */,
+				032F2AC868AF539462A3C11EA0484838 /* GIDProfileData.h */,
+				F782791406C3BEEB5DA1777BA9BE9B98 /* GIDSignIn.h */,
+				81636751C864D313DAFD7C73E43320F0 /* GIDSignInButton.h */,
+				44E826EC9AEA8B70B70545566C872AF8 /* GoogleSignIn.h */,
+				9598376C4B7BDC3E1C3585E32011B239 /* Frameworks */,
+				3982E6CA9152DF89A0582EAD2195E0BB /* Resources */,
+			);
+			path = GoogleSignIn;
+			sourceTree = "<group>";
+		};
+		E98D5BAE2C39527C3A20455D1C502D6C /* SwiftKeychainWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				77922992FDDDDE8259E3ADC9672D6301 /* KeychainWrapper.swift */,
+				031D8790CEF1D1538C67C7AB5887CB2B /* SwiftKeychainWrapper.h */,
+				D64E25EA86CC2456A2894831333942F2 /* Support Files */,
+			);
+			path = SwiftKeychainWrapper;
+			sourceTree = "<group>";
+		};
+		EF6E5F5CEB608F112208268535A609F5 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				C401B29A9C5CE4909ECA804CD217407C /* SwiftyJSON.swift */,
+				CC4F3CD949C0FCB903D1EEE8DBB9B606 /* Support Files */,
+			);
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		F386A683FF15EE0FE7DF26A7A71C1A6C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A25270E33AEAFCCF28E9371E7C7C78B9 /* Bolts.modulemap */,
+				EC3B419F567F4B55E6FBABF4DBCFFAB3 /* Bolts.xcconfig */,
+				1599E14F7DEE7CD847532A12AE1DAC72 /* Bolts-dummy.m */,
+				C2A2269667C3C4E45F6D2DB4FEDB5231 /* Bolts-prefix.pch */,
+				4E33D5D6B0C2E12C639BFB1BB85D527C /* Bolts-umbrella.h */,
+				13040AABC9BE0D2CBAF5D491DA662DCA /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Bolts";
+			sourceTree = "<group>";
+		};
+		FBA4BC32DE8B6A45E6F8A4CA5D489832 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84B9CEC938B51BE791FAE67B2009C340 /* libProtocolBuffers_external.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -817,7 +1073,7 @@
 		};
 		23A9D39FA65563C97E84C968DBF0C4BC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 00EC25EEE93046359C48B623EB8CFF52 /* Bolts.xcconfig */;
+			baseConfigurationReference = EC3B419F567F4B55E6FBABF4DBCFFAB3 /* Bolts.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -846,7 +1102,7 @@
 		};
 		4B1D49D5522E798D0E3090764A9E83A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA4FFB9592BC93A7BB8CA537BAAA9C61 /* SwiftyJSON.xcconfig */;
+			baseConfigurationReference = 132EECD80AC36C72C281E83926CEBEF8 /* SwiftyJSON.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -876,7 +1132,7 @@
 		};
 		6D1F088D6366065BDB4DFDC59840CAC6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F32AAA74E52A15A991D7CDA6F4DBC1F7 /* SwiftKeychainWrapper.xcconfig */;
+			baseConfigurationReference = 3AC319ABFC46F77DE34FA98C44F3A4FC /* SwiftKeychainWrapper.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1005,7 +1261,7 @@
 		};
 		9C521572C2ABD9C57FE0FA852111D046 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 00EC25EEE93046359C48B623EB8CFF52 /* Bolts.xcconfig */;
+			baseConfigurationReference = EC3B419F567F4B55E6FBABF4DBCFFAB3 /* Bolts.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1105,7 +1361,7 @@
 		};
 		D1D8A13B28AFBF020E005D7C9E36C0F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F32AAA74E52A15A991D7CDA6F4DBC1F7 /* SwiftKeychainWrapper.xcconfig */;
+			baseConfigurationReference = 3AC319ABFC46F77DE34FA98C44F3A4FC /* SwiftKeychainWrapper.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1201,7 +1457,7 @@
 		};
 		F40D22175B9CCF2008011D74C73A9AA9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA4FFB9592BC93A7BB8CA537BAAA9C61 /* SwiftyJSON.xcconfig */;
+			baseConfigurationReference = 132EECD80AC36C72C281E83926CEBEF8 /* SwiftyJSON.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;

@@ -76,6 +76,10 @@
 		DAE0CBC11CEED8B300FE69E3 /* NotSchoolTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE0CBC01CEED8B300FE69E3 /* NotSchoolTableViewController.swift */; };
 		DAE0CBC31CEED8C300FE69E3 /* MyEventsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE0CBC21CEED8C300FE69E3 /* MyEventsTableViewController.swift */; };
 		DAE0CBC51CEEDA1800FE69E3 /* CreateEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE0CBC41CEEDA1800FE69E3 /* CreateEventViewController.swift */; };
+		DAF3DBF31D7E240B002B7046 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAF3DBF21D7E240B002B7046 /* GoogleService-Info.plist */; };
+		DAF3DBFB1D7E7144002B7046 /* googleLogin.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF3DBFA1D7E7144002B7046 /* googleLogin.png */; };
+		DAF3DC071D7E7C50002B7046 /* googleLoginIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF3DC061D7E7C50002B7046 /* googleLoginIcon.png */; };
+		DAF3DC091D7E8FFE002B7046 /* settings-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF3DC081D7E8FFE002B7046 /* settings-icon.png */; };
 		E4834401F62DFE87B57C70D5 /* Pods_Zanga_0_2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E54CAC460913195039FAEFE4 /* Pods_Zanga_0_2Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -197,6 +201,10 @@
 		DAE0CBC01CEED8B300FE69E3 /* NotSchoolTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotSchoolTableViewController.swift; sourceTree = "<group>"; };
 		DAE0CBC21CEED8C300FE69E3 /* MyEventsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyEventsTableViewController.swift; sourceTree = "<group>"; };
 		DAE0CBC41CEEDA1800FE69E3 /* CreateEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateEventViewController.swift; sourceTree = "<group>"; };
+		DAF3DBF21D7E240B002B7046 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DAF3DBFA1D7E7144002B7046 /* googleLogin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = googleLogin.png; sourceTree = "<group>"; };
+		DAF3DC061D7E7C50002B7046 /* googleLoginIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = googleLoginIcon.png; sourceTree = "<group>"; };
+		DAF3DC081D7E8FFE002B7046 /* settings-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings-icon.png"; sourceTree = "<group>"; };
 		DDB1959090367648CBF2C35F /* Pods_Zanga_0_2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zanga_0_2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E54CAC460913195039FAEFE4 /* Pods_Zanga_0_2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zanga_0_2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -357,6 +365,7 @@
 				DAA6A4301CEE2D530061DFE1 /* StoryBoards */,
 				DAA6A4061CEE2C000061DFE1 /* Assets.xcassets */,
 				DAA6A40B1CEE2C000061DFE1 /* Info.plist */,
+				DAF3DBF21D7E240B002B7046 /* GoogleService-Info.plist */,
 				DA1287F11CF1565E00DE6527 /* Zanga_0.2-Bridging-Header.h */,
 			);
 			path = Zanga_0.2;
@@ -422,8 +431,11 @@
 				DA19F32E1D67A26900278FA2 /* notifications-icon.png */,
 				DA19F3321D67A2EC00278FA2 /* saved.png */,
 				DA19F3541D76A4FA00278FA2 /* logo.png */,
+				DAF3DC081D7E8FFE002B7046 /* settings-icon.png */,
 				DA19F3301D67A2AA00278FA2 /* search.png */,
+				DAF3DC061D7E7C50002B7046 /* googleLoginIcon.png */,
 				DA19F3561D76BF5500278FA2 /* password-icon.png */,
+				DAF3DBFA1D7E7144002B7046 /* googleLogin.png */,
 				DA19F33A1D67AF6600278FA2 /* add-icon.png */,
 				DA19F3441D6BA20F00278FA2 /* privateEvent-icon.png */,
 				DA19F3581D76BF5900278FA2 /* Email-Icon.png */,
@@ -592,12 +604,16 @@
 				DA19F3461D6BA20F00278FA2 /* privateEvent-icon.png in Resources */,
 				DA19F3471D6BA20F00278FA2 /* publicEvent-icon.png in Resources */,
 				DAA6A4071CEE2C000061DFE1 /* Assets.xcassets in Resources */,
+				DAF3DC071D7E7C50002B7046 /* googleLoginIcon.png in Resources */,
+				DAF3DBFB1D7E7144002B7046 /* googleLogin.png in Resources */,
 				DA19F32F1D67A26900278FA2 /* notifications-icon.png in Resources */,
 				DA19F3311D67A2AA00278FA2 /* search.png in Resources */,
 				DA03F4BA1CF8141A00DE0C33 /* SideMenuTableViewCell.xib in Resources */,
 				DA19F3571D76BF5500278FA2 /* password-icon.png in Resources */,
 				DA8587BF1D47367700D600C2 /* SchoolTableViewCell.xib in Resources */,
+				DAF3DC091D7E8FFE002B7046 /* settings-icon.png in Resources */,
 				DA19F3551D76A4FA00278FA2 /* logo.png in Resources */,
+				DAF3DBF31D7E240B002B7046 /* GoogleService-Info.plist in Resources */,
 				DAA6A4341CEE2FD40061DFE1 /* icon-profile.png in Resources */,
 				DA19F33B1D67AF6600278FA2 /* add-icon.png in Resources */,
 			);

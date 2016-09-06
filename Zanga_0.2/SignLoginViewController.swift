@@ -9,46 +9,56 @@
 import UIKit
 import SwiftKeychainWrapper
 import FBSDKCoreKit
+import Google
 
 var fbLoginSuccess = false
+var ggLoginSuccess = false
 
-let fbLoginButton: FBSDKLoginButton = {
-    let button = FBSDKLoginButton()
+
+
+class SignLoginViewController: UIViewController, FBSDKLoginButtonDelegate, GIDSignInUIDelegate, GIDSignInDelegate {
     
-    button.readPermissions = ["email"]
-    return button
-}()
-
-class SignLoginViewController: UIViewController, FBSDKLoginButtonDelegate {
+    @IBOutlet weak var fbButtonContainer: UIView!
+    @IBOutlet weak var ggButtonContainer: UIView!
+    @IBOutlet weak var googleIcon: UIImageView!
     
     override func viewDidAppear(animated: Bool) {
-        if FBSDKAccessToken.currentAccessToken() != nil || fbLoginSuccess == true {
+        if FBSDKAccessToken.currentAccessToken() != nil || fbLoginSuccess == true || ggLoginSuccess == true {
             performSegueWithIdentifier("LoggedIn", sender: self)
         }
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         self.view.backgroundColor = UIColor.myFadedRed(5.0)
         
-        fbLoginButton.center = self.view.center
-        fbLoginButton.delegate = self
-        fbLoginButton.translatesAutoresizingMaskIntoConstraints = false
-        view.addSubview(fbLoginButton)
+        var error: NSError?
+        GGLContext.sharedInstance().configureWithError(&error)
         
+        if error != nil {
+            print(error)
+            return
+        }
         
+        GIDSignIn.sharedInstance().uiDelegate = self
+        GIDSignIn.sharedInstance().delegate = self
         
-        let horizontalConstraint = fbLoginButton.centerXAnchor.constraintEqualToAnchor(view.centerXAnchor)
-        let verticalConstraint = fbLoginButton.bottomAnchor.constraintEqualToAnchor(view.bottomAnchor, constant: -50)
-        let widthConstraint = fbLoginButton.widthAnchor.constraintEqualToAnchor(nil, constant: view.frame.width - 30)
-        let heightConstraint = fbLoginButton.heightAnchor.constraintEqualToAnchor(nil, constant: 60)
-        NSLayoutConstraint.activateConstraints([horizontalConstraint, verticalConstraint, widthConstraint, heightConstraint])
+        let fbLoginButton = FBSDKLoginButton(frame: fbButtonContainer.bounds)
+        fbLoginButton.autoresizingMask = UIViewAutoresizing.FlexibleWidth
+        fbButtonContainer.addSubview(fbLoginButton)
+        fbButtonContainer.layer.cornerRadius = 10
+        fbButtonContainer.clipsToBounds = true
         
+        ggButtonContainer.layer.cornerRadius = 10
+        ggButtonContainer.backgroundColor = UIColor(red:0.87, green:0.29, blue:0.22, alpha:1.0)
+        googleIcon.layer.cornerRadius = 2
+        googleIcon.layer.masksToBounds = true
         
-        fbLoginButton.layer.cornerRadius = 30
+        let gesture = UITapGestureRecognizer(target: self, action: #selector(SignLoginViewController.googleLoginButtonPressed))
+        ggButtonContainer.addGestureRecognizer(gesture)
         
-        if let token = FBSDKAccessToken.currentAccessToken() {
+        if FBSDKAccessToken.currentAccessToken() != nil {
             fetchProfile()
         }
     }
@@ -93,6 +103,10 @@ class SignLoginViewController: UIViewController, FBSDKLoginButtonDelegate {
         fetchProfile()
     }
     
+    func googleLoginButtonPressed() {
+        GIDSignIn.sharedInstance().signIn()
+    }
+    
     func loginButtonDidLogOut(loginButton: FBSDKLoginButton!) {
         
     }
@@ -101,37 +115,30 @@ class SignLoginViewController: UIViewController, FBSDKLoginButtonDelegate {
         return true
     }
     
+    func signIn(signIn: GIDSignIn!, didSignInForUser user: GIDGoogleUser!, withError error: NSError!) {
+        if error != nil {
+            print(error)
+            return
+        }
+        
+        NSUserDefaults.standardUserDefaults().setValue(user.profile.email, forKey: "email")
+        print(user.profile.email)
+        
+        if let imageUrl = user.profile.imageURLWithDimension(400) as? NSURL {
+            let urlString = String(imageUrl)
+            NSUserDefaults.standardUserDefaults().setValue(urlString, forKey: "profile_pic_url")
+            print(imageUrl)
+        }
+        
+        
+        NSUserDefaults.standardUserDefaults().setValue(user.profile.givenName, forKey: "first_name")
+        print(user.profile.givenName)
+        
+        NSUserDefaults.standardUserDefaults().setValue(user.profile.familyName, forKey: "last_name")
+        print(user.profile.familyName)
+        
+        ggLoginSuccess = true
+    }
+    
 
 }
-
-
-
-
-
-
-//    func signUpButtonHighlight() {
-//        signUpButton.backgroundColor = UIColor.whiteColor()
-//    }
-//
-//    func signUpButtonNormal() {
-//        signUpButton.backgroundColor = UIColor.myRed()
-//    }
-
-
-//        signUpButton.backgroundColor = UIColor.clearColor()
-//        signUpButton.layer.borderWidth = 1.0
-//        signUpButton.layer.cornerRadius = signUpButton.frame.height/2
-//        signUpButton.layer.borderColor = UIColor.whiteColor().CGColor
-//        signUpButton.setTitleColor(UIColor.whiteColor(), forState: .Normal)
-//        signUpButton.setTitleColor(UIColor.myRed(), forState: .Highlighted)
-//
-//        signUpButton.addTarget(self, action: #selector(SignLoginViewController.signUpButtonHighlight), forControlEvents: .TouchDown)
-//        signUpButton.addTarget(self, action: #selector(SignLoginViewController.signUpButtonNormal), forControlEvents: .TouchUpInside)
-//        signUpButton.addTarget(self, action: #selector(SignLoginViewController.signUpButtonNormal), forControlEvents: .TouchDragExit)
-//
-//        LoginButton.backgroundColor = UIColor.whiteColor()
-//        LoginButton.layer.borderWidth = 1.0
-//        LoginButton.layer.cornerRadius = LoginButton.frame.height/2
-//        LoginButton.layer.borderColor = UIColor.whiteColor().CGColor
-//        LoginButton.setTitleColor(UIColor.myRed(), forState: .Normal)
-//        LoginButton.setTitleColor(UIColor.whiteColor(), forState: .Selected)

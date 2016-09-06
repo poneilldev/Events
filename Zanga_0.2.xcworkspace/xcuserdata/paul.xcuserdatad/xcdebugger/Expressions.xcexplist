@@ -3,6 +3,25 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "PersonalProfileViewController.viewDidLoad() -&gt; ():PersonalProfileViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SignLoginViewController.viewDidAppear(Bool) -&gt; ():SignLoginViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "fbLoginSuccess">
+            </PersistentString>
+            <PersistentString
+               value = "ggLoginSuccess">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "LoginViewController.checkLogin(String, password : String) -&gt; Bool:LoginViewController.swift">
          <PersistentStrings>
             <PersistentString

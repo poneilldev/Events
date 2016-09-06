@@ -9,13 +9,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Zanga_0.2/LoginViewController.swift"
-            timestampString = "494650652.924581"
+            filePath = "Zanga_0.2/SignLoginViewController.swift"
+            timestampString = "494885010.47792"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "182"
-            endingLineNumber = "182"
-            landmarkName = "loginAction()"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "viewDidLoad()"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -25,13 +25,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Zanga_0.2/LoginViewController.swift"
-            timestampString = "494650652.924581"
+            filePath = "Zanga_0.2/SignLoginViewController.swift"
+            timestampString = "494873158.394078"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "163"
-            endingLineNumber = "163"
-            landmarkName = "loginAction()"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "viewDidAppear(_:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -41,14 +41,78 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Zanga_0.2/LoginViewController.swift"
-            timestampString = "494650652.924581"
+            filePath = "Zanga_0.2/SignLoginViewController.swift"
+            timestampString = "494885010.47792"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "158"
-            endingLineNumber = "158"
-            landmarkName = "loginAction()"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
+            landmarkName = "loginButton(_:didCompleteWithResult:error:)"
             landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zanga_0.2/CustomTabBarController.swift"
+            timestampString = "494885110.622823"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "viewDidAppear(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zanga_0.2/SignLoginViewController.swift"
+            timestampString = "494885169.824577"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "fetchProfile()"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Zanga_0_2.SignLoginViewController.(fetchProfile () -&gt; ()).(closure #1)"
+                  moduleName = "Zanga_0.2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paul/iOS/Zanga_0.2/Zanga_0.2/SignLoginViewController.swift"
+                  timestampString = "494885169.828546"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "1524">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Zanga_0_2.SignLoginViewController.(fetchProfile () -&gt; ()).(closure #1)"
+                  moduleName = "Zanga_0.2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paul/iOS/Zanga_0.2/Zanga_0.2/SignLoginViewController.swift"
+                  timestampString = "494885169.828692"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "2232">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
