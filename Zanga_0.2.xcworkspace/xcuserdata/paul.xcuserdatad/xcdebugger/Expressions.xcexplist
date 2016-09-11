@@ -3,23 +3,15 @@
    version = "1.0">
    <ContextStates>
       <ContextState
-         contextName = "PersonalProfileViewController.viewDidLoad() -&gt; ():PersonalProfileViewController.swift">
+         contextName = "CreatePrivateTableViewController.viewDidLoad() -&gt; ():CreatePrivateTableViewController.swift">
          <PersistentStrings>
             <PersistentString
-               value = "">
+               value = "dateLabel.text">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "SignLoginViewController.viewDidAppear(Bool) -&gt; ():SignLoginViewController.swift">
-         <PersistentStrings>
-            <PersistentString
-               value = "fbLoginSuccess">
-            </PersistentString>
-            <PersistentString
-               value = "ggLoginSuccess">
-            </PersistentString>
-         </PersistentStrings>
+         contextName = "LoginViewController.loginAction() -&gt; ():LoginViewController.swift">
       </ContextState>
       <ContextState
          contextName = "LoginViewController.checkLogin(String, password : String) -&gt; Bool:LoginViewController.swift">
@@ -33,6 +25,14 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
+         contextName = "PersonalProfileViewController.viewDidLoad() -&gt; ():PersonalProfileViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "LoginViewController.viewDidLoad() -&gt; ():LoginViewController.swift">
          <PersistentStrings>
             <PersistentString
@@ -41,7 +41,23 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "LoginViewController.loginAction() -&gt; ():LoginViewController.swift">
+         contextName = "CreatePublicEventTableViewController.datePickerValueChanged() -&gt; ():CreatePublicEventTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "datePicker.date">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SignLoginViewController.viewDidAppear(Bool) -&gt; ():SignLoginViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "ggLoginSuccess">
+            </PersistentString>
+            <PersistentString
+               value = "fbLoginSuccess">
+            </PersistentString>
+         </PersistentStrings>
       </ContextState>
    </ContextStates>
 </VariablesViewState>

@@ -181,8 +181,8 @@ class CustomTabBarController: UITabBarController {
             self.privateButton.frame.origin.x = -self.view.bounds.width - 50
             }) { (finished) in
                 let sb = UIStoryboard(name: "CreateEvent", bundle: nil)
-                let vc = sb.instantiateViewControllerWithIdentifier("CreatePublicEventNav")
-                self.presentViewController(vc, animated: true, completion: nil)
+                let vc = sb.instantiateViewControllerWithIdentifier("CreatePublicEventID")
+                    self.presentViewController(vc, animated: true, completion: nil)
                 
                 if let viewWithTag = self.view.viewWithTag(100) {
                     viewWithTag.removeFromSuperview()

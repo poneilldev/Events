@@ -21,8 +21,6 @@
 		DA19F3461D6BA20F00278FA2 /* privateEvent-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DA19F3441D6BA20F00278FA2 /* privateEvent-icon.png */; };
 		DA19F3471D6BA20F00278FA2 /* publicEvent-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DA19F3451D6BA20F00278FA2 /* publicEvent-icon.png */; };
 		DA19F3491D6BD9C300278FA2 /* CreateEvent.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA19F3481D6BD9C300278FA2 /* CreateEvent.storyboard */; };
-		DA19F34B1D6C3F9200278FA2 /* CreatePublicEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA19F34A1D6C3F9200278FA2 /* CreatePublicEventViewController.swift */; };
-		DA19F34D1D6C3FA800278FA2 /* CreatePrivateEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA19F34C1D6C3FA800278FA2 /* CreatePrivateEventViewController.swift */; };
 		DA19F34F1D6F4D6600278FA2 /* NotificationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA19F34E1D6F4D6600278FA2 /* NotificationsTableViewController.swift */; };
 		DA19F3511D768A0100278FA2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA19F3501D768A0100278FA2 /* LoginViewController.swift */; };
 		DA19F3531D769AA300278FA2 /* SignLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA19F3521D769AA300278FA2 /* SignLoginViewController.swift */; };
@@ -58,6 +56,9 @@
 		DA8DBA201D7A9D55002CF215 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8DBA1D1D7A9D55002CF215 /* FBSDKCoreKit.framework */; };
 		DA8DBA211D7A9D55002CF215 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8DBA1E1D7A9D55002CF215 /* FBSDKLoginKit.framework */; };
 		DA8DBA221D7A9D55002CF215 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8DBA1F1D7A9D55002CF215 /* FBSDKShareKit.framework */; };
+		DA95E2B51D821C8D00BA24DF /* CreatePublicEventTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA95E2B41D821C8D00BA24DF /* CreatePublicEventTableViewController.swift */; };
+		DA95E2B81D848F9B00BA24DF /* DatePickerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA95E2B71D848F9B00BA24DF /* DatePickerTableViewCell.xib */; };
+		DA95E2BA1D8526E700BA24DF /* CreatePrivateTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA95E2B91D8526E700BA24DF /* CreatePrivateTableViewController.swift */; };
 		DAA6A3FE1CEE2C000061DFE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA6A3FD1CEE2C000061DFE1 /* AppDelegate.swift */; };
 		DAA6A4071CEE2C000061DFE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAA6A4061CEE2C000061DFE1 /* Assets.xcassets */; };
 		DAA6A40A1CEE2C000061DFE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAA6A4081CEE2C000061DFE1 /* LaunchScreen.storyboard */; };
@@ -80,6 +81,7 @@
 		DAF3DBFB1D7E7144002B7046 /* googleLogin.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF3DBFA1D7E7144002B7046 /* googleLogin.png */; };
 		DAF3DC071D7E7C50002B7046 /* googleLoginIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF3DC061D7E7C50002B7046 /* googleLoginIcon.png */; };
 		DAF3DC091D7E8FFE002B7046 /* settings-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF3DC081D7E8FFE002B7046 /* settings-icon.png */; };
+		DAF3DC0B1D80BED4002B7046 /* RestApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF3DC0A1D80BED4002B7046 /* RestApiManager.swift */; };
 		E4834401F62DFE87B57C70D5 /* Pods_Zanga_0_2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E54CAC460913195039FAEFE4 /* Pods_Zanga_0_2Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -122,8 +124,6 @@
 		DA19F3441D6BA20F00278FA2 /* privateEvent-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "privateEvent-icon.png"; sourceTree = "<group>"; };
 		DA19F3451D6BA20F00278FA2 /* publicEvent-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "publicEvent-icon.png"; sourceTree = "<group>"; };
 		DA19F3481D6BD9C300278FA2 /* CreateEvent.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CreateEvent.storyboard; sourceTree = "<group>"; };
-		DA19F34A1D6C3F9200278FA2 /* CreatePublicEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePublicEventViewController.swift; sourceTree = "<group>"; };
-		DA19F34C1D6C3FA800278FA2 /* CreatePrivateEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePrivateEventViewController.swift; sourceTree = "<group>"; };
 		DA19F34E1D6F4D6600278FA2 /* NotificationsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsTableViewController.swift; sourceTree = "<group>"; };
 		DA19F3501D768A0100278FA2 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		DA19F3521D769AA300278FA2 /* SignLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignLoginViewController.swift; sourceTree = "<group>"; };
@@ -177,6 +177,9 @@
 		DA8DBA1D1D7A9D55002CF215 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		DA8DBA1E1D7A9D55002CF215 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		DA8DBA1F1D7A9D55002CF215 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		DA95E2B41D821C8D00BA24DF /* CreatePublicEventTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePublicEventTableViewController.swift; sourceTree = "<group>"; };
+		DA95E2B71D848F9B00BA24DF /* DatePickerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DatePickerTableViewCell.xib; sourceTree = "<group>"; };
+		DA95E2B91D8526E700BA24DF /* CreatePrivateTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePrivateTableViewController.swift; sourceTree = "<group>"; };
 		DAA6A3FA1CEE2C000061DFE1 /* Zanga_0.2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zanga_0.2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAA6A3FD1CEE2C000061DFE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAA6A4061CEE2C000061DFE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -205,6 +208,7 @@
 		DAF3DBFA1D7E7144002B7046 /* googleLogin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = googleLogin.png; sourceTree = "<group>"; };
 		DAF3DC061D7E7C50002B7046 /* googleLoginIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = googleLoginIcon.png; sourceTree = "<group>"; };
 		DAF3DC081D7E8FFE002B7046 /* settings-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings-icon.png"; sourceTree = "<group>"; };
+		DAF3DC0A1D80BED4002B7046 /* RestApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestApiManager.swift; sourceTree = "<group>"; };
 		DDB1959090367648CBF2C35F /* Pods_Zanga_0_2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zanga_0_2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E54CAC460913195039FAEFE4 /* Pods_Zanga_0_2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zanga_0_2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -331,6 +335,16 @@
 			name = SDWebImage;
 			sourceTree = "<group>";
 		};
+		DA95E2B61D848C1E00BA24DF /* Create Events */ = {
+			isa = PBXGroup;
+			children = (
+				DA95E2B41D821C8D00BA24DF /* CreatePublicEventTableViewController.swift */,
+				DA95E2B71D848F9B00BA24DF /* DatePickerTableViewCell.xib */,
+				DA95E2B91D8526E700BA24DF /* CreatePrivateTableViewController.swift */,
+			);
+			name = "Create Events";
+			sourceTree = "<group>";
+		};
 		DAA6A3F11CEE2C000061DFE1 = {
 			isa = PBXGroup;
 			children = (
@@ -359,6 +373,7 @@
 				DAA6A3FD1CEE2C000061DFE1 /* AppDelegate.swift */,
 				DA8587C41D4C0C6A00D600C2 /* StyleSheet.swift */,
 				DA19F3161D67945200278FA2 /* myExtensions.swift */,
+				DAF3DC0A1D80BED4002B7046 /* RestApiManager.swift */,
 				DA03F4B21CF8133100DE0C33 /* Third Party */,
 				DAA6A4361CEE30460061DFE1 /* Images */,
 				DAA6A42F1CEE2D1D0061DFE1 /* ViewControllers */,
@@ -403,8 +418,7 @@
 				DA03F4B81CF8141A00DE0C33 /* SideMenuTableViewCell.xib */,
 				DAD7FFEF1CF172B800375BFE /* SideMenuTableViewController.swift */,
 				DA8587CA1D4DB60D00D600C2 /* EventInfoViewController.swift */,
-				DA19F34C1D6C3FA800278FA2 /* CreatePrivateEventViewController.swift */,
-				DA19F34A1D6C3F9200278FA2 /* CreatePublicEventViewController.swift */,
+				DA95E2B61D848C1E00BA24DF /* Create Events */,
 				DA19F34E1D6F4D6600278FA2 /* NotificationsTableViewController.swift */,
 				DA19F3501D768A0100278FA2 /* LoginViewController.swift */,
 				DA19F3521D769AA300278FA2 /* SignLoginViewController.swift */,
@@ -612,6 +626,7 @@
 				DA19F3571D76BF5500278FA2 /* password-icon.png in Resources */,
 				DA8587BF1D47367700D600C2 /* SchoolTableViewCell.xib in Resources */,
 				DAF3DC091D7E8FFE002B7046 /* settings-icon.png in Resources */,
+				DA95E2B81D848F9B00BA24DF /* DatePickerTableViewCell.xib in Resources */,
 				DA19F3551D76A4FA00278FA2 /* logo.png in Resources */,
 				DAF3DBF31D7E240B002B7046 /* GoogleService-Info.plist in Resources */,
 				DAA6A4341CEE2FD40061DFE1 /* icon-profile.png in Resources */,
@@ -773,14 +788,16 @@
 				DA03F4B91CF8141A00DE0C33 /* SideMenuTableViewCell.swift in Sources */,
 				DAE0CBBC1CEED7D400FE69E3 /* EventsViewController.swift in Sources */,
 				DA30EB3D1D471062001AF178 /* SDWebImageManager.m in Sources */,
-				DA19F34D1D6C3FA800278FA2 /* CreatePrivateEventViewController.swift in Sources */,
 				DA30EB3A1D471062001AF178 /* SDWebImageDecoder.m in Sources */,
+				DA95E2BA1D8526E700BA24DF /* CreatePrivateTableViewController.swift in Sources */,
 				DA8587CB1D4DB60D00D600C2 /* EventInfoViewController.swift in Sources */,
 				DAD7FFF01CF172B800375BFE /* SideMenuTableViewController.swift in Sources */,
 				DAA6A3FE1CEE2C000061DFE1 /* AppDelegate.swift in Sources */,
 				DA30EB3E1D471062001AF178 /* SDWebImagePrefetcher.m in Sources */,
 				DA30EB441D471062001AF178 /* UIImageView+WebCache.m in Sources */,
+				DA95E2B51D821C8D00BA24DF /* CreatePublicEventTableViewController.swift in Sources */,
 				DAE0CBB41CEE787B00FE69E3 /* ProfileViewController.swift in Sources */,
+				DAF3DC0B1D80BED4002B7046 /* RestApiManager.swift in Sources */,
 				DA8587C31D4AFBC600D600C2 /* SchoolEvent_StoryBoardTableViewCell.swift in Sources */,
 				DA30EB081D46CFD5001AF178 /* Event.swift in Sources */,
 				DAE0CBC31CEED8C300FE69E3 /* MyEventsTableViewController.swift in Sources */,
@@ -798,7 +815,6 @@
 				DAA6A44D1CEE515D0061DFE1 /* CAPSPageMenu.swift in Sources */,
 				DA30EB411D471062001AF178 /* UIImage+MultiFormat.m in Sources */,
 				DA30EB3F1D471062001AF178 /* UIButton+WebCache.m in Sources */,
-				DA19F34B1D6C3F9200278FA2 /* CreatePublicEventViewController.swift in Sources */,
 				DA19F34F1D6F4D6600278FA2 /* NotificationsTableViewController.swift in Sources */,
 				DA8587C51D4C0C6A00D600C2 /* StyleSheet.swift in Sources */,
 				DA8527DF1CEEE956001EEA31 /* PersonalProfileViewController.swift in Sources */,

@@ -356,7 +356,6 @@
         <!--Events-->
         <scene sceneID="ZMv-2O-oYR">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="TgL-iU-CkA" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController id="ugJ-gB-uko" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Events" id="qgd-VB-yLQ"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="F4i-MZ-NiP">
@@ -367,6 +366,7 @@
                         <segue destination="Dzf-kF-gvM" kind="relationship" relationship="rootViewController" id="ep0-KU-uad"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TgL-iU-CkA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="355" y="2255"/>
         </scene>
@@ -433,7 +433,6 @@
         <!--Events-->
         <scene sceneID="YdE-M5-Ter">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Yxb-nf-lAF" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController storyboardIdentifier="DiscoverEvents" id="Dzf-kF-gvM" customClass="EventsViewController" customModule="Zanga_0_2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="IcV-GJ-nOi"/>
@@ -447,6 +446,7 @@
                     <extendedEdge key="edgesForExtendedLayout"/>
                     <navigationItem key="navigationItem" title="Events" id="enm-fP-Kqy"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yxb-nf-lAF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="347" y="3027"/>
         </scene>

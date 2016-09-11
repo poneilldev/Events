@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -22,7 +23,7 @@
             </objects>
             <point key="canvasLocation" x="-975" y="977"/>
         </scene>
-        <!--Personal Profile View Controller-->
+        <!--Profile-->
         <scene sceneID="TLb-Ie-AgU">
             <objects>
                 <viewController storyboardIdentifier="main" id="Ipb-FZ-vUW" customClass="PersonalProfileViewController" customModule="Zanga_0_2" customModuleProvider="target" sceneMemberID="viewController">
@@ -43,14 +44,14 @@
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="r13-BS-HPr"/>
                                         <exclude reference="RTE-Jn-hhG"/>
+                                        <exclude reference="r13-BS-HPr"/>
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact">
                                     <mask key="constraints">
-                                        <include reference="r13-BS-HPr"/>
                                         <include reference="RTE-Jn-hhG"/>
+                                        <include reference="r13-BS-HPr"/>
                                     </mask>
                                 </variation>
                             </imageView>
@@ -73,46 +74,66 @@
                                     </mask>
                                 </variation>
                             </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KFa-6A-tlq">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="hEI-Te-YsD" firstAttribute="top" secondItem="Unr-om-wjq" secondAttribute="bottom" constant="22" id="1Li-p3-6Wf"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Fmx-fV-kyD" secondAttribute="trailing" id="2w1-vf-iyg"/>
+                            <constraint firstAttribute="trailing" secondItem="KFa-6A-tlq" secondAttribute="trailing" id="TCF-te-fTO"/>
+                            <constraint firstItem="rhb-ai-dak" firstAttribute="top" secondItem="KFa-6A-tlq" secondAttribute="bottom" id="VOJ-yu-BKm"/>
                             <constraint firstItem="Fmx-fV-kyD" firstAttribute="top" secondItem="hEI-Te-YsD" secondAttribute="bottom" constant="16" id="XLs-Xc-Sy5"/>
+                            <constraint firstItem="KFa-6A-tlq" firstAttribute="leading" secondItem="cvh-xz-U0E" secondAttribute="leading" id="ZgY-Cp-wW9"/>
                             <constraint firstItem="hEI-Te-YsD" firstAttribute="centerX" secondItem="cvh-xz-U0E" secondAttribute="centerX" id="g2S-1z-N5B"/>
+                            <constraint firstItem="KFa-6A-tlq" firstAttribute="top" secondItem="Fmx-fV-kyD" secondAttribute="bottom" constant="23" id="ibh-B6-QiL"/>
                             <constraint firstAttribute="leadingMargin" secondItem="Fmx-fV-kyD" secondAttribute="leading" id="npI-SZ-fVP"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="hEI-Te-YsD"/>
                                 <exclude reference="Fmx-fV-kyD"/>
+                                <exclude reference="KFa-6A-tlq"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="1Li-p3-6Wf"/>
-                                <exclude reference="g2S-1z-N5B"/>
+                                <exclude reference="VOJ-yu-BKm"/>
                                 <exclude reference="2w1-vf-iyg"/>
                                 <exclude reference="XLs-Xc-Sy5"/>
                                 <exclude reference="npI-SZ-fVP"/>
+                                <exclude reference="TCF-te-fTO"/>
+                                <exclude reference="ZgY-Cp-wW9"/>
+                                <exclude reference="ibh-B6-QiL"/>
+                                <exclude reference="1Li-p3-6Wf"/>
+                                <exclude reference="g2S-1z-N5B"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="hEI-Te-YsD"/>
                                 <include reference="Fmx-fV-kyD"/>
+                                <include reference="KFa-6A-tlq"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="1Li-p3-6Wf"/>
-                                <include reference="g2S-1z-N5B"/>
+                                <include reference="VOJ-yu-BKm"/>
                                 <include reference="2w1-vf-iyg"/>
                                 <include reference="XLs-Xc-Sy5"/>
                                 <include reference="npI-SZ-fVP"/>
+                                <include reference="TCF-te-fTO"/>
+                                <include reference="ZgY-Cp-wW9"/>
+                                <include reference="ibh-B6-QiL"/>
+                                <include reference="1Li-p3-6Wf"/>
+                                <include reference="g2S-1z-N5B"/>
                             </mask>
                         </variation>
                     </view>
-                    <navigationItem key="navigationItem" id="l7D-D0-rIO">
+                    <navigationItem key="navigationItem" title="Profile" id="l7D-D0-rIO">
+                        <barButtonItem key="leftBarButtonItem" image="search.png" id="SUb-h5-OBe"/>
                         <barButtonItem key="rightBarButtonItem" title="Item" id="KEZ-Vw-cO0"/>
                     </navigationItem>
                     <connections>
+                        <outlet property="pageMenuContainerView" destination="KFa-6A-tlq" id="HuX-Ra-FdV"/>
                         <outlet property="profileName" destination="Fmx-fV-kyD" id="AUS-GK-8NN"/>
                         <outlet property="profilePic" destination="hEI-Te-YsD" id="yhs-e3-a0F"/>
                         <outlet property="settingsButton" destination="KEZ-Vw-cO0" id="MA7-Ci-czF"/>
@@ -123,4 +144,7 @@
             <point key="canvasLocation" x="-133.5" y="976.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="search.png" width="32" height="32"/>
+    </resources>
 </document>
