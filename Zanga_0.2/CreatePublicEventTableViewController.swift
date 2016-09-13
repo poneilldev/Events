@@ -114,6 +114,20 @@ class CreatePublicEventTableViewController: UITableViewController, UITextViewDel
     }
     
     @IBAction func createEvent(sender: AnyObject) {
+        
+        
+        // create event with RestApiManager
+        RestApiManager().createEvent(titleTextField.text ?? "", location: locationTextField.text ?? "", description: descriptionTextView.text, pic_loc: "Not sure yet", event_type: "Public", userId: "1", startTime: dateLabel.text ?? "", endTime: "", school: "BYUI") { (json, error) in
+            if error != nil {
+             
+                return
+            }
+            
+            
+            
+            
+        }
+        
     }
     
     @IBAction func cancelButtonPressed(sender: AnyObject) {

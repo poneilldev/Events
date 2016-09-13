@@ -35,12 +35,8 @@ class PersonalProfileViewController: UIViewController {
         self.view.tintColor = UIColor.myRed()
         self.view.backgroundColor = UIColor.blackColor()
         self.navigationController?.navigationBar.backgroundColor = UIColor.backGroundBlack()
-        let button = UIButton(type: .Custom)
-        button.setImage(AppIcons.settings.image(), forState: .Normal)
-        button.frame = CGRect(x: 0, y: 0, width: 25, height: 25)
-        //button.imageView?.clipsToBounds = true
-        let barButton = UIBarButtonItem(customView: button)
-        self.navigationItem.rightBarButtonItem = barButton
+        self.navigationItem.rightBarButtonItem?.target = self
+        self.navigationItem.rightBarButtonItem?.action = #selector(PersonalProfileViewController.settingsButtonPressed)
         
         
         profilePic.layer.cornerRadius = profilePic.frame.height/2
@@ -73,16 +69,6 @@ class PersonalProfileViewController: UIViewController {
         myEventsPage.title = "MY EVENTS"
         controllerArray.append(myEventsPage)
         
-//        let otherPage = UITableViewController()
-//        otherPage.view.backgroundColor = UIColor.blackColor()
-//        otherPage.title = "OTHER PAGE"
-//        controllerArray.append(otherPage)
-        
-//        let otherPage2 = UITableViewController()
-//        otherPage2.view.backgroundColor = UIColor.blackColor()
-//        otherPage2.title = "OTHER PAGE2"
-//        controllerArray.append(otherPage2)
-        
         // Customize menu (Optional)
         let parameters: [CAPSPageMenuOption] = [
             .ScrollMenuBackgroundColor(UIColor(red: 30.0/255.0, green: 30.0/255.0, blue: 30.0/255.0, alpha: 1.0)),
@@ -102,6 +88,11 @@ class PersonalProfileViewController: UIViewController {
         pageMenuContainerView.addSubview(pageMenu!.view)
         pageMenu!.didMoveToParentViewController(self)
         
+    }
+    
+    func settingsButtonPressed() {
+        let sb = UIStoryboard(name: "Profile", bundle: nil)
+        presentViewController(sb.instantiateViewControllerWithIdentifier("settingsPageNav"), animated: true, completion: nil)
     }
     
     
